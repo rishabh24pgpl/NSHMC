@@ -36,7 +36,7 @@ const CounterWidget = ({
   const count = useAutoIncrement(initialValue, targetValue, speed);
   return (
     <div
-      className={`flex-col justify-center items-center rounded-md inline-flex sm:w-full md:w-1/3 lg:w-full shadow-lg gap-6   ${color}`}
+      className={`flex-col justify-center items-center rounded-md inline-flex sm:w-full md:w-1/3 lg:w-full  gap-6   ${color}`}
     >
       <div
         className={`p-12 self-stretch text-white text-3xl font-bold  text-center  `}
