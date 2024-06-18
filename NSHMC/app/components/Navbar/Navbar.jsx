@@ -346,6 +346,61 @@ export default function Navbar() {
               link: "/ic",
             },
           ],
+    
+        },
+      ],
+    },
+    {
+      main: "Clinical Material",
+      child: [
+        {
+          name: "Clinical Material",
+          subchild: [
+            {
+              name: "OPD Reports",
+              link: "/institute/welcome",
+            },
+            {
+              name: "IPD Reports",
+              link: "/institute/mission_vision",
+            },
+            {
+              name: "War Against Covid",
+              link: "",
+            },
+            {
+              name: "Rural OPDs Reports",
+              link: "/institute/campus_facilities",
+            },
+           
+          ],
+        },
+      ],
+    },
+    {
+      main: "Affiliation",
+      child: [
+        {
+          name: "Clinical Material",
+          subchild: [
+            {
+              name: "OPD Reports",
+              link: "/institute/welcome",
+            },
+            {
+              name: "IPD Reports",
+              link: "/institute/mission_vision",
+            },
+            {
+              name: "War Against Covid",
+              link: "",
+            },
+            {
+              name: "Rural OPDs Reports",
+              link: "/institute/campus_facilities",
+            },
+           
+          ],
         },
       ],
     },
