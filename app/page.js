@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import Counter from "@/app/components/Counter";
 import Card from "@/app/components/Card";
-import Seminar from "@/app/components/Seminar";
+import Seminar from "@/app/components/Seminar.jsx";
 import Notices from "@/app/components/News-Notices";
 import AbouttheInstitute from "@/app/components/AbouttheInstitute/AbouttheInstitute";
 import NumberOne from "@/app/components/NumberOne/NumberOne";
