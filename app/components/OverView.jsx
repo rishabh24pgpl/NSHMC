@@ -7,7 +7,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
-export default function page() {
+export default function OverView() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const nextSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
