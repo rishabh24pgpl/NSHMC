@@ -18,7 +18,7 @@ export default function TIIR() {
         
 
 
-            <div className=" w-full h-80 bg-cover capitalize flex justify-center items-center "
+            <div className=" w-full bg-cover capitalize flex justify-center items-center "
                 style={{ backgroundImage: `url('about-banner.jpg')` }}>
                
                 <h2 className="font-bold text-4xl uppercase  text-white" >

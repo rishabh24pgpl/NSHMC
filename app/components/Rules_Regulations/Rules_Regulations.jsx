@@ -8,7 +8,7 @@ export default function Rules_Regulations() {
     const images = ["/ar-3.jpg"];
   return (
     <div>
-     <SliderMain images={images} heading="Rules and Regulations"/>
+     <SliderMain images={images} heading="Reports"/>
      <div className="w-full mx-auto flex relative">
         <div className="w-2/3 px-10 pt-[36px]  grid grid-cols-3  gap-5 justify-evenly pb-10 ">
         <RuleCard bgcolor="bg-red-200" link="/" heading="B.Tech., B.Arch., Int.M.Sc. (5 yr), B.Tech. M.Tech. Dual Degree (5 yr) Summarized"/>

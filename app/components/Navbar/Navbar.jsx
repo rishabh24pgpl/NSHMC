@@ -358,19 +358,19 @@ export default function Navbar() {
           subchild: [
             {
               name: "OPD Reports",
-              link: "/institute/welcome",
+              link: "/institute/rules",
             },
             {
               name: "IPD Reports",
-              link: "/institute/mission_vision",
+              link: "/institute/rules",
             },
             {
               name: "War Against Covid",
-              link: "",
+              link: "/institute/covid",
             },
             {
               name: "Rural OPDs Reports",
-              link: "/institute/campus_facilities",
+              link: "/institute/rural-opd",
             },
            
           ],
@@ -384,20 +384,20 @@ export default function Navbar() {
           name: "Clinical Material",
           subchild: [
             {
-              name: "OPD Reports",
-              link: "/institute/welcome",
+              name: "NABH Certification",
+              link: "/institute/covid",
             },
             {
-              name: "IPD Reports",
-              link: "/institute/mission_vision",
+              name: "LETTER OF PERMISSION BY NCH UG & PG COURSES",
+              link: "/institute/covid",
             },
             {
-              name: "War Against Covid",
-              link: "",
+              name: "NOC By State Goverment",
+              link: "https://drive.google.com/file/d/1L4qlUbdi5fLqt7GmE8WdkLV1-sVHPVqV/view?usp=sharing",
             },
             {
               name: "Rural OPDs Reports",
-              link: "/institute/campus_facilities",
+              link: "/institute/covid",
             },
            
           ],
