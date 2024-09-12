@@ -24,7 +24,7 @@ const Monument = () => {
     {
       id: 3,
       title: "Guiding Principles",
-      content: "Content for Section 3",
+      content: "Facilitating student learning for the competent practice of Homoeopathy. Promoting a method for individual student to gain insight into their own learning process and self development .Encouraging a student attitude of wonder and open mindedness consistent with the development of freedom from prejudice, necessary for the growth of each student as a healerPromoting classical Homoeopathy as of the foremost healing arts in this millennium",
       img: "/rules.jpg",
     },
   ];

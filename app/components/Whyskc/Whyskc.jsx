@@ -65,13 +65,13 @@ export default function Whyskc({ img, title, content }) {
           </div>
         </div>
         <div className="w-11/12  mx-auto   grid grid-cols-4 gap-5 p-4 mt-10  ">
-          <WhySkcCard content="Best Engineering Colleges with 31+ Years of Academic Excellence and Discipline. Highest Chancellor’s Awards and Highest Placements in Central India." />
+          <WhySkcCard content="NSHMC Bhopal, established with a vision to provide quality education in homeopathy, is a premier institution known for its excellence in holistic medical education. With state-of-the-art infrastructure, experienced faculty, and a focus on practical, patient-centered training, NSHMC stands out as a leading homeopathic college." />
           <WhySkcCard
             content="
-Other than Best Academics and Placements, Providing Best Sports facilities also. Producing National & International Players in Drop Row Ball, Base Ball, Throw Ball, Kabbaddi etc."
+The college integrates traditional homeopathic principles with modern medical science, offering a comprehensive curriculum and extensive clinical exposure. Known for its commitment to nurturing skilled and compassionate practitioners."
           />
-          <WhySkcCard content="Lush Green Campus having Boys & Girls Hostels with 24 hours Security, Dispensary, Bank ATMs, GYM, Indoor and Outdoor Fields makes it a BEST Infrastructure campus." />
-          <WhySkcCard content="Unbeatable Record Placement of Central India with 1800+ Offers by 40 Companies Closed Campus only forNSHMC Group of Colleges" />
+          <WhySkcCard content="NSHMC is the best choice for aspiring homeopaths looking for a balanced, hands-on learning experience." />
+          <WhySkcCard content="Additionally, the on-campus hospital and outpatient department (OPD) provide students with valuable clinical exposure, offering hands-on experience in diagnosing and treating patients." />
         </div>
       </div>
     </>
