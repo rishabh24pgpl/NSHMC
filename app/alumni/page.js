@@ -9,7 +9,7 @@ const MyComponent = () => {
     {
       title: "Need help with Claim?",
       content:
-        "Go to this step by step guideline process on how to certify for your weekly benefits.",
+        "Go to this step by steps guideline process on how to certify for your weekly benefits.",
       buttonText: "See our guideline",
       buttonLink: "#",
       imageSource: "/mission-icon.png",
