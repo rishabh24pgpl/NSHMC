@@ -21,7 +21,7 @@ export default function page() {
           <div className="w-2/3 px-10 pt-[36px]">
             <h1 className="my-1 p-2">Board of Governers (Members)</h1>
             <GovernorCard
-              img="/md-sir.jpg"
+              img="/md-sir.JPG"
               name={"Mr. Suprabhat Chouksey"}
               email={"president@nshmcbhopal.com"}
               phone={"808878987"}

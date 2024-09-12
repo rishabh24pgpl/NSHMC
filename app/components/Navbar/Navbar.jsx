@@ -30,10 +30,10 @@ export default function Navbar() {
               name: "Vision and Mission",
               link: "/institute/mission_vision",
             },
-            {
-              name: "Former Directors",
-              link: "/institute/former_directors",
-            },
+            // {
+            //   name: "Former Directors",
+            //   link: "/institute/former_directors",
+            // },
             {
               name: "Campus and Facilities",
               link: "/institute/campus_facilities",
@@ -51,10 +51,10 @@ export default function Navbar() {
               name: "Board of Governors",
               link: "/institute/bog",
             },
-            {
-              name: "The Senate",
-              link: "/institute/senate",
-            },
+            // {
+            //   name: "The Senate",
+            //   link: "/institute/senate",
+            // },
             {
               name: "Principal",
               link: "/principal",
@@ -87,6 +87,10 @@ export default function Navbar() {
             {
               name: "Annual Reports",
               link: "/institute/annual_reports",
+            },
+            {
+              name: "Approval Documents",
+              link: "/approval-document",
             },
           ],
         },
