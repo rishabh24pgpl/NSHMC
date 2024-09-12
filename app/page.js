@@ -33,7 +33,7 @@ export default function Home() {
 
   // Function to toggle submenu
 
-  const images = ["/Main1.jpg", "/Main2.jpg", "/Main3.jpg"];
+  const images = ["/building.jpg", ];
 
   const EventData = [
     {
@@ -250,7 +250,8 @@ export default function Home() {
       <NumberOne
         img="/number-1.png"
         title="WHY NSHMC"
-        content="Today,NSHMC Group is one of the Largest and most preferred Educational Group for Engineering, Management, Pharmacy, Medical with ISO-9001 certification and NBA accreditation for many Engineering courses.. Bright young students from all across the country are coming to fulfill their dream in this group."
+        content="NSHMC is a premier institute in the field of homoeopathic education. It endeavors to simplify the science of homoeopathy through a uniquely designed and highly effective syllabus. Our learning processes inculcate the qualities of observation, analysis, integrity and compassion in our doctors which allows personal as well as academic evolution.
+        Our vision is to provide high class academic and clinical education to those who seek to practice homoeopathy professionally."
       />
       <section className="  w-11/12 mx-auto">
         <Notices

@@ -18,7 +18,7 @@ export default function page() {
                     <div className="w-1/3 flex flex-col gap-2 bg-blue-300">
                         <div className="w-full h-72 border-2 relative overflow-hidden">
                             <Image
-                                src="/principal.jpeg"
+                                src="/principalns.jpg"
                                 alt="chairman"
                                 width="500"
                                 height="500"
@@ -26,26 +26,18 @@ export default function page() {
                             />
                         </div>
                         <div>
-                            <h1 className="py-2 px-10 font-bold text-2xl">DR.PIYUSH P. MOGHE</h1>
-                            <h2 className="py-2 px-10 text-lg">Principal SKC-Lnct</h2>
-                            <h3 className="py-2 px-10 ">Associate Professor</h3>
+                            <h1 className="py-2 px-10 font-bold text-2xl">Dr. R. S. Agrawal </h1>
+                            <h2 className="py-2 px-10 text-lg">Principal NSHMC</h2>
+                            <h3 className="py-2 px-10 ">Principal & Hospital Superintendent </h3>
                         </div>
                     </div>
                     <div className="w-2/3 p-10">
                         <p className="text-sm mb-3">
-                            Welcome to another exciting academic year at SKC-LNCT Bhopal ! As the Principal, it is my honor and privilege to lead such a dynamic and vibrant community. Our college is a place where your dreams take flight, and your journey towards academic excellence and personal growth begins.
-
-                            At SKC-LNCT Bhopal, we are committed to providing you with an environment that fosters learning, innovation, and holistic development. Our dedicated faculty, state-of-the-art facilities, and diverse range of programs are all designed to ensure you receive a top-notch education that prepares you for the challenges of the future.
-
-                            Education is not just about acquiring knowledge; it is about developing the skills and character needed to navigate and succeed in a rapidly changing world. We encourage you to take full advantage of the opportunities available to you here. Engage actively in your classes, participate in extracurricular activities, and take on leadership roles. Remember, the more you invest in your education, the greater the rewards will be.
-
-                            We are proud of the inclusive and supportive community we have built. Our college is a place where every student is valued, and every voice is heard. We strive to create a safe and welcoming environment where you can express yourself freely, develop meaningful relationships, and grow into well-rounded individuals.
-
-                            As you embark on this academic journey, remember that success is a result of hard work, perseverance, and a positive attitude. There will be challenges along the way, but each challenge is an opportunity to learn and grow. Stay focused on your goals, seek help when needed, and never hesitate to explore new paths and possibilities.
-
-                            I am confident that each of you has the potential to achieve great things. Together, let us make this academic year a memorable and successful one. I look forward to seeing your accomplishments and celebrating your successes.
-
-                            Best wishes for a fruitful and inspiring year ahead.
+                        A deep sense of joy prevails in the very care of my heart to place this official website of Narayanshri Homoeopathic Medical college and hospital, Bhopal at your disposal.
+                        Narayan Shree Homoeopathic Medical College & Hospital is fully equipped with all facilities in both academic as well as in clinical side. We are providing best education and clinical training by eminent and specialized physicians and teachers of various fields eg. Homoeopathy, Modern Medicine, Surgery, Gynaecology, ENT, Ophthalmology etc. Our institute is having well equipped hospital and research centre and we are providing free consultation and medication to the poor patients.
+                        Our main aim is to take initiative to give a platform to budding homoeopaths to enrich and enhance the knowledge base and at the same time strengthen the skill sets with the latest development in medical science. This will also give a platform to reach out to the society and impart best of the health care and awareness to the society.
+                        The popularity of this institute has grown over the years and today it is one of the pioneer homoeopathic institutions in the state of Madhya Pradesh. This is due to the continuous support of the CCH, Government of M.P. and Barkatullah university, as well as, continuous teamwork of the institution’s faculty, staff, students.
+                        In last, I welcome you to join us, I hope that you will take this institution a long way with the helpful hands of Homoeopathy fraternity.
 
 
                         </p>
@@ -56,7 +48,7 @@ export default function page() {
                             </h1>
                             <h1>
 
-                                DR.PIYUSH P. MOGHE
+                                DR.R.S. Agrawal
                             </h1>
                             <h1>
 
@@ -64,7 +56,7 @@ export default function page() {
                             </h1>
                             <h1>
 
-                                SKC-Lnct Bhopal
+                                NSHMC
                             </h1>
                         </p>
 

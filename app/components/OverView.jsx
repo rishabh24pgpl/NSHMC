@@ -61,11 +61,11 @@ export default function OverView() {
           </h1>
           <p className="text-black text-justify pt-2">
             {" "}
-            NIT Rourkela is one of the institutes of national importance under
-            Ministry of Education, Government of India. Government of India has
-            elevated the Regional Engineering College, Rourkela to an autonomous
-            institution under the name of National Institute of Technology,
-            Rourkela.
+            At NSHMC, our academic programs offer a comprehensive education in homeopathy, combining rigorous scientific training with holistic principles. 
+            The curriculum covers essential subjects such as Anatomy, Physiology, Pathology, and Biochemistry, alongside specialized homeopathic courses like materia medica and repertory. 
+            Students benefit from hands-on training through clinical rotations, laboratory work, and case studies, ensuring practical application of their knowledge. 
+            Our programs also emphasize research, professional development, and community engagement, preparing students to innovate in the field, navigate professional challenges, and serve diverse populations with compassion. 
+            By integrating theory with practice, we aim to cultivate skilled, empathetic practitioners ready to advance the field of homeopathy and enhance patient care.
           </p>
         </div>
         <div className="w-full   overflow-hidden ">

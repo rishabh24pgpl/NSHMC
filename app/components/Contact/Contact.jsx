@@ -33,7 +33,7 @@ export default function Contact() {
                   Address
                 </h1>
                 <h2 className=" text-xs">
-                  NSHMC, Bhopal, Madhya Pradesh
+                Pushpa Nagar, Near Main Railway Station, Bhopal-10, Madhya Pradesh
                 </h2>
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function Contact() {
                 <h1 className="text-black text-lg font-semibold capitalize">
                   Email
                 </h1>
-                <h2 className=" text-xs">skclnct@gmailcom</h2>
+                <h2 className=" text-xs">nshmcbpl@gmail.com</h2>
               </div>
             </div>
             <div className=" w-64 h-20  p-2 flex gap-3 rounded-lg bg-gray-100">
@@ -62,7 +62,7 @@ export default function Contact() {
                 <h1 className="text-black text-lg font-semibold capitalize">
                   Phone Number
                 </h1>
-                <h2 className=" text-xs">(0661) 246 - 2020 / 2002</h2>
+                <h2 className=" text-xs">+91 94244 54311 | 0755-2753451</h2>
               </div>
             </div>
           </div>

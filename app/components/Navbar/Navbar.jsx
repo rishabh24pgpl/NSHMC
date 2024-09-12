@@ -23,7 +23,7 @@ export default function Navbar() {
           name: "Institute",
           subchild: [
             {
-              name: "Welcome toNSHMC",
+              name: "Welcome to NSHMC",
               link: "/institute/welcome",
             },
             {
@@ -71,10 +71,10 @@ export default function Navbar() {
               name: "Finance Committee",
               link: "/institute/fc",
             },
-            {
-              name: "Building and Work Committee",
-              link: "/institute/bwc",
-            },
+            // {
+            //   name: "Building and Work Committee",
+            //   link: "/institute/bwc",
+            // },
           ],
         },
         {
@@ -152,10 +152,10 @@ export default function Navbar() {
               name: "Community Medicine",
               link: "/department/eet",
             },
-            {
-              name: "Information Technology",
-              link: "/department/it",
-            },
+            // {
+            //   name: "Information Technology",
+            //   link: "/department/it",
+            // },
           ],
         },
         {
@@ -175,21 +175,22 @@ export default function Navbar() {
             },
           ],
         },
-        {
-          name: "Technical Service Units",
-          subchild: [
-            {
-              name: "Health Care",
-              link: "/health-center",
-            },
-            {
-              name: "Lawn and Garden",
-              link: "/academic/lawn",
-            },
-          ],
-        },
+        // {
+        //   name: "Technical Service Units",
+        //   subchild: [
+        //     {
+        //       name: "Health Care",
+        //       link: "/health-center",
+        //     },
+        //     {
+        //       name: "Lawn and Garden",
+        //       link: "/academic/lawn",
+        //     },
+        //   ],
+        // },
       ],
     },
+    
     {
       main: "Students",
       child: [
@@ -307,6 +308,10 @@ export default function Navbar() {
         {
           name: "Alumni",
           subchild: [
+            {
+              name: "Register Alumni",
+              link: "/alumni-form",
+            },
             {
               name: "About Alumni Cell",
               link: "/alumni",
@@ -463,7 +468,7 @@ export default function Navbar() {
       </div>
     </div>
   
-    <div className="bg-gradient-to-r from-purple-500 to-purple-900">
+    <div className="bg-gradient-to-r from-purple-500 to-purple-900 z-50">
       <div className="w-9/12 mx-auto flex items-center justify-between px-4 py-2">
         <div className="flex items-center gap-4">
           <div className="w-[90px] h-[90px] relative">
@@ -483,7 +488,7 @@ export default function Navbar() {
       </div>
     </div>
   
-    <div className="w-full bg-purple-900">
+    <div className="w-full bg-purple-900 z-50">
       <div className="flex flex-wrap w-full mx-auto gap-4 justify-center bg-purple-900 relative items-center">
         <Link href="/" className="text-3xl p-1">
           <FaHome className="hover:scale-105 duration-500 hover:text-gray-400 cursor-pointer" />
@@ -522,7 +527,7 @@ export default function Navbar() {
           }
   
           return (
-            <div key={index} className="relative group">
+            <div key={index} className="relative group z-50">
               <Link
                 href="#"
                 className={`text-white font-semibold text-lg hover:text-gray-300 hover:bg-purple-700 flex gap-2 items-center px-3 py-4 ${
