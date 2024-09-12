@@ -35,7 +35,7 @@ export default function page() {
               </p>
 
               <p className=" mt-2 font-extralight text-sm text-justify">
-              We believe in the power of homeopathy to bring about profound healing and balance in people's lives.
+              We believe in the power of homeopathy to bring about profound healing and balance in people&apos;s lives.
               Our curriculum is designed not only to teach the principles of homeopathy but also to nurture a deep sense of compassion, empathy, and professionalism in our students. 
               With a focus on both academic excellence and hands-on clinical experience, we ensure that our graduates are well-equipped to make a positive impact on the health and well-being of individuals and communities worldwide.
               As you explore our website, you will find a wealth of information about our courses, faculty, campus, and the vibrant community that makes NSHMC unique. 
