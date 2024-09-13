@@ -1,15 +1,12 @@
-import React from 'react';
-import Admission from '@/app/components/admissionContent/Admission'
+import React from "react";
+import Admission from "@/app/components/admissionContent/Admission";
 
 const AdmissionForm = () => {
- 
-
-    return (
-       
-        <>
-         <Admission/>
-        </>
-    );
+  return (
+    <>
+      <Admission />
+    </>
+  );
 };
 
 export default AdmissionForm;

@@ -87,13 +87,14 @@ const MyComponent = () => {
   ];
   return (
     <>
-      <div className=" w-full h-80 bg-cover capitalize flex justify-center items-center "
-                style={{ backgroundImage: `url('about-banner.jpg')` }}>
-
-                <h2 className="font-bold text-4xl uppercase  text-center text-white" >
-                ALUMNI RELATIONS
-                </h2>
-                </div>
+      <div
+        className=" w-full h-80 bg-cover capitalize flex justify-center items-center "
+        style={{ backgroundImage: `url('about-banner.jpg')` }}
+      >
+        <h2 className="font-bold text-4xl uppercase  text-center text-white">
+          ALUMNI RELATIONS
+        </h2>
+      </div>
       <div className="flex p-20  mx-auto">
         <div className="w-[25%] mx-auto ">
           {/* Left 30% width */}
@@ -123,14 +124,13 @@ const MyComponent = () => {
             {/* Sentence */}
             <p className="mb-8">
               {" "}
-             NSHMC Group is proud to have its alumnus, as a group of 50,000+
+              NSHMC Group is proud to have its alumnus, as a group of 50,000+
               engineers, technologists, scientists, managers, and entrepreneurs
-              and more. Established in 1994, NSHMCNarain College of
-              Technology has cultivated a vibrant and enduring relationship with
-              its alumni community over the years.NSHMC understands that the
-              journey of education extends far beyond graduation, and thus, it
-              is committed to nurturing lifelong connections with its former
-              students.
+              and more. Established in 1994, NSHMCNarain College of Technology
+              has cultivated a vibrant and enduring relationship with its alumni
+              community over the years.NSHMC understands that the journey of
+              education extends far beyond graduation, and thus, it is committed
+              to nurturing lifelong connections with its former students.
             </p>{" "}
             <br></br>
             <p className="mb-4">
@@ -248,11 +248,10 @@ const MyComponent = () => {
             />
           </div>
         </div>
-
       </section>
       <h1 className=" font-semibold text-4xl text-center ">ENGAGEMENTS</h1>
       <p className="text-grey text-md text-center p-4 w-1/2 pb-8 mx-auto">
-       NSHMC GROUP SECRETARY DR. ANUPAM CHOUKSEY WINS THE PRETIGEOUS DANIK
+        NSHMC GROUP SECRETARY DR. ANUPAM CHOUKSEY WINS THE PRETIGEOUS DANIK
         BHASKAR EMINANCE AWARDS 2022-23
       </p>
       <section className="flex flex-wrap gap-8 m-auto justify-center  p-10 ">
@@ -280,7 +279,6 @@ const MyComponent = () => {
                 lastUpdated={news.lastUpdated}
                 imageUrl={news.imageUrl}
               />
-
             ))}
           </div>
 
@@ -308,7 +306,7 @@ const MyComponent = () => {
           </div>
         </div>
       </section> */}
-    
+
       <section
         className=" w-full "
         style={{
@@ -323,32 +321,29 @@ const MyComponent = () => {
         </h1>
         <p className="text-white text-center p-10 ">
           Address : Room No 16(A),NSHMC Group of Collges +91 7556185388
-            alumni@lnct.ac.in
+          alumni@lnct.ac.in
         </p>
         <div className="flex relative text-white w-9/12 mx-auto">
-        <p className="text-white text-center p-10 ">
-        Mr. BHAVESH BHANUSALI
-(President, Alumni cell)
-Phone no : – 7000943185 Email id: Bhaveshbhanusalip884@gmail.com
-        </p> 
-        <p className="text-white text-center p-10 ">
-        Mr. BHAVESH BHANUSALI
-(President, Alumni cell)
-Phone no : – 7000943185 Email id: Bhaveshbhanusalip884@gmail.com
-        </p> 
-        <p className="text-white text-center p-10 ">
-        Mr. BHAVESH BHANUSALI
-(President, Alumni cell)
-Phone no : – 7000943185 Email id: Bhaveshbhanusalip884@gmail.com
-        </p> 
+          <p className="text-white text-center p-10 ">
+            Mr. BHAVESH BHANUSALI (President, Alumni cell) Phone no : –
+            7000943185 Email id: Bhaveshbhanusalip884@gmail.com
+          </p>
+          <p className="text-white text-center p-10 ">
+            Mr. BHAVESH BHANUSALI (President, Alumni cell) Phone no : –
+            7000943185 Email id: Bhaveshbhanusalip884@gmail.com
+          </p>
+          <p className="text-white text-center p-10 ">
+            Mr. BHAVESH BHANUSALI (President, Alumni cell) Phone no : –
+            7000943185 Email id: Bhaveshbhanusalip884@gmail.com
+          </p>
         </div>
         <div className="flex justify-center gap-2 pt-10  items-center pb-2">
-        <div className=" text-white  rounded-xl p-3 bg-pink-500  px-10 hover:bg-white hover:text-black ">
-               Join us
-        </div>
-        <div className=" bg-white rounded-xl p-3 px-10 hover:bg-pink-500 hover:text-white">
-              Call Back
-        </div>
+          <div className=" text-white  rounded-xl p-3 bg-pink-500  px-10 hover:bg-white hover:text-black ">
+            Join us
+          </div>
+          <div className=" bg-white rounded-xl p-3 px-10 hover:bg-pink-500 hover:text-white">
+            Call Back
+          </div>
         </div>
       </section>
     </>

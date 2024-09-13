@@ -1,8 +1,8 @@
-import React from 'react'
-import EventParentForm from '@/app/components/Event/EventParentForm'
+import React from "react";
+import EventParentForm from "@/app/components/Event/EventParentForm";
 import injectToken from "@/app/actions";
-import { getCareer } from '@/app/lib/services/careers/careers';
-import CareerParent from '@/app/components/Career/CareerParentForm';
+import { getCareer } from "@/app/lib/services/careers/careers";
+import CareerParent from "@/app/components/Career/CareerParentForm";
 
 export default async function page() {
   const isFailed = await injectToken();
@@ -10,9 +10,10 @@ export default async function page() {
   clientProps.isFailed = isFailed;
   clientProps.events = await getCareer();
   clientProps.isFailed = false;
-  
 
   return (
-    <div><CareerParent clientProps={clientProps}/></div>
-  )
+    <div>
+      <CareerParent clientProps={clientProps} />
+    </div>
+  );
 }

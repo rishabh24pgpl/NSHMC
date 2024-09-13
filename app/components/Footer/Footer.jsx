@@ -231,7 +231,7 @@ export default function Footer() {
                     data-caption=""
                     title=""
                   >
-                    <div className="flex gap-2 items-center"><span>FAQ's</span> <span><img src="/right-arrow.svg" className="w-6"></img></span></div>
+                    <div className="flex gap-2 items-center"><span>FAQ&apos;s</span> <span><img src="/right-arrow.svg" className="w-6"></img></span></div>
                   </a>
                 </div>
 

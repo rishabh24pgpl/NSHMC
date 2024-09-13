@@ -33,7 +33,7 @@ export default function Home() {
 
   // Function to toggle submenu
 
-  const images = ["/building.jpg", ];
+  const images = ["/building.jpg"];
 
   const EventData = [
     {
@@ -379,7 +379,7 @@ export default function Home() {
                 role="tabpanel"
               >
                 <h2 className="text-white font-bold text-3xl">POSTGRADUATE</h2>
-               
+
                 <h4 className="text-white mt-5 ">M. Tech.</h4>
                 <p className="text-white text-justify">
                   The courses leading to M. Tech. degree are open to candidates
@@ -593,7 +593,6 @@ export default function Home() {
             //
             className="flex "
             style={{
-           
               // backgroundImage: "url('/zig-zag.svg')",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",

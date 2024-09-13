@@ -1,11 +1,13 @@
-'use server'
-import { api } from '@/app/lib/middleware/apiInceptor';
-import { cookies } from 'next/headers'
+"use server";
+import { api } from "@/app/lib/middleware/apiInceptor";
+import { cookies } from "next/headers";
 
-
-async function injectToken(data) { // call this function at top when you call any service in serverside
-  let token = cookies()?.getAll()?.filter((cookie) => cookie?.name === 'jwtToken')?.[0]?.value
-  if(!token) return true
+async function injectToken(data) {
+  // call this function at top when you call any service in serverside
+  let token = cookies()
+    ?.getAll()
+    ?.filter((cookie) => cookie?.name === "jwtToken")?.[0]?.value;
+  if (!token) return true;
   api.interceptors.request.use(
     (config) => {
       if (token) {
@@ -17,9 +19,7 @@ async function injectToken(data) { // call this function at top when you call an
       // console.error('Request interceptor error:', error);
       return Promise.reject(error);
     }
-   
   );
-  return false
+  return false;
 }
-export default injectToken
-
+export default injectToken;

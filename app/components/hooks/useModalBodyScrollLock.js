@@ -1,11 +1,11 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
 const useModalBodyScrollLock = (show) => {
   useEffect(() => {
     const originalOverflow = window.getComputedStyle(document.body).overflow;
 
     if (show) {
-      document.body.style.overflow = 'hidden';
+      document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = originalOverflow;
     }

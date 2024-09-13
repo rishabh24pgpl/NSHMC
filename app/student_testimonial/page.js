@@ -1,8 +1,12 @@
-import React from 'react'
-import StudentTestimonial from '../components/StudentTestimonial/StudentTestimonial'
+import React from "react";
+import StudentTestimonial from "../components/StudentTestimonial/StudentTestimonial";
 
 export default function page() {
   return (
-    <StudentTestimonial img="/plcc.png" title="Student Testimonial" content="We inspire innovation and discovery atNSHMC Group of Colleges."/>
-  )
+    <StudentTestimonial
+      img="/plcc.png"
+      title="Student Testimonial"
+      content="We inspire innovation and discovery atNSHMC Group of Colleges."
+    />
+  );
 }

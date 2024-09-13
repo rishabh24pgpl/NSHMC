@@ -112,7 +112,7 @@ const EventSectionpart = () => {
             students embark on each day. At our kindergarten school, we believe
             that learning goes beyond textbooks, and we strive to create a
             holistic and engaging environment that nurtures every aspect of a
-            child`&apos;`s development.
+            child`'`s development.
           </div>
         </div>
       </section>

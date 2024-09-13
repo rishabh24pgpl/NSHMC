@@ -1,11 +1,11 @@
-import React from 'react'
-import AlumniForm from '../components/AlumniForm/AkumniForm'
+import React from "react";
+import AlumniForm from "../components/AlumniForm/AkumniForm";
 
 const page = () => {
   return (
     <div>
-      <AlumniForm/>
+      <AlumniForm />
     </div>
-  )
-}
-export default page
+  );
+};
+export default page;
