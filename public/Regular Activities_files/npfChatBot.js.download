@@ -491,5 +491,5 @@ function escapeHtmlEntities (str) {
     .replace(/>/g, '&gt;')
     .replace(/</g, '&lt;')
     .replace(/"/g, '&quot;')
-    .replace(/'/g, '&apos;');
+    .replace(/'/g, ''');
 }

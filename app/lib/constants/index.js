@@ -1,7 +1,6 @@
 import moment from "moment";
 
-
-export const BASE_URL = 'https://lnct-backend.vercel.app/api/v1';
+export const BASE_URL = "https://lnct-backend.vercel.app/api/v1";
 
 export const CREDINITAIL = {
   email: "",
@@ -12,7 +11,7 @@ export const NOTICEINITIAL = {
   title: "",
   file: "",
   description: "",
-  endDate: ""
+  endDate: "",
 };
 
 export const ERR_MSG_PREFIX = "The following fields are blank:";
@@ -25,8 +24,6 @@ export const NEWSINITAIL = {
   publishedDate: moment().format("YYYY-MM-DD HH:mm:ss"),
   // OrganizationUuid: ""
 };
-
-
 
 export const SELECT_TYPE = "Select user type";
 export const userTypes = [
@@ -45,7 +42,7 @@ export const EVENTS_INITIAL = {
   startDate: "2024-05-04T15:52:51.463Z",
   endDate: "2024-05-07T15:52:51.463Z",
   type: "",
-  registrationRequired: false
+  registrationRequired: false,
 };
 
 export const SEMINARINITIAL = {
@@ -57,25 +54,21 @@ export const SEMINARINITIAL = {
   contactPerson: "",
   abstract: "",
   imageUrl: "",
-  publishedDate: "2024-05-04T15:52:51.463Z"
+  publishedDate: "2024-05-04T15:52:51.463Z",
 };
 
-
-export const JOB_APPLICATION={
-  
-    applicantName: "",
-    email: "",
-    phone: "",
-    collegeName: "",
-    isOpen: true,
-    qualifications: "",
-    experience: "",
-    resumeLink: "",
-    additionalInfo: "",
-    jobUuid: ""
-  
-  
-}
+export const JOB_APPLICATION = {
+  applicantName: "",
+  email: "",
+  phone: "",
+  collegeName: "",
+  isOpen: true,
+  qualifications: "",
+  experience: "",
+  resumeLink: "",
+  additionalInfo: "",
+  jobUuid: "",
+};
 
 export const USER_INITIAL = {
   email: "",
@@ -95,5 +88,4 @@ export const USER_INITIAL = {
   roles: [],
 };
 
-
-export const ADMIN ='ADMIN'
+export const ADMIN = "ADMIN";

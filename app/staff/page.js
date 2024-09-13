@@ -1,10 +1,10 @@
-import React from 'react'
-import StaffPage from '../components/StaffPage/StaffPage'
+import React from "react";
+import StaffPage from "../components/StaffPage/StaffPage";
 
 export default function page() {
   return (
     <div>
-      <StaffPage/>
+      <StaffPage />
     </div>
-  )
+  );
 }

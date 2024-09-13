@@ -4,7 +4,8 @@ import RelatedLink from "@/app/components/RelatedLink/RelatedLink";
 import SliderMain from "@/app/components/SliderMain/SliderMain";
 import React, { useState } from "react";
 
-export default function Page() {  // Capitalized component name
+export default function Page() {
+  // Capitalized component name
   const [selectedYear, setSelectedYear] = useState("all"); // Initial year selected
 
   const pdfData = {

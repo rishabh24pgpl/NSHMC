@@ -1,6 +1,11 @@
-import React from 'react';
+import React from "react";
 
-const Pagination = ({ totalItems, itemsPerPage, currentPage, onPageChange }) => {
+const Pagination = ({
+  totalItems,
+  itemsPerPage,
+  currentPage,
+  onPageChange,
+}) => {
   const totalPages = Math.ceil(totalItems / itemsPerPage);
 
   const handleClick = (page) => {
@@ -16,7 +21,9 @@ const Pagination = ({ totalItems, itemsPerPage, currentPage, onPageChange }) => 
         <li key={i}>
           <button
             className={`px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple ${
-              i === currentPage ? 'bg-purple-600 text-white dark:text-gray-800' : ''
+              i === currentPage
+                ? "bg-purple-600 text-white dark:text-gray-800"
+                : ""
             }`}
             onClick={() => handleClick(i)}
           >
@@ -31,7 +38,7 @@ const Pagination = ({ totalItems, itemsPerPage, currentPage, onPageChange }) => 
   return (
     <div className="grid px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase border-t dark:border-gray-700 bg-gray-50 sm:grid-cols-9 dark:text-gray-400 dark:bg-gray-800">
       <span className="flex items-center col-span-3">
-        Showing {((currentPage - 1) * itemsPerPage) + 1}-
+        Showing {(currentPage - 1) * itemsPerPage + 1}-
         {Math.min(currentPage * itemsPerPage, totalItems)} of {totalItems}
       </span>
       <span className="col-span-2"></span>
@@ -45,7 +52,11 @@ const Pagination = ({ totalItems, itemsPerPage, currentPage, onPageChange }) => 
                 onClick={() => handleClick(currentPage - 1)}
                 disabled={currentPage === 1}
               >
-                <svg aria-hidden="true" className="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                <svg
+                  aria-hidden="true"
+                  className="w-4 h-4 fill-current"
+                  viewBox="0 0 20 20"
+                >
                   <path
                     d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
                     clipRule="evenodd"
@@ -62,7 +73,11 @@ const Pagination = ({ totalItems, itemsPerPage, currentPage, onPageChange }) => 
                 onClick={() => handleClick(currentPage + 1)}
                 disabled={currentPage === totalPages}
               >
-                <svg className="w-4 h-4 fill-current" aria-hidden="true" viewBox="0 0 20 20">
+                <svg
+                  className="w-4 h-4 fill-current"
+                  aria-hidden="true"
+                  viewBox="0 0 20 20"
+                >
                   <path
                     d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
                     clipRule="evenodd"

@@ -44,7 +44,7 @@ export default function page() {
 
               <p className=" mt-2 font-extralight text-sm text-justify">
                 We believe in the power of homeopathy to bring about profound
-                healing and balance in people's lives. Our curriculum is
+                healing and balance in people&apos;s lives. Our curriculum is
                 designed not only to teach the principles of homeopathy but also
                 to nurture a deep sense of compassion, empathy, and
                 professionalism in our students. With a focus on both academic
