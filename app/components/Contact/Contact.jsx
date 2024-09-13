@@ -9,6 +9,7 @@ import { FaHeadphones } from "react-icons/fa6";
 import { FaRoad } from "react-icons/fa";
 import { IoMdTrain } from "react-icons/io";
 import { IoAirplane } from "react-icons/io5";
+import Link from "next/link";
 
 export default function Contact() {
   const images = ["/baggi.jpg", "/mainImg.jpeg", "/baggi.jpg"];
@@ -66,9 +67,15 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <div className="w-full   p-2 flex justify-between gap-2  ">
-            <div className="w-1/2 "></div>
-            <div className="w-1/2  bg-gray-100 p-2">
+          <div className="w-full   ">
+            <div className="w-full ">
+            <Link target="_blank" href="https://www.google.co.in/maps/place/Narayan+Shri+Homeopathic+Hospital/@23.264404,77.4195659,17z/data=!4m15!1m8!3m7!1s0x397c682de90d4015:0x2f5815f2c2865870!2sNarayan+Shri+Homeopathic+Hospital!8m2!3d23.2644572!4d77.4195395!10e5!16s%2Fg%2F1hm2db1zr!3m5!1s0x397c682de90d4015:0x2f5815f2c2865870!8m2!3d23.2644572!4d77.4195395!16s%2Fg%2F1hm2db1zr?entry=ttu&g_ep=EgoyMDI0MDkxMC4wIKXMDSoASAFQAw%3D%3D">
+            <Image
+            src="/map.png" alt='map' width={500} height={500} className=" w-full " 
+            />
+            </Link>
+            </div>
+            {/* <div className="w-1/2  bg-gray-100 p-2">
               <h1 className="p-2 text-black font-semibold text-xl my-3 ">
                 How to Reach NSHMC
               </h1>
@@ -121,7 +128,7 @@ export default function Contact() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="w-full flex justify-center items-center p-4">
             <table className="">
@@ -129,33 +136,33 @@ export default function Contact() {
                 <tr>
                   <th className="border p-3">City</th>
                   <th className="border p-3">
-                    Rail Distance from Bhopal / Journey time
+                    Rail Distance To Reach NSHMC / Journey time
                   </th>
                   <th className="border p-3">
-                    Road distance from Bhopal / Journey time
+                    Road distance To Reach NSHMC / Journey time
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td className="border py-2 px-2">Bhopal</td>
-                  <td className="border py-2 px-2">135 Km, 1 hrs 30 mins</td>
-                  <td className="border py-2 px-2">135 Km, 2hrs 30 mins</td>
+                  <td className="border py-2 px-2">Indore</td>
+                  <td className="border py-2 px-2">150+ kms , 4-5hrs</td>
+                  <td className="border py-2 px-2">193.7 km, 4-5hrs</td>
                 </tr>
                 <tr>
                   <td className="border py-2 px-2">Gwalior</td>
-                  <td className="border py-2 px-2">413 Km, 6 hrs</td>
-                  <td className="border py-2 px-2">525 Km, 9hrs</td>
+                  <td className="border py-2 px-2">415 Km, 4-5hrs</td>
+                  <td className="border py-2 px-2">432.8 km, 7 hr 56 min</td>
                 </tr>
                 <tr>
                   <td className="border py-2 px-2">Dewas</td>
-                  <td className="border py-2 px-2">462 Km, 7 hrs</td>
-                  <td className="border py-2 px-2">320 Km, 5hrs</td>
+                  <td className="border py-2 px-2">150+ kms, 3 hr 41 min</td>
+                  <td className="border py-2 px-2">153.6 km, 2 hr 56 min </td>
                 </tr>
                 <tr>
                   <td className="border py-2 px-2">Ujjain</td>
-                  <td className="border py-2 px-2">166 Km, 3 hrs 30 minutes</td>
-                  <td className="border py-2 px-2">222 Km, 4hrs</td>
+                  <td className="border py-2 px-2">183 kma,4 hr 14 min</td>
+                  <td className="border py-2 px-2">192.2 km, 3 hr 45 min </td>
                 </tr>
                
               </tbody>

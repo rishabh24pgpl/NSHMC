@@ -1,6 +1,6 @@
-import axios from 'axios';
-import Cookies from 'js-cookie';
-import { BASE_URL } from '../constants';
+import axios from "axios";
+import Cookies from "js-cookie";
+import { BASE_URL } from "../constants";
 
 const api = axios.create({
   baseURL: BASE_URL,
@@ -8,15 +8,15 @@ const api = axios.create({
 });
 
 const setAuthToken = (token) => {
-  Cookies.set('jwtToken', token, { secure: true, sameSite: 'strict' });
+  Cookies.set("jwtToken", token, { secure: true, sameSite: "strict" });
 };
 
 const removeAuthToken = () => {
-  Cookies.remove('jwtToken', { secure: true, sameSite: 'strict' });
+  Cookies.remove("jwtToken", { secure: true, sameSite: "strict" });
 };
 
 const getAuthToken = () => {
-  return Cookies.get('jwtToken');
+  return Cookies.get("jwtToken");
 };
 
 api.interceptors.request.use(
@@ -28,7 +28,7 @@ api.interceptors.request.use(
     return config;
   },
   (error) => {
-    console.error('Request interceptor error:', error);
+    console.error("Request interceptor error:", error);
     return Promise.reject(error);
   }
 );
@@ -39,7 +39,7 @@ api.interceptors.response.use(
     return response;
   },
   (error) => {
-    console.error('Response interceptor error:', error);
+    console.error("Response interceptor error:", error);
     return Promise.reject(error);
   }
 );

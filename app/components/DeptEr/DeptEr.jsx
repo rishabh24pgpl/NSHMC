@@ -194,8 +194,239 @@ export default function DeptEr({ dept }) {
       slogan = "dfsghj slogan";
       author = "author slogan";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "dfvbgsnha";
-      dept = "Information Technology";
+      aboutDept = "Description";
+      dept = "Physiology & BioChemistry";
+      headD = "Head Dept";
+      headImg = "/director.png";
+      phoneHead = "1234567890";
+      emailHead = "abc@gmail.com";
+      faculties = [
+        {
+          name: "John Doe",
+          position: "Software Engineer",
+          degree: "Bachelors in Computer Science",
+          experience: "5 years",
+        },
+        {
+          name: "Jane Smith",
+          position: "Data Scientist",
+          degree: "Masters in Data Science",
+          experience: "3 years",
+        },
+        {
+          name: "Emily Johnson",
+          position: "Project Manager",
+          degree: "MBA",
+          experience: "7 years",
+        },
+        // Add more faculty members as needed
+      ];
+
+      break;
+    case "og":
+      slogan = "dfsghj slogan";
+      author = "author slogan";
+      deptImg = "/dept-m-v.jpg";
+      aboutDept = "Description";
+      dept = "Obstretics & Gynecology";
+      headD = "Head Dept";
+      headImg = "/director.png";
+      phoneHead = "1234567890";
+      emailHead = "abc@gmail.com";
+      faculties = [
+        {
+          name: "John Doe",
+          position: "Software Engineer",
+          degree: "Bachelors in Computer Science",
+          experience: "5 years",
+        },
+        {
+          name: "Jane Smith",
+          position: "Data Scientist",
+          degree: "Masters in Data Science",
+          experience: "3 years",
+        },
+        {
+          name: "Emily Johnson",
+          position: "Project Manager",
+          degree: "MBA",
+          experience: "7 years",
+        },
+        // Add more faculty members as needed
+      ];
+
+      break;
+    case "pm":
+      slogan = "dfsghj slogan";
+      author = "author slogan";
+      deptImg = "/dept-m-v.jpg";
+      aboutDept = "Description";
+      dept = "Pathology & Microbiology";
+      headD = "Head Dept";
+      headImg = "/director.png";
+      phoneHead = "1234567890";
+      emailHead = "abc@gmail.com";
+      faculties = [
+        {
+          name: "John Doe",
+          position: "Software Engineer",
+          degree: "Bachelors in Computer Science",
+          experience: "5 years",
+        },
+        {
+          name: "Jane Smith",
+          position: "Data Scientist",
+          degree: "Masters in Data Science",
+          experience: "3 years",
+        },
+        {
+          name: "Emily Johnson",
+          position: "Project Manager",
+          degree: "MBA",
+          experience: "7 years",
+        },
+        // Add more faculty members as needed
+      ];
+
+      break;
+    case "pfm":
+      slogan = "dfsghj slogan";
+      author = "author slogan";
+      deptImg = "/dept-m-v.jpg";
+      aboutDept = "Description";
+      dept = "Practice of Medicine";
+      headD = "Head Dept";
+      headImg = "/director.png";
+      phoneHead = "1234567890";
+      emailHead = "abc@gmail.com";
+      faculties = [
+        {
+          name: "John Doe",
+          position: "Software Engineer",
+          degree: "Bachelors in Computer Science",
+          experience: "5 years",
+        },
+        {
+          name: "Jane Smith",
+          position: "Data Scientist",
+          degree: "Masters in Data Science",
+          experience: "3 years",
+        },
+        {
+          name: "Emily Johnson",
+          position: "Project Manager",
+          degree: "MBA",
+          experience: "7 years",
+        },
+        // Add more faculty members as needed
+      ];
+
+      break;
+    case "rep":
+      slogan = "dfsghj slogan";
+      author = "author slogan";
+      deptImg = "/dept-m-v.jpg";
+      aboutDept = "Description";
+      dept = "Department of Repertory";
+      headD = "Head Dept";
+      headImg = "/director.png";
+      phoneHead = "1234567890";
+      emailHead = "abc@gmail.com";
+      faculties = [
+        {
+          name: "John Doe",
+          position: "Software Engineer",
+          degree: "Bachelors in Computer Science",
+          experience: "5 years",
+        },
+        {
+          name: "Jane Smith",
+          position: "Data Scientist",
+          degree: "Masters in Data Science",
+          experience: "3 years",
+        },
+        {
+          name: "Emily Johnson",
+          position: "Project Manager",
+          degree: "MBA",
+          experience: "7 years",
+        },
+        // Add more faculty members as needed
+      ];
+
+      break;
+    case "pharm":
+      slogan = "dfsghj slogan";
+      author = "author slogan";
+      deptImg = "/dept-m-v.jpg";
+      aboutDept = "Description";
+      dept = "Department of Pharmacy";
+      headD = "Head Dept";
+      headImg = "/director.png";
+      phoneHead = "1234567890";
+      emailHead = "abc@gmail.com";
+      faculties = [
+        {
+          name: "John Doe",
+          position: "Software Engineer",
+          degree: "Bachelors in Computer Science",
+          experience: "5 years",
+        },
+        {
+          name: "Jane Smith",
+          position: "Data Scientist",
+          degree: "Masters in Data Science",
+          experience: "3 years",
+        },
+        {
+          name: "Emily Johnson",
+          position: "Project Manager",
+          degree: "MBA",
+          experience: "7 years",
+        },
+        // Add more faculty members as needed
+      ];
+
+      break;
+    case "anotomy":
+      slogan = "dfsghj slogan";
+      author = "author slogan";
+      deptImg = "/dept-m-v.jpg";
+      aboutDept = "Description";
+      dept = "Department of Anatomy";
+      headD = "Head Dept";
+      headImg = "/director.png";
+      phoneHead = "1234567890";
+      emailHead = "abc@gmail.com";
+      faculties = [
+        {
+          name: "John Doe",
+          position: "Software Engineer",
+          degree: "Bachelors in Computer Science",
+          experience: "5 years",
+        },
+        {
+          name: "Jane Smith",
+          position: "Data Scientist",
+          degree: "Masters in Data Science",
+          experience: "3 years",
+        },
+        {
+          name: "Emily Johnson",
+          position: "Project Manager",
+          degree: "MBA",
+          experience: "7 years",
+        },
+        // Add more faculty members as needed
+      ];
+
+      break;
+    case "surgery":
+      slogan = "dfsghj slogan";
+      author = "author slogan";
+      deptImg = "/dept-m-v.jpg";
+      aboutDept = "Description";
+      dept = "Department of Surgery";
       headD = "Head Dept";
       headImg = "/director.png";
       phoneHead = "1234567890";
