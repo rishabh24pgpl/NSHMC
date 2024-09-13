@@ -378,7 +378,7 @@ function printMessage(fromUser, message, initiateConv=0, free_text) {
 }
 
 function showChatSessionEndMessage(){
-    printMessage("System", "<div class='sessionButtonCard'><button aria-label='Start New Session' type='button' class='start-new-chat start-over-btn style-default'>Start Over</button>");
+    printMessage("System", "<div class='sessionButtonCard'><button aria-label='start New Session' type='button' class='start-new-chat start-over-btn style-default'>Start Over</button>");
 }
 
 function handleMobileOtpChangeClick(){

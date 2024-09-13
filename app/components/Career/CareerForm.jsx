@@ -293,7 +293,7 @@ export default function CareerForm({ selectedCareerId, careers }) {
                         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                         type="submit"
                     >
-                        {isEditMode ? 'Update' : 'Submit'}
+                        {isEditMode ? 'Update' : 'submit'}
                     </button>
                 </div>
             </form>

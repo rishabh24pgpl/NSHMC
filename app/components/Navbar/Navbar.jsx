@@ -156,10 +156,43 @@ export default function Navbar() {
               name: "Community Medicine",
               link: "/department/eet",
             },
-            // {
-            //   name: "Information Technology",
-            //   link: "/department/it",
-            // },
+            {
+              name: "Physiology & BioChemistry",
+              link: "/department/it",
+            },
+            {
+              name: "Obstretics & Gynecology",
+              link: "/department/og",
+            },
+          ],
+        },
+        {
+          name: "",
+          subchild: [
+            {
+              name: "Pathology & Microbiology",
+              link: "/department/pm",
+            },
+            {
+              name: "Practice of Medicine",
+              link: "/department/pfm",
+            },
+            {
+              name: " Department of Repertory",
+              link: "/department/rep",
+            },
+            {
+              name: "Department of Pharmacy",
+              link: "/department/pharm",
+            },
+            {
+              name: " Department of Anatomy",
+              link: "/department/anotomy",
+            },
+            {
+              name: " Department of Surgery",
+              link: "/department/surgery",
+            },
           ],
         },
         {
@@ -247,91 +280,91 @@ export default function Navbar() {
         {
           name: "Other Related Links",
           subchild: [
-            {
-              name: "Internship Programs",
-              link: "/placementcalender",
-            },
+            // {
+            //   name: "Internship Programs",
+            //   link: "/placementcalender",
+            // },
             {
               name: "Library",
               link: "/institute/library",
             },
-            {
-              name: "Career Development Cell",
-              link: "/cdc",
-            },
+            // {
+            //   name: "Career Development Cell",
+            //   link: "/cdc",
+            // },
           ],
         },
       ],
     },
-    {
-      main: "Placement",
-      child: [
-        {
-          name: "Overview",
-          subchild: [
-            {
-              name: "Placement Overview",
-              link: "/placementview",
-            },
-            {
-              name: "Career Development Cell",
-              link: "/cdc",
-            },
-            {
-              name: "Leading Recruiters",
-              link: "/leading_recruiters",
-            },
-            {
-              name: "Regular Activities",
-              link: "/regular_activite",
-            },
-            {
-              name: "Placement Calendar and Process",
-              link: "/placementcalender",
-            },
-          ],
-        },
-        {
-          name: "For Students",
-          subchild: [
-            {
-              name: "Student Testimonial",
-              link: "student_testimonial",
-            },
-            {
-              name: "Career",
-              link: "/career/?college=LNCT",
-            },
-          ],
-        },
-      ],
-    },
-    {
-      main: "Alumni",
-      child: [
-        {
-          name: "Alumni",
-          subchild: [
-            {
-              name: "Register Alumni",
-              link: "/alumni-form",
-            },
-            {
-              name: "About Alumni Cell",
-              link: "/alumni",
-            },
-            {
-              name: "Eminent",
-              link: "/eminent",
-            },
-            {
-              name: "Director's Message to Alumni",
-              link: "/institute/contact",
-            },
-          ],
-        },
-      ],
-    },
+    // {
+    //   main: "Placement",
+    //   child: [
+    //     {
+    //       name: "Overview",
+    //       subchild: [
+    //         {
+    //           name: "Placement Overview",
+    //           link: "/placementview",
+    //         },
+    //         {
+    //           name: "Career Development Cell",
+    //           link: "/cdc",
+    //         },
+    //         {
+    //           name: "Leading Recruiters",
+    //           link: "/leading_recruiters",
+    //         },
+    //         {
+    //           name: "Regular Activities",
+    //           link: "/regular_activite",
+    //         },
+    //         {
+    //           name: "Placement Calendar and Process",
+    //           link: "/placementcalender",
+    //         },
+    //       ],
+    //     },
+    //     {
+    //       name: "For Students",
+    //       subchild: [
+    //         {
+    //           name: "Student Testimonial",
+    //           link: "student_testimonial",
+    //         },
+    //         {
+    //           name: "Career",
+    //           link: "/career/?college=LNCT",
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
+    // {
+    //   main: "Alumni",
+    //   child: [
+    //     {
+    //       name: "Alumni",
+    //       subchild: [
+    //         {
+    //           name: "Register Alumni",
+    //           link: "/alumni-form",
+    //         },
+    //         {
+    //           name: "About Alumni Cell",
+    //           link: "/alumni",
+    //         },
+    //         {
+    //           name: "Eminent",
+    //           link: "/eminent",
+    //         },
+    //         {
+    //           name: "Director's Message to Alumni",
+    //           link: "/institute/contact",
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
     {
       main: "Resources",
       child: [
@@ -445,7 +478,7 @@ export default function Navbar() {
     <div className="flex items-center justify-between p-2 bg-purple-900">
       <div className="flex items-center gap-4">
         <p>Admissions</p>
-        <p>Placement</p>
+        {/* <p>Placement</p> */}
         <p>Careers</p>
       </div>
   
@@ -513,14 +546,14 @@ export default function Navbar() {
               dropdownWidth = "w-[690px]";
               dropdownLeft = "left-20";
               break;
-            case "Placement":
-              dropdownWidth = "w-[590px]";
-              dropdownLeft = "left-30";
-              break;
-            case "Alumni":
-              dropdownWidth = "w-60";
-              dropdownLeft = "left-40";
-              break;
+            // case "Placement":
+            //   dropdownWidth = "w-[590px]";
+            //   dropdownLeft = "left-30";
+            //   break;
+            // case "Alumni":
+            //   dropdownWidth = "w-60";
+            //   dropdownLeft = "left-40";
+            //   break;
             case "Resources":
               dropdownWidth = "w-[300px]";
               dropdownLeft = "left-50";
