@@ -153,7 +153,7 @@ export default function AcademicEngineering() {
       </section> */}
       <div className=" flex flex-col justify-center  mx-auto items-center p-10">
         <h1 className="text-blue-600 font-light  text-center  text-4xl">
-        "The physician&apos;s highest calling, his only calling, is to make sick people healthy — to heal, as it is called."
+        The physician&apos;s highest calling, his only calling, is to make sick people healthy — to heal, as it is called.
         </h1>
         <p className="text-black text-xl">- Samuel Hahnemann (Founder of Homeopathy)</p>
       </div>
