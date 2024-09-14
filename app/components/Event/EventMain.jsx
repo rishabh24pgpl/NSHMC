@@ -255,7 +255,7 @@ const EventMain = () => {
           <p className="text-lg md:text-xl lg:text-xl text-gray-600">
             At Little Learners Academy, we are committed to providing a
             supportive and nurturing environment that meets the unique needs of
-            each student. Our student support services include
+            each student. Our student support services includeS
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto my-5">
