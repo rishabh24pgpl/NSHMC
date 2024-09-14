@@ -13,8 +13,8 @@ export default function AcademicEngineering() {
           </h1>
           <p className="text-black text-justify pt-2">
             {" "}
-            NSHMC emphasizes a holistic approach to healthcare, teaching students to treat patients as whole individuals rather than just addressing their symptoms. The college fosters a deep understanding of how physical, mental, and emotional states are interconnected, and how homeopathic treatments can bring balance to all aspects of health. Through rigorous academic training and practical, hands-on experience in the college's hospital and outpatient department, students develop the clinical skills necessary to assess, diagnose, and treat patients using individualized homeopathic care.
-            What sets NSHMC apart is its commitment to bridging traditional homeopathic principles with modern healthcare needs. The faculty at NSHMC is composed of experienced practitioners and educators who are dedicated to preparing students for successful careers as homeopathic professionals. The college's focus on research and innovation in homeopathy also provides students with opportunities to contribute to the advancement of the field, ensuring that graduates are well-equipped to meet the evolving healthcare challenges of today's world.
+            NSHMC emphasizes a holistic approach to healthcare, teaching students to treat patients as whole individuals rather than just addressing their symptoms. The college fosters a deep understanding of how physical, mental, and emotional states are interconnected, and how homeopathic treatments can bring balance to all aspects of health. Through rigorous academic training and practical, hands-on experience in the colleges hospital and outpatient department, students develop the clinical skills necessary to assess, diagnose, and treat patients using individualized homeopathic care.
+            What sets NSHMC apart is its commitment to bridging traditional homeopathic principles with modern healthcare needs. The faculty at NSHMC is composed of experienced practitioners and educators who are dedicated to preparing students for successful careers as homeopathic professionals. The colleges focus on research and innovation in homeopathy also provides students with opportunities to contribute to the advancement of the field, ensuring that graduates are well-equipped to meet the evolving healthcare challenges of todays world.
           </p>
         </div>
         <div className="w-full  relative -z-10 ">
@@ -153,7 +153,7 @@ export default function AcademicEngineering() {
       </section> */}
       <div className=" flex flex-col justify-center  mx-auto items-center p-10">
         <h1 className="text-blue-600 font-light  text-center  text-4xl">
-        "The physician&apos;s highest calling, his only calling, is to make sick people healthy — to heal, as it is called."
+        The physician&apos;s highest calling, his only calling, is to make sick people healthy — to heal, as it is called.
         </h1>
         <p className="text-black text-xl">- Samuel Hahnemann (Founder of Homeopathy)</p>
       </div>
