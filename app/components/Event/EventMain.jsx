@@ -168,7 +168,7 @@ const EventMain = () => {
               our students embark on each day. At our kindergarten school, we
               believe that learning goes beyond textbooks, and we strive to
               create a holistic and engaging environment that nurtures every
-              aspect of a child`'`s development.
+              aspect of a childs development.
             </p>
           </div>
           <div className="relative pr-2">
@@ -233,7 +233,7 @@ const EventMain = () => {
             svgLink: "/right-arrow.svg",
             heading: "Individualized Attention",
             headingDescription:
-              "Our small class sizes enable personalized attention, catering to each child's unique needs.",
+              "Our small class sizes enable personalized attention, catering to each childs unique needs.",
           },
           {
             svgLink: "/right-arrow.svg",
