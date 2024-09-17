@@ -61,30 +61,38 @@ export default function DeptEr({ dept }) {
   let deptImg;
   let slogan;
   let author;
+  let experience;
+  let degree;
   switch (dept) {
     case "me":
-      slogan = "Engineering Tomorrow, Innovating Today ,Unleash Your Potential with Us!";
-      author = "Nitin Jaiswal";
+      slogan = "Empowering Healers with the Timeless Principles of Homeopathy.";
+      author = "Dr.Sandeep Jha";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Mechanical Engineering Department at SKC-LNCT Bhopal is a hub of innovation and excellence, dedicated to the study and application of mechanical systems. Our department focuses on providing a robust education that combines theoretical knowledge with practical experience. Students engage in a variety of subjects, including thermodynamics, fluid mechanics, materials science, and robotics. Through hands-on projects, state-of-the-art laboratories, and industry collaborations, we prepare our students to solve real-world engineering challenges. Our faculty, renowned for their expertise and research contributions, are committed to mentoring students and fostering a learning environment that encourages creativity and critical thinking. Whether it's designing the next generation of sustainable energy systems or developing advanced manufacturing techniques, our Mechanical Engineering Department is at the forefront of technological advancement and prepares graduates to excel in diverse engineering careers";
+      aboutDept = "The Department of Organon of Medicine at NSHMC is the cornerstone of homeopathic education, focusing on the fundamental principles and philosophy of homeopathy as laid out by its founder, Samuel Hahnemann. This department delves into the study of the Organon, which serves as the guiding text for understanding the laws of nature in health and disease, and how to apply them for holistic healing. Through a combination of theoretical instruction and practical application, students are trained to develop a deep understanding of patient-centered care and the science of individualized treatment. The department fosters critical thinking and a compassionate approach, ensuring that future homeopaths are well-versed in both the philosophy and practice of this profound healing system";
       dept = "Organon of Medicine";
-      headD = "Nitin Jaiswal";
+      headD = "Dr.Sandeep Jha";
 
-      headImg = "/hodme.jpg";
-      phoneHead = "9926085496";
-      emailHead = "hodme.lnct@lnctBhopal.com";
+      headImg = "/sandeepjha.jpg";
+      phoneHead = "+91 9303132274";
+      emailHead = "drsandeepjha@hotmail.com";
+      degree = "DHMS, BHMS, M.D. (Hom)/ 10020"
+      experience = '33 years & 8 months/ F.T.';
       faculties = [
         {
-          name: "MS.DIVYADARSHINI DHAKRE",
-          position: "Assistant Professor",
-          degree: "Master of Engineering",
-          experience: "7 years",
+          name: "Dr. Anupama Jaiswal",
+          position: "Associate Professor",
+          degree: "BHMS, M.D. (Hom.)/ 15865",
+          experience: "9 years & 7 months/ F.T.",
+          email: 'dr.praveenjaisal@gmail.com',
+          image: "/anupamajaiswal.jpg"
         },
         {
-          name: "MR. CHETANYA SHARMA",
-          position: "Lab Demonstrator",
-          degree: "Bachelor of Engineering",
-          experience: "15.5 years",
+          name: "Dr. Priyanka Tiwari",
+          position: "Assistant Professor",
+          degree: "BHMS, M.D (Hom.)/ 17037",
+          experience: "1 year & 1 months/ F.T.",
+          email: "drpriyanka55555@gmail.com",
+          image: "/priyanakatiwari.jpeg"
         },
        
         // Add more faculty members as needed
@@ -92,54 +100,62 @@ export default function DeptEr({ dept }) {
 
       break;
     case "cse":
-      slogan = "Empowering Innovation, Shaping the Future: Where Technology Meets Excellence";
-      author = "DHIRAJ RAJVAIDHYA";
+      slogan = "Unlocking the Science of Cure through the Laws of Health";
+      author = "Dr. Neelam Sharma";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Computer Science Department at SKC-LNCT Bhopal is a vibrant and dynamic community dedicated to advancing the frontiers of technology and innovation. Our curriculum is designed to equip students with a solid foundation in computing principles, software development, and data analysis. With courses ranging from artificial intelligence and cybersecurity to software engineering and machine learning, our program prepares students for the rapidly evolving tech industry. Our state-of-the-art labs, collaborative research projects, and industry partnerships provide hands-on experience and practical skills essential for real-world applications. Our distinguished faculty, renowned for their cutting-edge research and industry expertise, are committed to guiding students in their academic and professional growth. Whether you aspire to develop groundbreaking software, solve complex computational problems, or lead technological advancements, the Computer Science Department at SKC-LNCT Bhopal is the ideal place to start your journey.";
+      aboutDept = "The Department of Materia Medica at NSHMC is dedicated to the study of homeopathic remedies and their therapeutic applications. This department provides students with a comprehensive understanding of the origins, properties, and clinical uses of various homeopathic medicines. Through both theoretical instruction and case-based learning, students are trained to accurately match remedies to specific symptoms, tailoring treatments to individual patients. The department emphasizes a deep knowledge of remedies, enabling future practitioners to make informed, effective choices in patient care, fostering a holistic and individualized approach to healing.";
       dept = "Materia Medica And Therapeutics";
-      headD = "MR. DHIRAJ RAJVAIDHYA";
-      headImg = "/cshod.jpeg";
-      phoneHead = "9407125732";
-      emailHead = "hodit.lnct@lnctBhopal.com, ";
+      headD = "Dr. Neelam Sharma";
+      headImg = "/neelamsharma.jpg";
+      phoneHead = "+91 9993375073";
+      emailHead = "drneelamsharma01@gmail.com";
+      degree="MD (Hom.)/11385",
+      experience="16 years/F.T."
       faculties = [
         {
-          name: "MS. RAJNI CHATURVEDI",
+          name: "Dr. Megha Mungaria",
           position: "Assistant Professor",
-          degree: "MCA, M.Tech",
-          experience: "16 years",
+          degree: "MD (Hom.)/21869",
+          experience: "3 years 3 month/F.T.",
+          email: "meghamungaria@gmail.com",
+          image: "/megha.jpg"
         },
-        {
-          name: "MS. SHARSHTI ATRE",
-          position: "Assistant Professor",
-          degree: "MSc",
-          experience: "3 years",
-        },
-        {
-          name: "Ms. MAMTA GEHLOT",
-          position: "Assistant Professor",
-          degree: "M.E.",
-          experience: "1 years",
-        },
+        // {
+        //   name: "MS. SHARSHTI ATRE",
+        //   position: "Assistant Professor",
+        //   degree: "MSc",
+        //   experience: "3 years",
+        // },
+        // {
+        //   name: "Ms. MAMTA GEHLOT",
+        //   position: "Assistant Professor",
+        //   degree: "M.E.",
+        //   experience: "1 years",
+        // },
         // Add more faculty members as needed
       ];
 
       break;
     case "ece":
-      slogan = "Connecting Ideas, Creating Futures: Innovate with Electronics and Communication!";
-      author = "TAMASHRI DHARSIYA";
+      slogan = "Foundation of Homeopathic Wisdom, Leading to Holistic Wellness.";
+      author = "Dr. Farook Mohd. Khan";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Electronics and Communication Engineering (ECE) Department at SKC-LNCT,Bhopal is a hub of technological innovation and academic excellence. Our department focuses on the study and application of electronic systems, communication technologies, and signal processing. Students are immersed in a comprehensive curriculum that covers a wide range of topics, including digital electronics, telecommunications, embedded systems, and VLSI design. With access to cutting-edge laboratories and industry-standard tools, students gain hands-on experience that prepares them for the dynamic field of electronics and communication. Our dedicated faculty, known for their research and industry involvement, mentor students to develop critical thinking and problem-solving skills. The ECE Department is committed to fostering a learning environment that encourages creativity, innovation, and collaboration, ensuring that our graduates are well-equipped to excel in the fast-paced world of technology and communication.";
+      aboutDept = "The Department of Forensic Medicine and Toxicology at NSHMC equips students with the knowledge and skills to understand the medical and legal aspects of healthcare. This department focuses on the study of medical jurisprudence, the investigation of unnatural deaths, and the effects of toxic substances on the human body. Students are trained to apply forensic principles in analyzing injuries, poisons, and criminal cases, while also understanding their legal implications. With a strong emphasis on ethical practices and accuracy, the department plays a critical role in preparing students to contribute to both healthcare and the justice system.";
       dept = "Forensic Medicine And Toxicology";
-      headD = "MS. TAMASHRI DHARSIYA";
-      headImg = "/echod.jpg";
-      phoneHead = "8319778357";
-      emailHead = "hodec.lnct@lnctBhopal.com";
+      headD = "Dr. Farook Mohd. Khan";
+      headImg = "/farook.jpg";
+      phoneHead = "+91 9425451532";
+      emailHead = "k.farooq2012@gmail.com";
+      degree="DHMS/11769";
+      experience="25 years & 5 months/F.T."
       faculties = [
         {
-          name: "DR.PIYUSH P. MOGHE",
-          position: "Associate Professor",
-          degree: "PhD",
-          experience: "20 years",
+          name: "Dr. Avaneesh Kumar Pandey",
+          position: "Assistant Professor",
+          degree: "BHMS, MD (Hom.)/ 23080",
+          experience: "3 Years & 3 months/ F.T.",
+          email:"dr.avaneesh1@gmail.com",
+          image:"/Avaneesh.jpg"
         },
         // {
         //   name: "Jane Smith",
@@ -158,28 +174,34 @@ export default function DeptEr({ dept }) {
 
       break;
     case "eet":
-      slogan = "Powering Innovation, Electrifying the Future: Harness the Potential with Electrical Engineering!";
-      author = "DILIP SAHASTRABUDHE";
+      slogan = "Foundation of Homeopathic Wisdom, Leading to Holistic Wellness.";
+      author = "Dr. Garima Namdev";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Electrical Engineering (EE) Department at SKC-LNCT,Bhopal is a center of excellence, dedicated to the study and advancement of electrical systems and technologies. Our curriculum is designed to provide students with a deep understanding of electrical circuits, power systems, control engineering, and renewable energy technologies. Through hands-on laboratory work, innovative research projects, and industry partnerships, students gain practical skills and real-world experience that prepare them for the challenges of the electrical engineering field. Our distinguished faculty, renowned for their research contributions and industry expertise, are committed to mentoring students and fostering an environment of intellectual growth and innovation. The EE Department is devoted to developing the next generation of electrical engineers who will lead advancements in technology and contribute to sustainable solutions for a better future.";
+      aboutDept = "The Department of Community Medicine at NSHMC focuses on the health and well-being of populations, emphasizing preventive healthcare, public health initiatives, and health education. This department trains students to understand the social, environmental, and behavioral factors that influence health, aiming to promote disease prevention and improve community health outcomes. Through fieldwork, research, and community engagement, students learn to assess health needs, plan interventions, and implement public health programs. The department is committed to producing healthcare professionals who are skilled in addressing the broader determinants of health and making a positive impact on public health at both local and globally.";
       dept = "Communtiy Medicine";
-      headD = "MR.DILIP SAHASTRABUDHE";
-      headImg = "/exhod.jpg";
-      phoneHead = "7509974000";
-      emailHead = "hodex.lnct@lnctBhopal.com,";
+      headD = "Dr. Garima Namdev";
+      headImg = "/garima.jpg";
+      phoneHead = "+91 8889150998";
+      emailHead = "namdevgarima50@gmail.com";
+      degree="M.B.B.S. M.D. (C.M.) /9154",
+      experience="13 years & 7 months/ G.F."
       faculties = [
         {
-          name: "MS. GARIMA MAHESHWARI",
-          position: "Assistant Professor",
-          degree: "M.E.",
-          experience: "9 years",
+          name: "Dr. Shoeba Perveen",
+          position: "Associate  Professor",
+          degree: "BHMS, M.D. (Hom.)/ 22445",
+          experience: "4 year & 6 months/F.T.",
+          email: "drshoebaali1991@gmail.com",
+          image: "/shoeba.jpg"
         },
-        // {
-        //   name: "Jane Smith",
-        //   position: "Data Scientist",
-        //   degree: "Masters in Data Science",
-        //   experience: "3 years",
-        // },
+        {
+          name: "Dr. Bhumika Gangwani",
+          position: "Assistant Professor",
+          degree: "BHMS, M.D. (Hom.)/ H038739",
+          experience: "1 year/F.T.",
+          email: "bhumibhms2605@gmail.com",
+          image: "/bhumika.jpg"
+        },
         // {
         //   name: "Emily Johnson",
         //   position: "Project Manager",
@@ -191,265 +213,329 @@ export default function DeptEr({ dept }) {
 
       break;
     case "it":
-      slogan = "dfsghj slogan";
-      author = "author slogan";
+      slogan = "Unlocking the Secrets of Health Through Physiology and Biochemistry.";
+      author = "Dr. Shail Jain";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "Description";
+      aboutDept = "The Department of Physiology & Biochemistry at NSHMC provides a foundational understanding of the human body’s functions and chemical processes. Physiology explores how various systems and organs work together to maintain health, while Biochemistry focuses on the molecular mechanisms that underlie these functions. Through interactive lectures, lab work, and research, students gain in-depth knowledge of essential processes like metabolism, cellular function, and hormonal regulation.These disciplines are critical in understanding how the body responds to health challenges and treatment, making them central to both homeopathic and conventional medical education. The department fosters a comprehensive, integrative approach, equipping students with the knowledge and skills to understand health at both the systemic and molecular levels.";
       dept = "Physiology & BioChemistry";
-      headD = "Head Dept";
-      headImg = "/director.png";
-      phoneHead = "1234567890";
-      emailHead = "abc@gmail.com";
+      headD = "Dr. Shail Jain";
+      headImg = "/shailjain.jpg";
+      phoneHead = "+91 9893269251";
+      emailHead = "drshailjain@yahoo.com";
+      degree="MBBS/8905",
+      experience="22 years/ F.T."
       faculties = [
         {
-          name: "John Doe",
-          position: "Software Engineer",
-          degree: "Bachelors in Computer Science",
-          experience: "5 years",
+          name: "Dr. Naveen Jaggi",
+          position: "Associate Professor",
+          degree: "DHMS, BHMS(Graded)/13720",
+          experience: "20 years & 11 months/ F.T.",
+          email: "dr.naveenjaggi@gmail.com",
+          image: "/naveen.jpg"
         },
         {
-          name: "Jane Smith",
-          position: "Data Scientist",
-          degree: "Masters in Data Science",
-          experience: "3 years",
+          name: "Dr. Rajani Suryawanshi",
+          position: "Associate Professor",
+          degree: "DHMS, M.D. (Hom.)/13218",
+          experience: "6 years & 4  months/F.T.",
+          email: "rajanishakya302@gmail.com",
+          image: "/rajani.jpg"
         },
-        {
-          name: "Emily Johnson",
-          position: "Project Manager",
-          degree: "MBA",
-          experience: "7 years",
-        },
+        // {
+        //   name: "Emily Johnson",
+        //   position: "Project Manager",
+        //   degree: "MBA",
+        //   experience: "7 years",
+        //   email: "",
+        //   image: "/"
+        // },
         // Add more faculty members as needed
       ];
 
       break;
     case "og":
-      slogan = "dfsghj slogan";
-      author = "author slogan";
+      slogan = "Guiding Safe Journeys from Motherhood to Womanhood.";
+      author = "Dr. Rinku Bhaskar";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "Description";
-      dept = "Obstretics & Gynecology";
-      headD = "Head Dept";
-      headImg = "/director.png";
-      phoneHead = "1234567890";
-      emailHead = "abc@gmail.com";
+      aboutDept = "The Department of Obstetrics & Gynaecology at NSHMC is dedicated to the comprehensive study of women's health, focusing on pregnancy, childbirth, and the reproductive system. The department provides students with both theoretical knowledge and practical skills in managing pregnancy, labor, and postpartum care, as well as diagnosing and treating gynecological disorders. With a strong emphasis on maternal and fetal health, students are trained in both preventive and curative care, ensuring they are well-prepared to support women through all stages of life.Through hands-on clinical training, interactive learning, and research opportunities, the department equips future practitioners with the expertise to deliver compassionate, patient-centered care. The holistic approach integrates modern medical practices with homeopathic principles, fostering a well-rounded understanding of women’s health.";
+      dept = "Obstretics & Gynaecology";
+      headD = "Dr. Rinku Bhaskar";
+      headImg = "/rinku.jpg";
+      phoneHead = "+91 9425339648";
+      emailHead = "nshmcbpl@gmail.com";
+      degree="MBBS, DGO/5486",
+      experience="13 years & 9 months/ G.F."
       faculties = [
         {
-          name: "John Doe",
-          position: "Software Engineer",
-          degree: "Bachelors in Computer Science",
-          experience: "5 years",
+          name: "Dr. Prerna Tiwari",
+          position: "Associate Professor",
+          degree: "BHMS, M.D. (Hom.)/ 22406",
+          experience: "5 years/ F.T.",
+          email: "prernaghmc@gmail.com",
+          image: "/prerna.jpg"
         },
         {
-          name: "Jane Smith",
-          position: "Data Scientist",
-          degree: "Masters in Data Science",
-          experience: "3 years",
+          name: "Dr. Niharika Prahladi",
+          position: "Assistant Professor",
+          degree: "BHMS, M.D. (Hom)/ 24219",
+          experience: "8 months/ F.T.",
+          email: "niharikasinghharshana@gmail.com",
+          image: "/niharika.jpg"
         },
-        {
-          name: "Emily Johnson",
-          position: "Project Manager",
-          degree: "MBA",
-          experience: "7 years",
-        },
+        // {
+        //   name: "Emily Johnson",
+        //   position: "Project Manager",
+        //   degree: "MBA",
+        //   experience: "7 years",
+        //   email: "",
+        //   image: "/"
+        // },
         // Add more faculty members as needed
       ];
 
       break;
     case "pm":
-      slogan = "dfsghj slogan";
-      author = "author slogan";
+      slogan = "Where Pathology Meets Microbiology: Understanding Health from Every Angle.";
+      author = "Dr. Ritesh Kumbhare";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "Description";
+      aboutDept = "The Department of Pathology & Microbiology at NSHMC focuses on the study of disease processes and the role of microorganisms in health and illness. Pathology involves the examination of tissues, organs, and bodily fluids to understand the nature and progression of diseases, while Microbiology explores the impact of bacteria, viruses, fungi, and parasites on human health.Students receive in-depth training in diagnostic techniques, laboratory analysis, and disease management, learning to identify and interpret pathological and microbiological findings. The department emphasizes both theoretical knowledge and practical skills, preparing students to diagnose diseases accurately and understand the microbial factors influencing health. By integrating these disciplines, the department ensures a comprehensive approach to understanding and combating diseases, essential for effective medical and homeopathic practice.";
       dept = "Pathology & Microbiology";
-      headD = "Head Dept";
-      headImg = "/director.png";
-      phoneHead = "1234567890";
-      emailHead = "abc@gmail.com";
+      headD = "Dr. Ritesh Kumbhare";
+      headImg = "/ritesh.jpg";
+      phoneHead = "+91 9584340592";
+      emailHead = "drriteshkumbhare0909@gmail.com";
+      degree="BHMS/14425",
+      experience="12 years & 8 Months/ F.T."
       faculties = [
         {
-          name: "John Doe",
+          name: "Dr. Arun Maity",
           position: "Software Engineer",
-          degree: "Bachelors in Computer Science",
-          experience: "5 years",
+          degree: "MBBS, M.D. (Pathology)/ 8836",
+          experience: "14 Years 4 Months/G.F.",
+          email: "N/A",
+          image: "/arun.jpg"
         },
         {
-          name: "Jane Smith",
-          position: "Data Scientist",
-          degree: "Masters in Data Science",
-          experience: "3 years",
+          name: "Dr. Shailendra Singh",
+          position: "Assistant Professor",
+          degree: "MBHMS, MD (Hom.)/21037",
+          experience: "3 year & 3 Months/ F.T.",
+          email: "mr.shailendra@gmail.com",
+          image: "/shailendra.jpg"
         },
-        {
-          name: "Emily Johnson",
-          position: "Project Manager",
-          degree: "MBA",
-          experience: "7 years",
-        },
+        // {
+        //   name: "Emily Johnson",
+        //   position: "Project Manager",
+        //   degree: "MBA",
+        //   experience: "7 years",
+        //   email: "",
+        //   image: "/"
+        // },
         // Add more faculty members as needed
       ];
 
       break;
     case "pfm":
       slogan = "dfsghj slogan";
-      author = "author slogan";
+      author = "Dr. Nitesh Suryawanshi";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "Description";
+      aboutDept = "The Department of Practice of Medicine at NSHMC is dedicated to the application of medical knowledge and skills in diagnosing and treating a wide range of health conditions. This department focuses on integrating clinical theory with hands-on practice, emphasizing patient-centered care and evidence-based treatment approaches. Students gain practical experience through direct patient interactions, case studies, and clinical rotations, learning to apply diagnostic techniques, develop treatment plans, and manage diverse medical conditions.With a curriculum that balances foundational knowledge with real-world practice, the department prepares students to become proficient, compassionate practitioners. The emphasis is on developing clinical reasoning, decision-making skills, and the ability to provide holistic care that addresses both physical and emotional aspects of patient health.";
       dept = "Practice of Medicine";
-      headD = "Head Dept";
-      headImg = "/director.png";
-      phoneHead = "1234567890";
-      emailHead = "abc@gmail.com";
+      headD = "Dr. Nitesh Suryawanshi";
+      headImg = "/nitesh.jpg";
+      phoneHead = "+91 9893547451";
+      emailHead = "dr.niteshsuryawanshi@gmail.com";
+      degree="DHMS, M.D. (Hom.)/ 13245",
+      experience="20 years & 9 month/ F.T."
       faculties = [
         {
-          name: "John Doe",
-          position: "Software Engineer",
-          degree: "Bachelors in Computer Science",
-          experience: "5 years",
+          name: "Dr. Rupesh Chandra",
+          position: "Associate Professor",
+          degree: "BHMS, M.D. (Hom.)/ 26582",
+          experience: "13 years & 6 months/ F.T.",
+          email: "drrupeshchandra@gmaill.com",
+          image: "/rupesh.jpg"
         },
         {
-          name: "Jane Smith",
-          position: "Data Scientist",
-          degree: "Masters in Data Science",
-          experience: "3 years",
+          name: "Dr. Prachi Shrivastava Dubey",
+          position: "Assistant Professor",
+          degree: "BHMS, M.D. (Hom)/ 22649",
+          experience: "2 Years & 9 Months/ F.T.",
+          email: "prachi.prachi.27@gmail.com ",
+          image: "/prachi.jpg"
         },
-        {
-          name: "Emily Johnson",
-          position: "Project Manager",
-          degree: "MBA",
-          experience: "7 years",
-        },
+        // {
+        //   name: "Emily Johnson",
+        //   position: "Project Manager",
+        //   degree: "MBA",
+        //   experience: "7 years",
+        //   email: "",
+        //   image: "/"
+        // },
         // Add more faculty members as needed
       ];
 
       break;
     case "rep":
-      slogan = "dfsghj slogan";
-      author = "author slogan";
+      slogan = "Navigating Symptoms to Remedies with Expertise and Insight.";
+      author = "Dr. Rajendra Prasad Sharma";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "Description";
+      aboutDept = "The Department of Repertory at NSHMC is dedicated to the art and science of repertorization, the method of systematically matching homeopathic remedies to patient symptoms. This department provides students with comprehensive training in using homeopathic repertories, which are essential tools for selecting individualized treatments. The curriculum includes detailed study of various repertories, case analysis, and practical applications to refine students' skills in remedy selection.Students learn to navigate and interpret repertories effectively, enhancing their ability to provide precise and effective homeopathic care. The department emphasizes the integration of repertory knowledge with clinical practice, ensuring that graduates are well-prepared to offer targeted, patient-centered remedies that address unique health needs.";
       dept = "Department of Repertory";
-      headD = "Head Dept";
-      headImg = "/director.png";
-      phoneHead = "1234567890";
-      emailHead = "abc@gmail.com";
+      headD = "Dr. Rajendra Prasad Sharma";
+      headImg = "/rpsharma.jpg";
+      phoneHead = "+91-9826356970";
+      emailHead = "rps29sai@gmail.com";
+      degree="D.H.M.S./ 10366",
+      experience="33 Years & 6 months./ F.T."
       faculties = [
         {
-          name: "John Doe",
-          position: "Software Engineer",
-          degree: "Bachelors in Computer Science",
-          experience: "5 years",
+          name: "Dr. Santosh Kumar Verma",
+          position: "Professor",
+          degree: "BHMS, M.D.(Hom.)/ H030584",
+          experience: "8 years / F.T.",
+          email: "santoshvarma5566@gmail.com",
+          image: "/santosh.jpg"
         },
         {
-          name: "Jane Smith",
-          position: "Data Scientist",
-          degree: "Masters in Data Science",
-          experience: "3 years",
+          name: "Dr. Yogeshvari",
+          position: "Assistant Professor",
+          degree: "MBHMS, M.D. (Hom.)/ 23117",
+          experience: "3years & 1 months/F.T",
+          email: "divyanichourasiya616@gmail.com",
+          image: "/yogeshvari.jpg"
         },
-        {
-          name: "Emily Johnson",
-          position: "Project Manager",
-          degree: "MBA",
-          experience: "7 years",
-        },
+        // {
+        //   name: "Emily Johnson",
+        //   position: "Project Manager",
+        //   degree: "MBA",
+        //   experience: "7 years",
+        //   email: "",
+        //   image: "/"
+        // },
         // Add more faculty members as needed
       ];
 
       break;
     case "pharm":
-      slogan = "dfsghj slogan";
-      author = "author slogan";
+      slogan = "Pharmaceutical Expertise for Holistic Healing.";
+      author = "Dr. Sandeep Sharma";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "Description";
+      aboutDept = "The Department of Pharmacy at NSHMC focuses on the preparation, dispensing, and management of homeopathic remedies. This department provides students with a thorough understanding of pharmaceutical principles, including the sourcing, preparation, and potentization of remedies. Students gain practical skills in remedy formulation, quality control, and ethical dispensing practices.The curriculum integrates theoretical knowledge with hands-on experience, ensuring that students are well-versed in the pharmacological aspects of homeopathy. By learning to navigate the complexities of remedy preparation and administration, students are equipped to deliver safe and effective homeopathic treatments. The department’s emphasis on precision and patient care ensures that graduates are prepared to contribute to high standards in homeopathic practice.";
       dept = "Department of Pharmacy";
-      headD = "Head Dept";
-      headImg = "/director.png";
-      phoneHead = "1234567890";
-      emailHead = "abc@gmail.com";
+      headD = "Dr. Sandeep Sharma";
+      headImg = "/sandeep.jpg";
+      phoneHead = "+91 9893389440";
+      emailHead = "dr.sandeep_sharma@yahoo.in";
+      degree="DHMS, M.D. (Hom)/11686",
+      experience="20 years & 11 months/ F.T"
       faculties = [
         {
-          name: "John Doe",
-          position: "Software Engineer",
-          degree: "Bachelors in Computer Science",
-          experience: "5 years",
+          name: "Dr. Arvind Jain",
+          position: "Professor",
+          degree: "DHMS, M.D. (Hom) /11604",
+          experience: "26 years/ F.T.",
+          email: "arvindjaindr1971@gmail.com",
+          image: "/arvind.jpg"
         },
         {
-          name: "Jane Smith",
-          position: "Data Scientist",
-          degree: "Masters in Data Science",
-          experience: "3 years",
+          name: "Dr. Shifa Ansari",
+          position: "Assistant Professor",
+          degree: "BHMS, M.D (Hom.)/ 22399",
+          experience: "1 year & 7 months/ F. T.",
+          email: "shifaansari6491@gmail.com",
+          image: "/shifa.jpg"
         },
-        {
-          name: "Emily Johnson",
-          position: "Project Manager",
-          degree: "MBA",
-          experience: "7 years",
-        },
+        // {
+        //   name: "Emily Johnson",
+        //   position: "Project Manager",
+        //   degree: "MBA",
+        //   experience: "7 years",
+        //   email: "",
+        //   image: "/"
+        // },
         // Add more faculty members as needed
       ];
 
       break;
     case "anotomy":
-      slogan = "dfsghj slogan";
-      author = "author slogan";
+      slogan = "Where Structure Meets Function: Mastering Anatomy for Better Care.";
+      author = "Dr. R.S. Agrawal";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "Description";
+      aboutDept = "The Department of Anatomy at NSHMC provides an in-depth exploration of the human body's structure, offering essential knowledge for diagnosing and treating health conditions. Through detailed lectures, hands-on dissection, and advanced imaging techniques, students gain a comprehensive understanding of anatomical systems and their functions.The department's modern facilities and expert faculty support both theoretical learning and practical application, ensuring students are well-prepared for clinical practice. Mastery of anatomy is crucial for effective homeopathic and medical care, as it underpins accurate diagnosis, treatment planning, and a holistic approach to patient health.";
       dept = "Department of Anatomy";
-      headD = "Head Dept";
-      headImg = "/director.png";
-      phoneHead = "1234567890";
-      emailHead = "abc@gmail.com";
+      headD = "Dr. R.S. Agrawal";
+      headImg = "/principalns.jpg";
+      phoneHead = "+91 9827447031";
+      emailHead = "dragrawalrs@gmail.com";
+      degree="DHMS, MD (Hom.)/ 10347",
+      experience="33 years & 7 months/ F. T."
       faculties = [
         {
-          name: "John Doe",
-          position: "Software Engineer",
-          degree: "Bachelors in Computer Science",
-          experience: "5 years",
+          name: "Dr. Tahir Mohammad Warsi",
+          position: "Associate Professor",
+          degree: "BHMS/14621",
+          experience: "14 years & 7 months/ F.T.",
+          email: "tahirmohammadwarsi@gmail.com",
+          image: "/tahir.jpg"
         },
         {
-          name: "Jane Smith",
-          position: "Data Scientist",
-          degree: "Masters in Data Science",
-          experience: "3 years",
+          name: "Dr. Dhanraj Bawan",
+          position: "Assistant Professor",
+          degree: "BHMS, M.D. (Hom)/ 23212",
+          experience: "3 years & 1 Months/F.T.",
+          email: "dhanraj.bawan1992@gmail.com",
+          image: "/dhanraj.jpg"
         },
-        {
-          name: "Emily Johnson",
-          position: "Project Manager",
-          degree: "MBA",
-          experience: "7 years",
-        },
+        // {
+        //   name: "Emily Johnson",
+        //   position: "Project Manager",
+        //   degree: "MBA",
+        //   experience: "7 years",
+        //   email: "",
+        //   image: "/"
+        // },
         // Add more faculty members as needed
       ];
 
       break;
     case "surgery":
-      slogan = "dfsghj slogan";
-      author = "author slogan";
+      slogan = "Excellence in Surgery: Combining Precision with Holistic Insight.";
+      author = "Dr. J.P. Buch";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "Description";
+      aboutDept = "The Department of Surgery at NSHMC is committed to providing students with a thorough understanding of surgical techniques and practices. The department covers a wide range of surgical disciplines, emphasizing both theoretical knowledge and hands-on skills. Students learn advanced surgical methods, patient management, and post-operative care, integrating these skills with homeopathic principles for comprehensive patient treatment.With state-of-the-art facilities and experienced faculty, the department ensures that students gain practical experience through simulations and clinical rotations. This preparation is essential for developing the expertise needed to perform surgeries safely and effectively while considering holistic approaches to patient care and recovery.";
       dept = "Department of Surgery";
-      headD = "Head Dept";
-      headImg = "/director.png";
-      phoneHead = "1234567890";
-      emailHead = "abc@gmail.com";
+      headD = "Dr. J.P. Buch";
+      headImg = "/jpbuch.jpg";
+      phoneHead = "+91 9424354149";
+      emailHead = "jaiprakashbuch.ent@gmail.com";
+      degree="MBBS, MS (ENT)/4466",
+      experience="5 months/ F.T."
       faculties = [
         {
-          name: "John Doe",
-          position: "Software Engineer",
-          degree: "Bachelors in Computer Science",
-          experience: "5 years",
+          name: "Dr. Ajit Kumar Jain",
+          position: "Associate Professor",
+          degree: "MBBS, DOMS/ 6006",
+          experience: "21 years & 10 months/ G.F.",
+          email: "drajitsjain@gmail.com",
+          image: "/ajit.jpg"
         },
         {
-          name: "Jane Smith",
-          position: "Data Scientist",
-          degree: "Masters in Data Science",
-          experience: "3 years",
+          name: "Dr. Shahjahan Begum",
+          position: "Assistant Professor",
+          degree: "BHMS, M.D. (Hom)/ 18405",
+          experience: "2 years & 7 months/ F.T.",
+          email: "sarfrazshaikhshahjahan@gmail.com",
+          image: "/shahjahan.jpg"
         },
-        {
-          name: "Emily Johnson",
-          position: "Project Manager",
-          degree: "MBA",
-          experience: "7 years",
-        },
+        // {
+        //   name: "Emily Johnson",
+        //   position: "Project Manager",
+        //   degree: "MBA",
+        //   experience: "7 years",
+        //   email: "",
+        //   image: "/"
+        // },
         // Add more faculty members as needed
       ];
 
@@ -591,10 +677,13 @@ export default function DeptEr({ dept }) {
                   <FaPhoneAlt className="inline mr-1" />
                   {phoneHead}
                 </h1>
-                <h1 className="text-sm  mt-1">
-                  <MdEmail className="inline mr-1" />
+                
+                <h1 className="text-sm  mt-1 flex items-center">
+                  <MdEmail className="inline mr-1 " />
                   {emailHead}
                 </h1>
+                <h1 className="text-sm  mt-1">{degree}</h1>
+                <h1 className="text-sm  mt-1">{experience}</h1>
               </div>
             </div>
             <div className="w-1/2  flex flex-col justify-center items-center">
@@ -603,7 +692,7 @@ export default function DeptEr({ dept }) {
             </div>
           </div>
         </div>
-        <h1 className="text-3xl text-center font-semibold border-b">Faculty at LNCPS</h1>
+        <h1 className="text-3xl text-center font-semibold border-b">Faculty at NSHMC</h1>
         <div className=" grid ">
         <div>
           {faculties.map((faculty, index) => (
@@ -663,15 +752,15 @@ export default function DeptEr({ dept }) {
             <ProgramCard
               course={"Undergraduate"}
               bgcolor={"bg-blue-800"}
-              admission={"JEE"}
-              dept={"civil engineering"}
+              admission={"NEET UG"}
+              dept={" It is a 5.5-year course that includes an internship and covers the medical knowledge of homeopathy"}
             />
-            <ProgramCard
+            {/* <ProgramCard
               course={"Post-Graduate"}
               bgcolor={"bg-blue-800"}
               admission={"JEE"}
               dept={"civil engineering"}
-            />
+            /> */}
           </div>
         </div>
             </>
