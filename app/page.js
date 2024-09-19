@@ -297,7 +297,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className="tab-content lg:w-3/4 p-4 ">
-            {activeTab === "undergraduate" && (
+
               <article
                 className="tab-pane fade text-black"
                 id="category_tab1"
@@ -313,7 +313,7 @@ export default function Home() {
                  BHMS course enables candidates to select any specialization such as Paediatrics, Homoeopathic Pharmacy, Psychology, Infertility and Skin Specialist to treat patients with access to their knowledge of homoeopathic research.
                 </p>
               </article>
-            )}
+    
          
         
    

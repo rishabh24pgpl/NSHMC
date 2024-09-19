@@ -14,7 +14,7 @@ export default function Navbar() {
   const menuId = usePathname();
 
   const collegeNames = [
-    "NARAIN SHRI HOMEOPATHIC & MEDICAL COLLEGE",
+    "NARAYAN SHREE HOMEOPATHIC & MEDICAL COLLEGE",
     " नारायण श्री होम्योपैथिक मेडिकल कॉलेज ",
   ];
 
