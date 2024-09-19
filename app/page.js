@@ -264,13 +264,11 @@ export default function Home() {
         <Seminar
           eventData={EventsData}
           carouselData={ScarouselData}
-          additionalCarouselData={additionalCarouselDataseminar}
+          additionalCarouselData={  additionalCarouselDataseminar}
         />
       </section>
-      <div className=" w-11/12 mx-auto">
-        <ParallaxScroll images={imagess} />
-      </div>
-      <section
+      
+       <section
         className="academic-programe   mx-auto mt-10 flex justify-center     "
         style={{
           background: "url('/LNMC-BPL.png')",
@@ -284,7 +282,7 @@ export default function Home() {
               Academic Programme
             </h2>
             <ul className="space-y-2 bg-white rounded-xl p-4">
-              <li className=" bg-white rounded-lg text-black hover:bg-purple-400">
+              <li className="text-center font-bold text-2xl rounded-lg text-black bg-purple-400">
                 <button
                   onClick={() => handleTabClick("undergraduate")}
                   className={` p-4 nav-link ${
@@ -295,50 +293,7 @@ export default function Home() {
                   UNDERGRADUATE
                 </button>
               </li>
-              <li className=" bg-white rounded-lg text-black hover:bg-purple-400">
-                <button
-                  onClick={() => handleTabClick("postgraduate")}
-                  className={` p-4 nav-link ${
-                    activeTab === "postgraduate" ? "active" : ""
-                  }`}
-                  role="tab"
-                >
-                  POSTGRADUATE
-                </button>
-              </li>
-              <li className=" bg-white rounded-lg text-black hover:bg-purple-400">
-                <button
-                  onClick={() => handleTabClick("doctoral")}
-                  className={` p-4 nav-link ${
-                    activeTab === "doctoral" ? "active" : ""
-                  }`}
-                  role="tab"
-                >
-                  DOCTORAL
-                </button>
-              </li>
-              <li className=" bg-white rounded-lg text-black hover:bg-purple-400">
-                <button
-                  onClick={() => handleTabClick("executive")}
-                  className={` p-4 nav-link ${
-                    activeTab === "executive" ? "active" : ""
-                  }`}
-                  role="tab"
-                >
-                  EXECUTIVE PH.D.
-                </button>
-              </li>
-              <li className=" bg-white rounded-lg text-black hover:bg-purple-400">
-                <button
-                  onClick={() => handleTabClick("parttime")}
-                  className={` p-4 nav-link ${
-                    activeTab === "parttime" ? "active" : ""
-                  }`}
-                  role="tab"
-                >
-                  PART TIME PROGRAMMES
-                </button>
-              </li>
+             
             </ul>
           </nav>
           <div className="tab-content lg:w-3/4 p-4 ">
@@ -349,120 +304,22 @@ export default function Home() {
                 role="tabpanel"
               >
                 <h2 className="text-white font-bold text-3xl ">
-                  UNDERGRADUATE
+                  BHMS
                 </h2>
-                <p className="text-white  text-justify">
-                  Admission to undergraduate courses is made in the autumn
-                  semester at the first-year level through JEE (Main) or similar
-                  test approved by NIT Council, the counselling for which is
-                  done by Joint Seat Allocation Authority (
-                  <a
-                    href="https://josaa.nic.in/"
-                    className="outside-link"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    JoSAA
-                  </a>
-                  ) and Central Seat Allocation Board (CSAB) or its equivalent
-                  approved by the NIT Council and/or Central Government.
-                  Besides, a specified number of foreign nationals selected
-                  under the policy of the Government of India may be admitted
-                  directly to the 1st-year of any of the programmes.
-                </p>
-              </article>
-            )}
-            {activeTab === "postgraduate" && (
-              <article
-                className="tab-pane fade active show text-black"
-                id="category_tab2"
-                role="tabpanel"
-              >
-                <h2 className="text-white font-bold text-3xl">POSTGRADUATE</h2>
 
-                <h4 className="text-white mt-5 ">M. Tech.</h4>
-                <p className="text-white text-justify">
-                  The courses leading to M. Tech. degree are open to candidates
-                  who have obtained the requisite qualification with 60% marks
-                  or 6.50 CGPA in aggregate in the qualifying examination.
-                  Admission for the GATE qualified candidates is made through
-                  Common Admission Process called Central Counselling for
-                  Masters of Technology (CCMT). Relaxation up to 5% of marks or
-                  0.5 CGPA is allowed by senate for sponsored candidates with
-                  proven research or profession experience.
-                </p>
-                {/* Add content for other postgraduate programs */}
-              </article>
-            )}
-            {activeTab === "doctoral" && (
-              <article
-                className="tab-pane fade text-black"
-                id="category_tab3"
-                role="tabpanel"
-              >
-                <h2 className="text-white font-bold text-3xl">DOCTORAL</h2>
-                <p className="text-white text-justify">
-                  The institute offers various research centric courses in
-                  various departments/ Centers like Post Doc, PhD, M.Tech
-                  research under various schemes with fellowship and sponsored
-                  programs like QIP and self financed.
-                </p>
-                <h4 className="text-white mb-4 font-bold text-3xl">
-                  Doctor of Philosophy (Ph.D.)
-                </h4>
-                <p className="text-white text-justify">
-                  The Institute provides facilities for research leading to the
-                  Degree of Doctor of Philosophy (PhD) in Engineering, Science,
-                  Management, Planning and Architecture, Humanities and Social
-                  Sciences in various disciplines. Candidates except the members
-                  of the Institute faculty, QIP scholars and scholars nominated
-                  by the Central Government have to be selected by Departmental
-                  Research Committee (DRC) on the basis of their academic
-                  background, performance in written test and/or interview.
+                <p className="text-white  text-justify">
+                 The full form of BHMS is Bachelor of Homeopathic Medicine and Surgery. BHMS is an academic undergraduate degree course that covers homoeopathic system medical knowledge. The curriculum has a period of five and a half years which involves four and half years of research followed by one year of internship. In the homoeopathic system, the undergraduate curriculum can also be pursued through the distance educational process. A graduate is qualified to become a doctor in the homoeopathic field of medicine after completing a BHMS degree.
+                 Graduates of BHMS can find employment conveniently in government and private hospitals, insurance companies, pharmaceutical companies, NGOs, research laboratories, etc. Homoeopathic consultants, homoeopathic doctors, research associates, insurance officers, quality control officers, junior lecturers, and pharmacists are some standard job profiles for BHMS graduates. 
+                 BHMS course enables candidates to select any specialization such as Paediatrics, Homoeopathic Pharmacy, Psychology, Infertility and Skin Specialist to treat patients with access to their knowledge of homoeopathic research.
                 </p>
               </article>
             )}
-            {activeTab === "executive" && (
-              <article
-                className="tab-pane fade text-black"
-                id="category_tab4"
-                role="tabpanel"
-              >
-                <h2 className="text-white font-bold  text-3xl">
-                  EXECUTIVE PH.D.
-                </h2>
-                <p className="text-white text-justify">
-                  NIT Rourkela has opened its doors for working professionals by
-                  offering programmes which are designed to enable them to
-                  pursue their doctorate degree while continuing in their
-                  Job/Profession in order to help them to accelerate their
-                  career. Candidates with minimum eligibility criteria as per
-                  NIT guidelines can apply and they will be selected based upon
-                  their academic background, performance in written test and/or
-                  interview.
-                </p>
-              </article>
-            )}
-            {activeTab === "parttime" && (
-              <article
-                className="tab-pane fade text-black"
-                id="category_tab5"
-                role="tabpanel"
-              >
-                <h2 className="text-white font-bold  text-3xl">
-                  PART TIME PROGRAMMES
-                </h2>
-                <p className="text-white text-justify">
-                  NIT Rourkela has opened its doors for working professionals.
-                  These programmes are designed to enable them to pursue higher
-                  study while continuing in their Job/Profession in order to
-                  help them to accelerate their career.
-                </p>
-              </article>
-            )}
+         
+        
+   
           </div>
         </div>
-      </section>
+      </section> 
 
       <AbouttheInstitute />
 
@@ -483,6 +340,9 @@ export default function Home() {
           <h5 className="font-semibold text-2xl">FUNCTIONAL</h5>
         </div>
       </section>
+      <div className=" w-11/12 mx-auto">
+        <ParallaxScroll images={imagess} />
+      </div>
       <section className=" w-11/12 mx-auto mt-10">
         <div
           className=""
@@ -493,7 +353,7 @@ export default function Home() {
             backgroundSize: "cover",
           }}
         >
-          <div className=" w-8/9   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dpurple  ">
+          {/* <div className=" w-8/9   sm:p-4  md:p-4 lg:p-5 p-4  border-black grid md:grid-cols-1 lg:grid-cols-4   sm:grid-cols-1  justify-center items-center   dark:bg-dpurple  ">
             <div className="  ">
               <Counter
                 initialValue={0}
@@ -584,7 +444,7 @@ export default function Home() {
                 color=""
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
       <section className="w-11/12 mx-auto">
@@ -606,38 +466,38 @@ export default function Home() {
                   View All...
                 </Link>
               </h3> */}
-              <Image
+              {/* <Image
                 className="duration-200 min-h-[480px] max-h-[400px] rounded-lg pt-6 flex mx-auto items-center"
                 src={images[currentSlide]}
                 alt="Hero Image"
                 width={700}
                 height={650}
-              />
+              /> */}
             </div>
-            <div className="md:w-full lg:w-1/2 sm:w-full  flex flex-col justify-center  ">
-              <div className="w-ful rounded-md  sm:p-4  md:p-4 lg:p-5 p-8 shadow-none  border-black grid md:grid-cols-1 lg:grid-cols-2   sm:grid-cols-1 gap-5  justify-center items-center   dark:bg-dpurple">
-                <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3  flex-wrap  ">
-                  <Card
+            {/* <div className="md:w-full lg:w-1/2 sm:w-full  flex flex-col justify-center  ">
+              {/* <div className="w-ful rounded-md  sm:p-4  md:p-4 lg:p-5 p-8 shadow-none  border-black grid md:grid-cols-1 lg:grid-cols-2   sm:grid-cols-1 gap-5  justify-center items-center   dark:bg-dpurple">
+                {/* <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3  flex-wrap  ">
+                  {/* <Card
                     title="Department"
                     content="10"
                     imageUrl="/department.png"
-                  />
-                </div>
-                <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3 flex-wrap ">
-                  <Card title="Faculty" content=" 70+" imageUrl="/staff.png" />
-                </div>
-                <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3 flex-wrap ">
+                  /> */}
+                {/* </div>  */}
+                {/* <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3 flex-wrap ">
+                  {/* <Card title="Faculty" content=" 70+" imageUrl="/staff.png" /> */}
+                {/* </div> */} 
+                {/* <div className=" flex-col justify-center items-center inline-flex sm:w-full md:w-1/3 flex-wrap ">
                   <Card
                     title="Faculty"
                     content="3050+"
                     imageUrl="/student-icon.png"
                   />
-                </div>
-                <div className="  flex-col justify-center items-center inline-flex sm:w-full md:w-1/3  flex-wrap">
+                </div> */}
+                {/* <div className="  flex-col justify-center items-center inline-flex sm:w-full md:w-1/3  flex-wrap">
                   <Card title="Faculty" content="100" imageUrl="/faculty.png" />
-                </div>
-              </div>
-            </div>
+                </div> */}
+              {/* </div>  */}
+            {/* </div> */} 
           </div>
         </div>
       </section>

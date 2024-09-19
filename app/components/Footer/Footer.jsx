@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 import React from "react";
 
 export default function Footer() {
@@ -39,6 +40,9 @@ export default function Footer() {
                     <i class="bi bi-envelope"></i> nshmcbpl@gmail.com
                   </li>
                 </ul>
+              </div>
+              <div className="flex justify-center mt-4">
+              <Image src="/skcgroup.png" width={180} height={180} objectFit="contain" alt="Logo"  />
               </div>
               <div class="social-links flex justify-center mt-4">
                 <a

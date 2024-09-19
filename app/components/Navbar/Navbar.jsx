@@ -13,7 +13,10 @@ export default function Navbar() {
   const [collegeNameIndex, setCollegeNameIndex] = useState(0);
   const menuId = usePathname();
 
-  const collegeNames = ["NARAIN SHRI HOMEOPATHIC & MEDICAL COLLEGE", " नारायण श्री होम्योपैथिक मेडिकल कॉलेज "];
+  const collegeNames = [
+    "NARAIN SHRI HOMEOPATHIC & MEDICAL COLLEGE",
+    " नारायण श्री होम्योपैथिक मेडिकल कॉलेज ",
+  ];
 
   const navItems = [
     {
@@ -227,7 +230,7 @@ export default function Navbar() {
         // },
       ],
     },
-    
+
     {
       main: "Students",
       child: [
@@ -388,7 +391,6 @@ export default function Navbar() {
               link: "/ic",
             },
           ],
-    
         },
       ],
     },
@@ -414,7 +416,6 @@ export default function Navbar() {
               name: "Rural OPDs Reports",
               link: "/institute/rural-opd",
             },
-           
           ],
         },
       ],
@@ -441,7 +442,6 @@ export default function Navbar() {
               name: "Rural OPDs Reports",
               link: "/institute/covid",
             },
-           
           ],
         },
       ],
@@ -471,140 +471,156 @@ export default function Navbar() {
 
   return (
     <>
-    {path.includes("admin") || path.includes("payments") ? (
-      <></>
-    ) : (
-    <div className="text-white z-50">
-    <div className="flex items-center justify-between p-2 bg-purple-900">
-      <div className="flex items-center gap-4">
-        <p>Admissions</p>
-        {/* <p>Placement</p> */}
-        <p>Careers</p>
-      </div>
-  
-      <div className="flex items-center gap-4">
-        <img src="/twitter.png" className="w-8 h-8 rounded-full" />
-        <img src="/yt.png" className="w-8 h-8 rounded-full" />
-        {/* <img src="/insta.png" className="w-8 h-8 rounded-full" /> */}
-      </div>
-  
-      <div className="flex gap-2">
-        <Link
-          className="text-xs px-4 py-2 leading-none rounded-full hover:bg-green-300 hover:text-black border-2"
-          href="/loginPage"
-        >
-          STAFF LOGIN
-        </Link>
-        <Link
-          className="text-xs px-4 py-2 leading-none rounded-full hover:bg-green-300 hover:text-black border-2"
-          href="http://1.22.218.13/AccSoft2/Login.aspx"
-          target="_blank"
-        >
-        LOGIN
-        </Link>
-      </div>
-    </div>
-  
-    <div className="bg-gradient-to-r from-purple-500 to-purple-900 z-50">
-      <div className="w-9/12 mx-auto flex items-center justify-between px-4 py-2">
-        <div className="flex items-center gap-4">
-          <div className="w-[90px] h-[90px] relative">
-            <Image src="/LNMC-BPL.png" layout="fill" objectFit="contain" alt="Logo" />
-          </div>
-          <h1 className="text-2xl font-semibold">{collegeNames[collegeNameIndex]}</h1>
-          
-        </div>
-  
-        <div>
-          <input
-            type="text"
-            placeholder="Search"
-            className="px-4 py-2 rounded-full border border-white focus:outline-none focus:border-gray-300"
-          />
-        </div>
-      </div>
-    </div>
-  
-    <div className="w-full bg-purple-900 z-50">
-      <div className="flex flex-wrap w-full mx-auto gap-4 justify-center bg-purple-900 relative items-center">
-        <Link href="/" className="text-3xl p-1">
-          <FaHome className="hover:scale-105 duration-500 hover:text-gray-400 cursor-pointer" />
-        </Link>
-        {navItems.map((item, index) => {
-          let dropdownWidth;
-          let dropdownLeft;
-          switch (item.main) {
-            case "Institute":
-              dropdownWidth = "w-[950px]";
-              dropdownLeft = "left-[-79px]";
-              break;
-            case "Academics":
-              dropdownWidth = "w-[870px]";
-              dropdownLeft = "left-[-460px]";
-              break;
-            case "Students":
-              dropdownWidth = "w-[690px]";
-              dropdownLeft = "left-20";
-              break;
-            // case "Placement":
-            //   dropdownWidth = "w-[590px]";
-            //   dropdownLeft = "left-30";
-            //   break;
-            // case "Alumni":
-            //   dropdownWidth = "w-60";
-            //   dropdownLeft = "left-40";
-            //   break;
-            case "Resources":
-              dropdownWidth = "w-[300px]";
-              dropdownLeft = "left-50";
-              break;
-            default:
-              dropdownWidth = "w-64";
-              dropdownLeft = "left-[-50px]";
-          }
-  
-          return (
-            <div key={index} className="relative group z-50">
-              <Link
-                href="#"
-                className={`text-white font-semibold text-lg hover:text-gray-300 hover:bg-purple-700 flex gap-2 items-center px-3 py-4 ${
-                  openSubMenuId === item.main ? "bg-purple-800" : ""
-                }`}
-                onClick={() => toggleSubMenu(item.main)}
-              >
-                {item.main}
-                <FaChevronDown size={15} />
-              </Link>
-  
-              <div
-                className={`absolute top-full mt-2 p-3 bg-white shadow-lg rounded flex ${dropdownWidth} ${
-                  openSubMenuId === item.main ? "" : "hidden"
-                }`}
-                style={{ left: dropdownLeft }}
-              >
-                {item.child.map((link, index) => (
-                  <div key={index} className="p-2">
-                    <h4 className="text-purple-700 font-bold text-lg">
-                      <Link href="#">{link.name}</Link>
-                    </h4>
-                    <ul className="mt-2 space-y-2">
-                      {link.subchild.map((navlink, index) => (
-                        <li key={index}>
-                          <Navlink name={navlink.name} link={navlink.link} />
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
+      {path.includes("admin") || path.includes("payments") ? (
+        <></>
+      ) : (
+        <div className="text-white z-50">
+          <div className="flex items-center justify-between p-2 bg-purple-900">
+            <div className="flex items-center gap-4">
+              <p>Admissions</p>
+              {/* <p>Placement</p> */}
+              <p>Careers</p>
             </div>
-          );
-        })}
-      </div>
-    </div>
-  </div>
-    )}
-  </>
-  
+
+            <div className="flex items-center gap-4">
+              <img src="/twitter.png" className="w-8 h-8 rounded-full" />
+              <img src="/yt.png" className="w-8 h-8 rounded-full" />
+              {/* <img src="/insta.png" className="w-8 h-8 rounded-full" /> */}
+            </div>
+
+            <div className="flex gap-2">
+              <Link
+                className="text-xs px-4 py-2 leading-none rounded-full hover:bg-green-300 hover:text-black border-2"
+                href="/loginPage"
+              >
+                STAFF LOGIN
+              </Link>
+              <Link
+                className="text-xs px-4 py-2 leading-none rounded-full hover:bg-green-300 hover:text-black border-2"
+                href="http://1.22.218.13/AccSoft2/Login.aspx"
+                target="_blank"
+              >
+                LOGIN
+              </Link>
+            </div>
+          </div>
+
+          <div className="bg-gradient-to-r from-purple-500 to-purple-900 z-50">
+            <div className="w-[100%] mx-auto flex items-center justify-around px-4 py-2">
+              <div className="flex items-center justify-around gap-18">
+                <div className="">
+                  <Image
+                    src="/LNMC-BPL.png"
+                    objectFit="contain"
+                    alt="Logo"
+                    width={100}
+                    height={100}
+                  />
+                </div>
+                <h1 className="text-2xl font-semibold">
+                  {collegeNames[collegeNameIndex]}
+                </h1>
+              </div>
+
+              <div>
+                <input
+                  type="text"
+                  placeholder="Search"
+                  className="px-4 py-2 rounded-full border border-white focus:outline-none focus:border-gray-300"
+                />
+              </div>
+              <Image
+                src="/skcgroup.png"
+                width={180}
+                height={180}
+                objectFit="contain"
+                alt="Logo"
+              />
+            </div>
+          </div>
+
+          <div className="w-full bg-purple-900 z-50">
+            <div className="flex flex-wrap w-full mx-auto gap-4 justify-center bg-purple-900 relative items-center">
+              <Link href="/" className="text-3xl p-1">
+                <FaHome className="hover:scale-105 duration-500 hover:text-gray-400 cursor-pointer" />
+              </Link>
+              {navItems.map((item, index) => {
+                let dropdownWidth;
+                let dropdownLeft;
+                switch (item.main) {
+                  case "Institute":
+                    dropdownWidth = "w-[950px]";
+                    dropdownLeft = "left-[-79px]";
+                    break;
+                  case "Academics":
+                    dropdownWidth = "w-[870px]";
+                    dropdownLeft = "left-[-460px]";
+                    break;
+                  case "Students":
+                    dropdownWidth = "w-[690px]";
+                    dropdownLeft = "left-20";
+                    break;
+                  // case "Placement":
+                  //   dropdownWidth = "w-[590px]";
+                  //   dropdownLeft = "left-30";
+                  //   break;
+                  // case "Alumni":
+                  //   dropdownWidth = "w-60";
+                  //   dropdownLeft = "left-40";
+                  //   break;
+                  case "Resources":
+                    dropdownWidth = "w-[300px]";
+                    dropdownLeft = "left-50";
+                    break;
+                  default:
+                    dropdownWidth = "w-64";
+                    dropdownLeft = "left-[-50px]";
+                }
+
+                return (
+                  <div key={index} className="relative group z-50">
+                    <Link
+                      href="#"
+                      className={`text-white font-semibold text-lg hover:text-gray-300 hover:bg-purple-700 flex gap-2 items-center px-3 py-4 ${
+                        openSubMenuId === item.main ? "bg-purple-800" : ""
+                      }`}
+                      onClick={() => toggleSubMenu(item.main)}
+                    >
+                      {item.main}
+                      <FaChevronDown size={15} />
+                    </Link>
+
+                    <div
+                      className={`absolute top-full mt-2 p-3 bg-white shadow-lg rounded flex ${dropdownWidth} ${
+                        openSubMenuId === item.main ? "" : "hidden"
+                      }`}
+                      style={{ left: dropdownLeft }}
+                    >
+                      {item.child.map((link, index) => (
+                        <div key={index} className="p-2">
+                          <h4 className="text-purple-700 font-bold text-lg">
+                            <Link href="#">{link.name}</Link>
+                          </h4>
+                          <ul className="mt-2 space-y-2">
+                            {link.subchild.map((navlink, index) => (
+                              <li key={index}>
+                                <Navlink
+                                  name={navlink.name}
+                                  link={navlink.link}
+                                />
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 }
