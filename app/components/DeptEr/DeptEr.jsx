@@ -63,6 +63,9 @@ export default function DeptEr({ dept }) {
   let author;
   let experience;
   let degree;
+  let dob;
+  let doj;
+  let address;
   switch (dept) {
     case "me":
       slogan = "Empowering Healers with the Timeless Principles of Homeopathy.";
@@ -75,6 +78,9 @@ export default function DeptEr({ dept }) {
       headImg = "/sandeepjha.jpg";
       phoneHead = "+91 9303132274";
       emailHead = "drsandeepjha@hotmail.com";
+      dob="DOB-18/05/1966";
+      doj="DOJ-04/09/1999";
+      address="71, Jha Sadan, Ansal Pradhan Enclave, E-8, Arera Colony, Bhopal";
       degree = "DHMS, BHMS, M.D. (Hom)/ 10020"
       experience = '33 years & 8 months/ F.T.';
       faculties = [
@@ -84,7 +90,10 @@ export default function DeptEr({ dept }) {
           degree: "BHMS, M.D. (Hom.)/ 15865",
           experience: "9 years & 7 months/ F.T.",
           email: 'dr.praveenjaisal@gmail.com',
-          image: "/anupamajaiswal.jpg"
+          image: "/anupamajaiswal.jpg",
+          DOB:"31/07/1977",
+          DOJ:"02/03/2021",
+          address:"H.No. H-7, Vardhman Green Park Ashoka Garden, Bhopal (M.P.)"
         },
         {
           name: "Dr. Priyanka Tiwari",
@@ -92,7 +101,10 @@ export default function DeptEr({ dept }) {
           degree: "BHMS, M.D (Hom.)/ 17037",
           experience: "1 year & 1 months/ F.T.",
           email: "drpriyanka55555@gmail.com",
-          image: "/priyanakatiwari.jpeg"
+          image: "/priyanakatiwari.jpeg",
+          DOB:"10/02/1985",
+          DOJ:"08/05/2023",
+          address:"A-60, Indus Residency, Near Mittal College, Bhpoal (M.P.)"
         },
        
         // Add more faculty members as needed
@@ -109,16 +121,22 @@ export default function DeptEr({ dept }) {
       headImg = "/neelamsharma.jpg";
       phoneHead = "+91 9993375073";
       emailHead = "drneelamsharma01@gmail.com";
-      degree="MD (Hom.)/11385",
+      dob="DOB-01/08/1971";
+      doj="DOJ-08/04/2019";
+      address="C-32, Vardhman Green Park, Ashoka Garden, Bhopal";
+      degree="DHMS,MD (Hom.)/11385",
       experience="16 years/F.T."
       faculties = [
         {
           name: "Dr. Megha Mungaria",
           position: "Assistant Professor",
-          degree: "MD (Hom.)/21869",
+          degree: "BHMS,MD (Hom.)/21869",
           experience: "3 years 3 month/F.T.",
           email: "meghamungaria@gmail.com",
-          image: "/megha.jpg"
+          image: "/megha.jpg",
+          DOB:"30/05/1990",
+          DOJ:"08/03/2021",
+          address:"H.No.26, Kunjan Nagar, Phase-II,Danish Nagar, Hoshangabad Road, Bhopal"
         },
         // {
         //   name: "MS. SHARSHTI ATRE",
@@ -146,6 +164,9 @@ export default function DeptEr({ dept }) {
       headImg = "/farook.jpg";
       phoneHead = "+91 9425451532";
       emailHead = "k.farooq2012@gmail.com";
+      dob="DOB-05/02/1964";
+      doj="DOJ-26/08/2022";
+      address="95,Ikbal Colony, Ashoka Garden, Bhopal (M.P.)";
       degree="DHMS/11769";
       experience="25 years & 5 months/F.T."
       faculties = [
@@ -155,7 +176,10 @@ export default function DeptEr({ dept }) {
           degree: "BHMS, MD (Hom.)/ 23080",
           experience: "3 Years & 3 months/ F.T.",
           email:"dr.avaneesh1@gmail.com",
-          image:"/Avaneesh.jpg"
+          image:"/Avaneesh.jpg",
+          DOB:"10/06/1981",
+          DOJ:"08/03/2021",
+          address:"Room No.3, Reza Apartment, Hinotiya Chouraha, Pushpa Nagar, Bhopal (M.P.)"
         },
         // {
         //   name: "Jane Smith",
@@ -175,24 +199,30 @@ export default function DeptEr({ dept }) {
       break;
     case "eet":
       slogan = "Foundation of Homeopathic Wisdom, Leading to Holistic Wellness.";
-      author = "Dr. Garima Namdev";
+      author = "Dr. Shoeba Perveen";
       deptImg = "/dept-m-v.jpg";
       aboutDept = "The Department of Community Medicine at NSHMC focuses on the health and well-being of populations, emphasizing preventive healthcare, public health initiatives, and health education. This department trains students to understand the social, environmental, and behavioral factors that influence health, aiming to promote disease prevention and improve community health outcomes. Through fieldwork, research, and community engagement, students learn to assess health needs, plan interventions, and implement public health programs. The department is committed to producing healthcare professionals who are skilled in addressing the broader determinants of health and making a positive impact on public health at both local and globally.";
       dept = "Communtiy Medicine";
-      headD = "Dr. Garima Namdev";
-      headImg = "/garima.jpg";
-      phoneHead = "+91 8889150998";
-      emailHead = "namdevgarima50@gmail.com";
-      degree="M.B.B.S. M.D. (C.M.) /9154",
-      experience="13 years & 7 months/ G.F."
+      headD = "Dr. Shoeba Perveen";
+      headImg = "/shoeba.jpg";
+      phoneHead = "+91 8224903697";
+      emailHead = "drshoebaali1991@gmail.com";
+      dob="DOB-04/05/1991";
+      doj="DOJ-20/12/2019";
+      address="H.No. 71, Rambha Nagar, Berasia Road, Bhopal, M.P.-462001";
+      degree="BHMS, M.D. (Hom.)/ 22445",
+      experience="4 year & 6 months/F.T."
       faculties = [
         {
-          name: "Dr. Shoeba Perveen",
+          name: "Dr. Garima Namdev",
           position: "Associate  Professor",
-          degree: "BHMS, M.D. (Hom.)/ 22445",
-          experience: "4 year & 6 months/F.T.",
-          email: "drshoebaali1991@gmail.com",
-          image: "/shoeba.jpg"
+          degree: "M.B.B.S. M.D. (C.M.) /9154",
+          experience: "13 years & 7 months/ G.F.",
+          email: "namdevgarima50@gmail.com",
+          image: "/garima.jpg",
+          DOB:"23/02/1981",
+          DOJ:"21/11/2017",
+          address:"Ganga Ashram, Sehore"
         },
         {
           name: "Dr. Bhumika Gangwani",
@@ -200,7 +230,10 @@ export default function DeptEr({ dept }) {
           degree: "BHMS, M.D. (Hom.)/ H038739",
           experience: "1 year/F.T.",
           email: "bhumibhms2605@gmail.com",
-          image: "/bhumika.jpg"
+          image: "/bhumika.jpg",
+          DOB:"26/09/1992",
+          DOJ:"21/08/2023",
+          address:"78, Deepak Society, Chuna Bhatti, Kolar Road, Bhopal-462016 (M.P.)"
         },
         // {
         //   name: "Emily Johnson",
@@ -222,6 +255,9 @@ export default function DeptEr({ dept }) {
       headImg = "/shailjain.jpg";
       phoneHead = "+91 9893269251";
       emailHead = "drshailjain@yahoo.com";
+      dob="DOB-14/09/1964";
+      doj="DOJ-10/09/2002";
+      address="175, Ashok Vihar, Ashoka Garden, Bhopal";
       degree="MBBS/8905",
       experience="22 years/ F.T."
       faculties = [
@@ -231,7 +267,10 @@ export default function DeptEr({ dept }) {
           degree: "DHMS, BHMS(Graded)/13720",
           experience: "20 years & 11 months/ F.T.",
           email: "dr.naveenjaggi@gmail.com",
-          image: "/naveen.jpg"
+          image: "/naveen.jpg",
+          DOB:"21/02/1974",
+          DOJ:"03/01/2018",
+          address:"S-10, Seagul, Aakriti, E-8, Rohit Nagar, Bhopal"
         },
         {
           name: "Dr. Rajani Suryawanshi",
@@ -239,7 +278,10 @@ export default function DeptEr({ dept }) {
           degree: "DHMS, M.D. (Hom.)/13218",
           experience: "6 years & 4  months/F.T.",
           email: "rajanishakya302@gmail.com",
-          image: "/rajani.jpg"
+          image: "/rajani.jpg",
+          DOB:"19/06/1977",
+          DOJ:"01/02/2020",
+          address:"C-30, Vardhman Green Park, Ashoka Garden, Bhopal- 462023"
         },
         // {
         //   name: "Emily Johnson",
@@ -255,24 +297,30 @@ export default function DeptEr({ dept }) {
       break;
     case "og":
       slogan = "Guiding Safe Journeys from Motherhood to Womanhood.";
-      author = "Dr. Rinku Bhaskar";
+      author = "Dr. Prerna Tiwari";
       deptImg = "/dept-m-v.jpg";
       aboutDept = "The Department of Obstetrics & Gynaecology at NSHMC is dedicated to the comprehensive study of women's health, focusing on pregnancy, childbirth, and the reproductive system. The department provides students with both theoretical knowledge and practical skills in managing pregnancy, labor, and postpartum care, as well as diagnosing and treating gynecological disorders. With a strong emphasis on maternal and fetal health, students are trained in both preventive and curative care, ensuring they are well-prepared to support women through all stages of life.Through hands-on clinical training, interactive learning, and research opportunities, the department equips future practitioners with the expertise to deliver compassionate, patient-centered care. The holistic approach integrates modern medical practices with homeopathic principles, fostering a well-rounded understanding of women’s health.";
       dept = "Obstretics & Gynaecology";
-      headD = "Dr. Rinku Bhaskar";
-      headImg = "/rinku.jpg";
-      phoneHead = "+91 9425339648";
-      emailHead = "nshmcbpl@gmail.com";
-      degree="MBBS, DGO/5486",
-      experience="13 years & 9 months/ G.F."
+      headD = "Dr. Prerna Tiwari";
+      headImg = "/prerna.jpg";
+      phoneHead = "+91 8871712624";
+      emailHead = "prernaghmc@gmail.com";
+      dob="DOB-24/08/1992";
+      doj="DOJ-19/07/2019";
+      address="F-205, Drishti City, Kolar Road, Bhopal (M.P.)-462042";
+      degree="BHMS, M.D. (Hom.)/ 22406",
+      experience="5 years/ F.T."
       faculties = [
         {
-          name: "Dr. Prerna Tiwari",
-          position: "Associate Professor",
-          degree: "BHMS, M.D. (Hom.)/ 22406",
-          experience: "5 years/ F.T.",
-          email: "prernaghmc@gmail.com",
-          image: "/prerna.jpg"
+          name: "Dr. Rinku Bhaskar",
+          position: "Professor",
+          degree: "MBBS, DGO/5486",
+          experience: "13 years & 9 months/ G.F.",
+          email: "nshmcbpl@gmail.com",
+          image: "/rinku.jpg",
+          DOB:"17/08/1979",
+          DOJ:"06/09/2010",
+          address:"D-33, Akriti Garden, Nehru Nagar, Bhopal"
         },
         {
           name: "Dr. Niharika Prahladi",
@@ -280,7 +328,10 @@ export default function DeptEr({ dept }) {
           degree: "BHMS, M.D. (Hom)/ 24219",
           experience: "8 months/ F.T.",
           email: "niharikasinghharshana@gmail.com",
-          image: "/niharika.jpg"
+          image: "/niharika.jpg",
+          DOB:"23/11/1992",
+          DOJ:"08/11/2023",
+          address:"H.No.96, Kanta Shrawan, Jairam State, Near Ayodhya Bypass, Bhopal (M.P.)"
         },
         // {
         //   name: "Emily Johnson",
@@ -304,24 +355,33 @@ export default function DeptEr({ dept }) {
       headImg = "/ritesh.jpg";
       phoneHead = "+91 9584340592";
       emailHead = "drriteshkumbhare0909@gmail.com";
+      dob="DOB-30/09/1975";
+      doj="DOJ-05/11/2011";
+      address="B-203, Pushpa Nagar Colony, Bhopal";
       degree="BHMS/14425",
       experience="12 years & 8 Months/ F.T."
       faculties = [
         {
           name: "Dr. Arun Maity",
-          position: "Software Engineer",
+          position: "Professor",
           degree: "MBBS, M.D. (Pathology)/ 8836",
           experience: "14 Years 4 Months/G.F.",
           email: "N/A",
-          image: "/arun.jpg"
+          image: "/arun.jpg",
+          DOB:"19/06/1964",
+          DOJ:"17/10/2020",
+          address:"H.No. 3, Vinayak Parisar, Gulmohar Colony, Bhopal"
         },
         {
           name: "Dr. Shailendra Singh",
           position: "Assistant Professor",
-          degree: "MBHMS, MD (Hom.)/21037",
+          degree: "BHMS, MD (Hom.)/21037",
           experience: "3 year & 3 Months/ F.T.",
           email: "mr.shailendra@gmail.com",
-          image: "/shailendra.jpg"
+          image: "/shailendra.jpg",
+          DOB:"15/07/1987",
+          DOJ:"01/04/2021",
+          address:"Flat No.7, BDA Colony, Talaiya, Bhopal (M.P.)"
         },
         // {
         //   name: "Emily Johnson",
@@ -336,7 +396,7 @@ export default function DeptEr({ dept }) {
 
       break;
     case "pfm":
-      slogan = "dfsghj slogan";
+      slogan = "Rooted in Principles, Driven by Compassionate Healing";
       author = "Dr. Nitesh Suryawanshi";
       deptImg = "/dept-m-v.jpg";
       aboutDept = "The Department of Practice of Medicine at NSHMC is dedicated to the application of medical knowledge and skills in diagnosing and treating a wide range of health conditions. This department focuses on integrating clinical theory with hands-on practice, emphasizing patient-centered care and evidence-based treatment approaches. Students gain practical experience through direct patient interactions, case studies, and clinical rotations, learning to apply diagnostic techniques, develop treatment plans, and manage diverse medical conditions.With a curriculum that balances foundational knowledge with real-world practice, the department prepares students to become proficient, compassionate practitioners. The emphasis is on developing clinical reasoning, decision-making skills, and the ability to provide holistic care that addresses both physical and emotional aspects of patient health.";
@@ -345,6 +405,9 @@ export default function DeptEr({ dept }) {
       headImg = "/nitesh.jpg";
       phoneHead = "+91 9893547451";
       emailHead = "dr.niteshsuryawanshi@gmail.com";
+      dob="DOB-25/04/1978";
+      doj="DOJ-06/10/2003";
+      address="C-30, Vardhman Green Park, Ashoka Garden, Bhopal";
       degree="DHMS, M.D. (Hom.)/ 13245",
       experience="20 years & 9 month/ F.T."
       faculties = [
@@ -354,7 +417,10 @@ export default function DeptEr({ dept }) {
           degree: "BHMS, M.D. (Hom.)/ 26582",
           experience: "13 years & 6 months/ F.T.",
           email: "drrupeshchandra@gmaill.com",
-          image: "/rupesh.jpg"
+          image: "/rupesh.jpg",
+          DOB:"15/01/1976",
+          DOJ:"20/02/2020",
+          address:"D- 2/300, Danish Nagar, Hoshangabad, Road, Bhopal, M.P."
         },
         {
           name: "Dr. Prachi Shrivastava Dubey",
@@ -362,7 +428,10 @@ export default function DeptEr({ dept }) {
           degree: "BHMS, M.D. (Hom)/ 22649",
           experience: "2 Years & 9 Months/ F.T.",
           email: "prachi.prachi.27@gmail.com ",
-          image: "/prachi.jpg"
+          image: "/prachi.jpg",
+          DOB:"27/03/1989",
+          DOJ:"01/10/2021",
+          address:"Pt. Bheemsen Joshi Parisar, Flat No.M-105 B Block, Saket Nagar, Sec-2C, Near AIIMS, Bhopal (M.P.)"
         },
         // {
         //   name: "Emily Johnson",
@@ -386,6 +455,9 @@ export default function DeptEr({ dept }) {
       headImg = "/rpsharma.jpg";
       phoneHead = "+91-9826356970";
       emailHead = "rps29sai@gmail.com";
+      dob="DOB-29/06/1957";
+      doj="DOJ-01/01/2021";
+      address="F-158, J.K. Road, Old Minal Residency,Bhopal (M.P.)";
       degree="D.H.M.S./ 10366",
       experience="33 Years & 6 months./ F.T."
       faculties = [
@@ -395,15 +467,21 @@ export default function DeptEr({ dept }) {
           degree: "BHMS, M.D.(Hom.)/ H030584",
           experience: "8 years / F.T.",
           email: "santoshvarma5566@gmail.com",
-          image: "/santosh.jpg"
+          image: "/santosh.jpg",
+          DOB:"11/09/1984",
+          DOJ:"16/06/2016",
+          address:"C-533, Pushpa Nagar, Near Main Railway Statoin, Bhopal-462010"
         },
         {
           name: "Dr. Yogeshvari",
           position: "Assistant Professor",
-          degree: "MBHMS, M.D. (Hom.)/ 23117",
+          degree: "BHMS, M.D. (Hom.)/ 23117",
           experience: "3years & 1 months/F.T",
           email: "divyanichourasiya616@gmail.com",
-          image: "/yogeshvari.jpg"
+          image: "/yogeshvari.jpg",
+          DOB:"23/12/1992",
+          DOJ:"29/05/2021",
+          address:"B-70, Naveen Nagar, Bhopal"
         },
         // {
         //   name: "Emily Johnson",
@@ -427,6 +505,9 @@ export default function DeptEr({ dept }) {
       headImg = "/sandeep.jpg";
       phoneHead = "+91 9893389440";
       emailHead = "dr.sandeep_sharma@yahoo.in";
+      dob="DOB-25/12/1970";
+      doj="DOJ-06/09/1999";
+      address="C-32, Vardhman Green Park, Ashoka Garden, Bhopal";
       degree="DHMS, M.D. (Hom)/11686",
       experience="20 years & 11 months/ F.T"
       faculties = [
@@ -436,7 +517,10 @@ export default function DeptEr({ dept }) {
           degree: "DHMS, M.D. (Hom) /11604",
           experience: "26 years/ F.T.",
           email: "arvindjaindr1971@gmail.com",
-          image: "/arvind.jpg"
+          image: "/arvind.jpg",
+          DOB:"01/01/1971",
+          DOJ:"01/12/2017",
+          address:"C-715, Shahpura, Bhopal"
         },
         {
           name: "Dr. Shifa Ansari",
@@ -444,7 +528,10 @@ export default function DeptEr({ dept }) {
           degree: "BHMS, M.D (Hom.)/ 22399",
           experience: "1 year & 7 months/ F. T.",
           email: "shifaansari6491@gmail.com",
-          image: "/shifa.jpg"
+          image: "/shifa.jpg",
+          DOB:"06/04/1991",
+          DOJ:"16/11/2022",
+          address:"H.No. 14, Near Golghar, Museum Ameerganj Colony, Idgah Hills, Bhpoal (M.P.)"
         },
         // {
         //   name: "Emily Johnson",
@@ -468,6 +555,9 @@ export default function DeptEr({ dept }) {
       headImg = "/principalns.jpg";
       phoneHead = "+91 9827447031";
       emailHead = "dragrawalrs@gmail.com";
+      dob="DOB-31/05/1966";
+      doj="DOJ-01/02/2003";
+      address="11/1, Shalimar Sterling Complex, Raisen Road, Bhopal (M.P.)";
       degree="DHMS, MD (Hom.)/ 10347",
       experience="33 years & 7 months/ F. T."
       faculties = [
@@ -477,7 +567,10 @@ export default function DeptEr({ dept }) {
           degree: "BHMS/14621",
           experience: "14 years & 7 months/ F.T.",
           email: "tahirmohammadwarsi@gmail.com",
-          image: "/tahir.jpg"
+          image: "/tahir.jpg",
+          DOB:"23/09/1979",
+          DOJ:"03/07/2018",
+          address:"Bagh Dilkusdha Lala Lajpat Rai Colony, Bhopal (M.P.)"
         },
         {
           name: "Dr. Dhanraj Bawan",
@@ -485,7 +578,10 @@ export default function DeptEr({ dept }) {
           degree: "BHMS, M.D. (Hom)/ 23212",
           experience: "3 years & 1 Months/F.T.",
           email: "dhanraj.bawan1992@gmail.com",
-          image: "/dhanraj.jpg"
+          image: "/dhanraj.jpg",
+          DOB:"14/08/1992",
+          DOJ:"01/06/2021",
+          address:"32, Phase-5, Kailash Nagar, Semra Kala, Bhopal"
         },
         // {
         //   name: "Emily Johnson",
@@ -509,8 +605,11 @@ export default function DeptEr({ dept }) {
       headImg = "/jpbuch.jpg";
       phoneHead = "+91 9424354149";
       emailHead = "jaiprakashbuch.ent@gmail.com";
+      dob="DOB-11/08/1977";
+      doj="DOJ-07/02/2008";
+      address="MIG-81, Old Subhash Nagar, Bhopal";
       degree="MBBS, MS (ENT)/4466",
-      experience="5 months/ F.T."
+      experience="16 years & 5 months/ F.T."
       faculties = [
         {
           name: "Dr. Ajit Kumar Jain",
@@ -518,7 +617,10 @@ export default function DeptEr({ dept }) {
           degree: "MBBS, DOMS/ 6006",
           experience: "21 years & 10 months/ G.F.",
           email: "drajitsjain@gmail.com",
-          image: "/ajit.jpg"
+          image: "/ajit.jpg",
+          DOB:"12/11/1960",
+          DOJ:"12/09/2002",
+          address:"175, Ashok Vihar, Ashoka Garden, Bhopal"
         },
         {
           name: "Dr. Shahjahan Begum",
@@ -526,7 +628,10 @@ export default function DeptEr({ dept }) {
           degree: "BHMS, M.D. (Hom)/ 18405",
           experience: "2 years & 7 months/ F.T.",
           email: "sarfrazshaikhshahjahan@gmail.com",
-          image: "/shahjahan.jpg"
+          image: "/shahjahan.jpg",
+          DOB:"23/02/1981",
+          DOJ:"21/11/2017",
+          address:"CH.No.42, Behine A-One Star Shadi Hall, Near 80 Feet Road, Nav Bahar Colony, Bhopal (M.P.)-462010"
         },
         // {
         //   name: "Emily Johnson",
@@ -682,8 +787,12 @@ export default function DeptEr({ dept }) {
                   <MdEmail className="inline mr-1 " />
                   {emailHead}
                 </h1>
+                <h1 className="text-sm  mt-1">{dob}</h1>
+                <h1 className="text-sm  mt-1">{doj}</h1>
+                <h1 className="text-sm  mt-1">{address}</h1>
                 <h1 className="text-sm  mt-1">{degree}</h1>
                 <h1 className="text-sm  mt-1">{experience}</h1>
+
               </div>
             </div>
             <div className="w-1/2  flex flex-col justify-center items-center">
@@ -701,12 +810,12 @@ export default function DeptEr({ dept }) {
               key={index}
             >
               <div className=" flex gap-6 ">
-                <div className="w-48 h-40   relative  overflow-hidden rounded-lg">
+                <div className="w-48   relative  overflow-hidden rounded-lg">
                   <Image
                     src={faculty.image}
                     alt="Img Not Found"
                     layout="fill"
-                    objectFit="cover"
+                    objectFit="contain"
                   />
                 </div>
                 <div className=" py-4">
@@ -729,6 +838,18 @@ export default function DeptEr({ dept }) {
                   <h3 className="text-sm mt-1">
                     <span className="font-semibold"> Gmail </span>
                     {faculty.email}
+                  </h3>
+                  <h3 className="text-sm mt-1">
+                    <span className="font-semibold"> DOB </span>
+                    {faculty.DOB}
+                  </h3>
+                  <h3 className="text-sm mt-1">
+                    <span className="font-semibold"> DOJ </span>
+                    {faculty.DOJ}
+                  </h3>
+                  <h3 className="text-sm mt-1">
+                    <span className="font-semibold"> Address </span>
+                    {faculty.address}
                   </h3>
                 </div>
               </div>
