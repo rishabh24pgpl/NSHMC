@@ -7,8 +7,21 @@ export default function page() {
   const images = ["/baggi.jpg", "/mainImg.jpeg", "/baggi.jpg"];
   return (
     <div>
-      <SliderMain images={images} />
-      <div className="w-full mx-auto flex relative mt-2  font-semibold text-lg">
+      {/* <SliderMain images={images} /> */}
+      <div
+        className="w-full h-36 flex justify-center  items-center"
+        style={{
+        //   backgroundImage: "url('/logo1.png')",
+        backgroundColor:"#d598d6",
+          backgroundSize: "cover",
+        }}
+      >
+        <h1 className=" uppercase font-bold text-5xl">Canteen</h1>
+      </div>
+      <div className=" m-auto gap-[100px] mt-12 ">
+        <img src="/canteen.jpeg" className="w-[700px] m-auto pb-4"></img>
+      </div>
+      {/* <div className="w-full mx-auto flex relative mt-2  font-semibold text-lg">
         <div className="w-2/3 px-20 ">
           <div className=" w-full mx-auto  p-3">
             <h1 className="text-4xl font-bold py-2 border-b-4 border-red-500 inline-block ">
@@ -82,7 +95,7 @@ export default function page() {
         <div className="w-1/3 h-[600px] sticky top-20 left-0 py-10 ">
           <RelatedLink />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

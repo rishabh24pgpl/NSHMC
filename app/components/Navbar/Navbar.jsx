@@ -14,8 +14,8 @@ export default function Navbar() {
   const menuId = usePathname();
 
   const collegeNames = [
-    "NARAYAN SHREE HOMEOPATHIC & MEDICAL COLLEGE",
-    " नारायण श्री होम्योपैथिक मेडिकल कॉलेज ",
+    "Narayan Shree Homoeopathic Medical College & Hospital, Bhopal",
+    "नारायण श्री होम्योपैथिक मेडिकल कॉलेज और अस्पताल, भोपाल",
   ];
 
   const navItems = [
@@ -70,10 +70,10 @@ export default function Navbar() {
               name: "Director",
               link: "/institute/director",
             },
-            {
-              name: "Finance Committee",
-              link: "/institute/fc",
-            },
+            // {
+            //   name: "Finance Committee",
+            //   link: "/institute/fc",
+            // },
             // {
             //   name: "Building and Work Committee",
             //   link: "/institute/bwc",
@@ -95,19 +95,36 @@ export default function Navbar() {
               name: "Approval Documents",
               link: "/approval-document",
             },
+            
+            {
+              name: "Society Registration",
+              link: "/society-registration",
+            },
           ],
         },
         {
           name: "Other Important Links",
           subchild: [
             {
-              name: "Digital Payments",
-              link: "https://www.pratibhaglobalschool.com/payments/login/40e032b8-a995-47ab-a854-c3aec4812c0e",
+              name: "AYUSH Department, Govt. of M.P. ",
+              link: "https://ayush.mp.gov.in/index.php/en/ ",
             },
             {
-              name: "AICTC Regulations",
-              link: "https://forms-peach.vercel.app/",
+              name: "Affiliating University M.P. Medical Science University Jabalpur (M.P.) ",
+              link: " https://mpmsu.edu.in/",
             },
+            {
+              name: "National Commission for Homoeopathy (NCH) ",
+              link: "https://nch.org.in/",
+            },
+            {
+              name: "Ministry of AYUSH ",
+              link: "https://ayush.gov.in/",
+            },
+            // {
+            //   name: "AICTC Regulations",
+            //   link: "https://forms-peach.vercel.app/",
+            // },
           ],
         },
       ],
@@ -118,26 +135,39 @@ export default function Navbar() {
         {
           name: "Academic",
           subchild: [
+            
             {
               name: "Academic Overview",
               link: "/academic/overview",
             },
             {
-              name: "Academic Programs",
+              name: "Administration And Libaray Staff",
               link: "/academic/programs",
             },
             {
-              name: "Academic Regulations",
+              name: "Hospital Staff",
+              link: "/academic/hospitalstaff",
+            },
+            {
+              name: "Our Committes",
+              link: "/academic/ourcommitte",
+            },
+            {
+              name: "College Magazine",
               link: "/students/rules_regulations",
             },
             {
-              name: "Academic Calendar",
-              link: "/academic/calender",
+              name: "CME Program",
+              link: "/academic/cme",
             },
-            {
-              name: "Curriculum and Syllabus",
-              link: "/academic/syllabus",
-            },
+            // {
+            //   name: "Academic Calendar",
+            //   link: "/academic/calender",
+            // },
+            // {
+            //   name: "Curriculum and Syllabus",
+            //   link: "/academic/syllabus",
+            // },
           ],
         },
         {
@@ -202,7 +232,7 @@ export default function Navbar() {
           name: "Facilities",
           subchild: [
             {
-              name: "Central Workshop",
+              name: "Canteen",
               link: "/academic/central-workshop",
             },
             {
@@ -281,7 +311,7 @@ export default function Navbar() {
           ],
         },
         {
-          name: "Other Related Links",
+          name: "Student Related Links",
           subchild: [
             // {
             //   name: "Internship Programs",
@@ -290,6 +320,18 @@ export default function Navbar() {
             {
               name: "Library",
               link: "/institute/library",
+            },
+            {
+              name: "Admitted Students",
+              link: "/institute/admittedstudent",
+            },
+            {
+              name: "Results",
+              link: "/institute/report",
+            },
+            {
+              name: "Merit List ",
+              link: "/institute/merit",
             },
             // {
             //   name: "Career Development Cell",
@@ -402,11 +444,11 @@ export default function Navbar() {
           subchild: [
             {
               name: "OPD Reports",
-              link: "/institute/rules",
+              link: "/academic/opd",
             },
             {
               name: "IPD Reports",
-              link: "/institute/rules",
+              link: "/academic/ipd",
             },
             {
               name: "War Against Covid",
@@ -507,14 +549,15 @@ export default function Navbar() {
 
           <div className="bg-gradient-to-r from-purple-500 to-purple-900 z-50">
             <div className="w-[100%] mx-auto flex items-center justify-around px-4 py-2">
-              <div className="flex items-center justify-around gap-18">
+              <div className="flex items-center gap-[12px]">
                 <div className="">
                   <Image
-                    src="/LNMC-BPL.png"
+                    src="/logonshmc.jpg"
                     objectFit="contain"
                     alt="Logo"
                     width={100}
                     height={100}
+                    className="rounded-full"
                   />
                 </div>
                 <h1 className="text-2xl font-semibold">

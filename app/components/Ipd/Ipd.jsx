@@ -9,8 +9,23 @@ export default function Ipd() {
   const images = ["/homoe.avif"];
   return (
     <>
-      <SliderMain images={images} heading="OPD REPORTS" />
-      <div className="w-full mx-auto flex relative mt-2  font-semibold text-lg">
+      {/* <SliderMain images={images} heading="OPD REPORTS" /> */}
+      <div
+        className="w-full h-36 flex justify-center  items-center"
+        style={{
+        //   backgroundImage: "url('/logo1.png')",
+        backgroundColor:"#d598d6",
+          backgroundSize: "cover",
+        }}
+      >
+        <h1 className=" uppercase font-bold text-5xl">IPD Reports</h1>
+      </div>
+
+      <div className="flex m-auto gap-[50px] mt-12 ">
+        <img src="/ipd1.jpg" className="w-[500px] m-auto"></img>
+        <img src="/ipd2.jpg" className="w-[500px] m-auto"></img>
+      </div>
+      {/* <div className="w-full mx-auto flex relative mt-2  font-semibold text-lg">
         <div className="w-2/3  ">
           <div className="w-full px-20 pt-[36px]   flex flex-wrap gap-5 justify-evenly ">
             <RuleCard
@@ -239,7 +254,7 @@ export default function Ipd() {
           <h6>Dr. Harshal Khairnair London, UK</h6>
         </div>
       </div>
-      </div>
+      </div> */}
      
     </>
   );

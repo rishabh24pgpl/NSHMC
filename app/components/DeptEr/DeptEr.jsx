@@ -658,10 +658,10 @@ export default function DeptEr({ dept }) {
     <>
     <div>
       <SliderMain images={images} heading={dept} />
-      <div className='mt-10 flex items-center gap-5'>
+      <div className='mt-6 flex items-center gap-5'>
       {
         buttons.map((item,index)=>(
-          <button onClick={()=>setActive(index)} className='border-2 p-4 rounded-lg bg-blue-500 hover:bg-blue-700' key={index}>{item}</button>
+          <button onClick={()=>setActive(index)} className='border-2 p-4 rounded-lg bg-purple-500 hover:bg-purple-700' key={index}>{item}</button>
         ))
       }
       </div>
@@ -672,7 +672,7 @@ export default function DeptEr({ dept }) {
             <div className="w-full flex px-20 py-10  gap-7">
           <div className="w-2/3 ">
             <div className="p-10">
-              <h2 className=" text-4xl text-blue-800 my-5">
+              <h2 className=" text-4xl text-purple-800 my-5">
                 About the Department
               </h2>
               <div className="w-full   mt-5">
@@ -767,7 +767,7 @@ export default function DeptEr({ dept }) {
           active===3 && (
             <>
             <div className="w-full flex flex-col px-20 gap-4 py-6 ">
-          <h1 className="font-bold text-4xl text-blue-700">
+          <h1 className="font-bold text-4xl text-purple-700">
             Head Of Department
           </h1>
           <div className="flex justify-between gap-10">
@@ -866,19 +866,19 @@ export default function DeptEr({ dept }) {
           active===4 && (
             <>
             <div className="w-full flex flex-col px-20 gap-4 py-6">
-          <h1 className="text-4xl text-blue-700 font-bold p-2">
+          <h1 className="text-4xl text-purple-700 font-bold p-2">
             Academic Programmes
           </h1>
           <div className="w-full flex justify-center gap-20 ">
             <ProgramCard
               course={"Undergraduate"}
-              bgcolor={"bg-blue-800"}
+              bgcolor={"bg-purple-800"}
               admission={"NEET UG"}
               dept={" It is a 5.5-year course that includes an internship and covers the medical knowledge of homeopathy"}
             />
             {/* <ProgramCard
               course={"Post-Graduate"}
-              bgcolor={"bg-blue-800"}
+              bgcolor={"bg-purple-800"}
               admission={"JEE"}
               dept={"civil engineering"}
             /> */}

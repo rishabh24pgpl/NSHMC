@@ -9,8 +9,21 @@ export default function Opd() {
   const images = ["/ar-1.jpg"];
   return (
     <>
-      <SliderMain images={images} heading="OPD REPORTS" />
-      <div className="w-full mx-auto flex relative mt-2  font-semibold text-lg">
+      {/* <SliderMain images={images} heading="OPD REPORTS" /> */}
+      <div
+        className="w-full h-36 flex justify-center  items-center"
+        style={{
+        //   backgroundImage: "url('/logo1.png')",
+        backgroundColor:"#d598d6",
+          backgroundSize: "cover",
+        }}
+      >
+        <h1 className=" uppercase font-bold text-5xl">OPD Reports</h1>
+      </div>
+      <div className=" m-auto gap-[100px] mt-12 ">
+        <img src="/opd.jpg" className="w-[500px] m-auto pb-4"></img>
+      </div>
+      {/* <div className="w-full mx-auto flex relative mt-2  font-semibold text-lg">
         <div className="w-2/3  ">
           <div className="w-full px-20 pt-[36px]   flex flex-wrap gap-5 justify-evenly ">
             <RuleCard
@@ -239,7 +252,7 @@ export default function Opd() {
           <h6>Dr. Harshal Khairnair London, UK</h6>
         </div>
       </div>
-      </div>
+      </div> */}
      
     </>
   );

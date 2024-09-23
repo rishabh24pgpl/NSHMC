@@ -13,7 +13,7 @@ export default function page() {
           backgroundSize: "cover",
         }}
       >
-        <h1 className=" uppercase font-bold text-5xl">welcome to SKC-LNCT</h1>
+        <h1 className=" uppercase font-bold text-5xl">welcome to NSHMC</h1>
       </div>
       <div
         className="w-full h-screen  "
