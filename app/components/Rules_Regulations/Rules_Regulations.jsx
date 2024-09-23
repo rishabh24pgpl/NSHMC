@@ -8,17 +8,17 @@ export default function Rules_Regulations() {
     const images = ["/ar-3.jpg"];
   return (
     <div>
-     <SliderMain images={images} heading="Reports"/>
+     <SliderMain images={images} heading="College Magazine"/>
      <div className="w-full mx-auto flex relative">
         <div className="w-2/3 px-10 pt-[36px]  grid grid-cols-3  gap-5 justify-evenly pb-10 ">
-        <RuleCard bgcolor="bg-red-200" link="/" heading="B.Tech., B.Arch., Int.M.Sc. (5 yr), B.Tech. M.Tech. Dual Degree (5 yr) Summarized"/>
-        <RuleCard bgcolor="bg-green-200" link="/" heading="heading"/>
-        <RuleCard bgcolor="bg-gray-200" link="/" heading="heading"/>
-        <RuleCard bgcolor="bg-blue-200" link="/" heading="heading"/>
-        <RuleCard bgcolor="bg-pink-200" link="/" heading="heading"/>
-        <RuleCard bgcolor="bg-purple-200" link="/" heading="heading"/>
-        <RuleCard bgcolor="bg-lime-200" link="/" heading="heading"/>
-        <RuleCard bgcolor="bg-blue-200" link="/" heading="heading"/>
+        <RuleCard bgcolor="bg-red-200" link="https://drive.google.com/file/d/1e8q1DcvtwuYlPLY9etr-_Kw7a1Tbs7wZ/view?usp=sharing" heading="Homeo Shree 76th Edition"/>
+        <RuleCard bgcolor="bg-green-200" link="https://drive.google.com/file/d/1VD26bzuBWZo_9TIPM2UXdSK50DN__ddF/view?usp=sharing" heading="Homeo Shree 77th Edition"/>
+        <RuleCard bgcolor="bg-gray-200" link="https://drive.google.com/file/d/1h_iDrLyGuuyllxGQ_YY6J-MFC9kVXrf6/view?usp=sharing" heading="Homeo Shree 78th Edition"/>
+        <RuleCard bgcolor="bg-blue-200" link="https://drive.google.com/file/d/1w1CS6wNibnH83XPirTSlU1KKpz415RjD/view?usp=sharing" heading="Homeo Shree 79th Edition"/>
+        <RuleCard bgcolor="bg-pink-200" link="/" heading="Uploading soon"/>
+        <RuleCard bgcolor="bg-purple-200" link="/" heading="Uploading soon"/>
+        <RuleCard bgcolor="bg-lime-200" link="/" heading="Uploading soon"/>
+        <RuleCard bgcolor="bg-blue-200" link="/" heading="Uploading soon"/>
       
         
         </div>

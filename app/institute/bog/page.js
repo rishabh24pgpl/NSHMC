@@ -9,9 +9,10 @@ export default function page() {
     <>
       <div>
         <div
-          className="w-full h-96 flex justify-center  items-center"
+          className="w-full h-36 flex justify-center  items-center"
           style={{
-            backgroundImage: "url('/logo1.png')",
+            // backgroundImage: "url('/logo1.png')",
+            backgroundColor:"#d598d6",
             backgroundSize: "cover",
           }}
         >

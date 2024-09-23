@@ -5,23 +5,24 @@ export default function page() {
   return (
     <>
       <div
-        className="w-full h-96 flex justify-center  items-center"
+        className="w-full h-36 flex justify-center  items-center"
         style={{
-          backgroundImage: "url('/logo1.png')",
+          // backgroundImage: "url('/logo1.png')",
+          backgroundColor:"#d598d6",
           backgroundSize: "cover",
         }}
       >
         <h1 className=" uppercase font-bold text-5xl">Principal</h1>
       </div>
       <div className="w-full  border-2 p-20 ">
-        <div className=" flex  rounded-xl bg-sky-100">
-          <div className="w-1/3 flex flex-col gap-2 bg-blue-300">
-            <div className="w-full h-72 border-2 relative overflow-hidden">
+        <div className=" flex  rounded-xl bg-purple-100">
+          <div className="w-1/3 flex flex-col gap-2 bg-purple-300">
+            <div className="w-full h-72 border-2 relative">
               <Image
                 src="/principalns.jpg"
                 alt="chairman"
-                width="500"
-                height="500"
+                fill
+                style={{ objectFit: 'fip'  }}
               />
             </div>
             <div>
@@ -60,12 +61,12 @@ export default function page() {
               join us, I hope that you will take this institution a long way
               with the helpful hands of Homoeopathy fraternity.
             </p>
-            <p>
-              <h1>Warm regards,</h1>
-              <h1>DR.R.S. Agrawal</h1>
-              <h1>Principal</h1>
-              <h1>NSHMC</h1>
-            </p>
+            
+              <p className="text-sm mb-3">Warm regards,</p>
+              <p className="text-sm mb-3 font-bold">DR.R.S. Agrawal</p>
+              <p className="text-sm mb-3">Principal</p>
+              <p className="text-sm mb-3">NSHMC</p>
+            
           </div>
         </div>
       </div>

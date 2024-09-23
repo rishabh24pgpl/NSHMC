@@ -5,28 +5,29 @@ export default function page() {
   return (
     <>
       <div
-        className="w-full h-96 flex justify-center  items-center"
+        className="w-full h-36 flex justify-center  items-center"
         style={{
-          backgroundImage: "url('/logo1.png')",
+          // backgroundImage: "url('/logo1.png')",
+          backgroundColor:"#d598d6",
           backgroundSize: "cover",
         }}
       >
         <h1 className=" uppercase font-bold text-5xl">chairperson</h1>
       </div>
       <div className="w-full  border-2 p-20 ">
-        <div className=" flex  rounded-xl bg-sky-100">
-          <div className="w-1/3 flex flex-col gap-2 bg-blue-300">
+        <div className=" flex  rounded-xl bg-purple-100">
+          <div className="w-1/3 flex flex-col gap-2 bg-purple-300">
             <div className="w-full h-72 border-2 relative overflow-hidden">
               <Image
                 src="/chairperson.png"
                 alt="chairman"
-                width="500"
-                height="500"
+                fill
+                style={{ objectFit: 'fip'  }}
               />
             </div>
             <div>
               <h1 className="py-2 px-10 font-bold text-2xl">
-                Smt. Pratibha Chouksey
+                Mrs. Pratibha Suresh Chouksey
               </h1>
               <h2 className="py-2 px-10 text-lg">
                 Managing Trustee and Chairperson
@@ -55,7 +56,7 @@ export default function page() {
               the student life, which is ‘to study’. This will enable you
               acquire perfect knowledge and achieve great heights.
             </p>
-
+            <p className="text-sm mb-3">Warm regards,</p>
             <p className="text-sm mb-3 font-bold">Smt. Pratibha Chouksey</p>
             <p className="text-sm mb-3">Managing Trustee and Chairperson</p>
             <p className="text-sm mb-3">NSHMC Group</p>
