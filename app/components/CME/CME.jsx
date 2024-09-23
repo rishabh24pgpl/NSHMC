@@ -2,7 +2,7 @@
 import React from "react";
 import { useState } from "react";
 
-export default function page() {
+export default function Page() {
   const [collegeNameIndex, setCollegeNameIndex] = useState(0);
 
   const collegeNames = ["NSHMC ", "एसकेसी एलएनसीटी "];
