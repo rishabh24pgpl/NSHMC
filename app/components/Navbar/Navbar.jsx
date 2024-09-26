@@ -84,26 +84,6 @@ export default function Navbar() {
           name: "Key Documents",
           subchild: [
             {
-              name: "Hospital Certificates",
-              link: "/academic/hospitalcertificate",
-            },
-            {
-              name: "College Certificates",
-              link: "/academic/collegecertificate",
-            },
-            // {
-            //   name: "Rules and Regulations",
-            //   link: "/students/rules_regulations",
-            // },
-            // {
-            //   name: "Annual Reports",
-            //   link: "/institute/annual_reports",
-            // },
-            // {
-            //   name: "Approval Documents",
-            //   link: "/approval-document",
-            // },
-            {
               name: "Society ByLaws",
               link: "/academic/societybylaws",
             },
@@ -112,6 +92,18 @@ export default function Navbar() {
               name: "Society Registration",
               link: "/society-registration",
             },
+            {
+              name: "Rules and Regulations",
+              link: "/students/rules_regulations",
+            },
+            {
+              name: "Annual Reports",
+              link: "/institute/annual_reports",
+            },
+            // {
+            //   name: "Approval Documents",
+            //   link: "/approval-document",
+            // },
           ],
         },
         {
@@ -435,32 +427,32 @@ export default function Navbar() {
     //     },
     //   ],
     // },
-    {
-      main: "Resources",
-      child: [
-        {
-          name: "Resources",
-          subchild: [
-            {
-              name: "Central Research Facility",
-              link: "/crf",
-            },
-            {
-              name: "Centre for Technology Innovation and Industry Relations",
-              link: "/relations",
-            },
-            {
-              name: "High Performance Computing",
-              link: "/highpc",
-            },
-            {
-              name: "Industrial Consultancy",
-              link: "/ic",
-            },
-          ],
-        },
-      ],
-    },
+    // {
+    //   main: "Resources",
+    //   child: [
+    //     {
+    //       name: "Resources",
+    //       subchild: [
+    //         {
+    //           name: "Central Research Facility",
+    //           link: "/crf",
+    //         },
+    //         {
+    //           name: "Centre for Technology Innovation and Industry Relations",
+    //           link: "/relations",
+    //         },
+    //         {
+    //           name: "High Performance Computing",
+    //           link: "/highpc",
+    //         },
+    //         {
+    //           name: "Industrial Consultancy",
+    //           link: "/ic",
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
     {
       main: "Clinical Material",
       child: [
@@ -479,14 +471,14 @@ export default function Navbar() {
               name: "Clinical Pathology Records",
               link: "/academic/clinicalpathology",
             },
-            {
-              name: "War Against Covid",
-              link: "/institute/covid",
-            },
-            {
-              name: "Rural OPDs Reports",
-              link: "/institute/rural-opd",
-            },
+            // {
+            //   name: "War Against Covid",
+            //   link: "/institute/covid",
+            // },
+            // {
+            //   name: "Rural OPDs Reports",
+            //   link: "/institute/rural-opd",
+            // },
           ],
         },
       ],
@@ -498,21 +490,29 @@ export default function Navbar() {
           name: "Clinical Material",
           subchild: [
             {
-              name: "NABH Certification",
-              link: "/institute/covid",
+              name: "Hospital Certificates",
+              link: "/academic/hospitalcertificate",
             },
             {
-              name: "LETTER OF PERMISSION BY NCH UG & PG COURSES",
-              link: "/institute/covid",
+              name: "College Certificates",
+              link: "/academic/collegecertificate",
             },
-            {
-              name: "NOC By State Goverment",
-              link: "https://drive.google.com/file/d/1L4qlUbdi5fLqt7GmE8WdkLV1-sVHPVqV/view?usp=sharing",
-            },
-            {
-              name: "Rural OPDs Reports",
-              link: "/institute/covid",
-            },
+            // {
+            //   name: "NABH Certification",
+            //   link: "/institute/covid",
+            // },
+            // {
+            //   name: "LETTER OF PERMISSION BY NCH UG & PG COURSES",
+            //   link: "/institute/covid",
+            // },
+            // {
+            //   name: "NOC By State Goverment",
+            //   link: "https://drive.google.com/file/d/1L4qlUbdi5fLqt7GmE8WdkLV1-sVHPVqV/view?usp=sharing",
+            // },
+            // {
+            //   name: "Rural OPDs Reports",
+            //   link: "/institute/covid",
+            // },
           ],
         },
       ],
@@ -581,7 +581,7 @@ export default function Navbar() {
               <div className="flex items-center gap-[12px]">
                 <div className="">
                   <Image
-                    src="/logonshmc.jpg"
+                    src="/LNMC-BPL.png"
                     objectFit="contain"
                     alt="Logo"
                     width={100}

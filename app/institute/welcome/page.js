@@ -7,9 +7,10 @@ export default function page() {
   return (
     <>
       <div
-        className="w-full border-2 h-96 flex justify-center  items-center"
+        className="w-full border-2 h-36 flex justify-center  items-center"
         style={{
-          backgroundImage: "url('/clg.jpg')",
+          // backgroundImage: "url('/building.jpg')",
+          backgroundColor: "#d598d6",
           backgroundSize: "cover",
         }}
       >
@@ -22,7 +23,7 @@ export default function page() {
         <div className="w-full flex px-5 py-5  gap-5">
           <div className="w-2/3 ">
             <div className="p-10">
-              <h2 className=" tracking-[10px] text-lg text-blue-700">
+              <h2 className=" tracking-[10px] text-lg text-purple-700">
                 WELCOME TO
               </h2>
               <h1 className="my-6 text-4xl  font-bold">NSHMC Bhopal</h1>
@@ -64,7 +65,7 @@ export default function page() {
           <div className="w-1/3  p-4">
             <div className="relative h-full">
               <Image
-                src="/welcome.jpeg"
+                src="/building.jpg"
                 alt="foddiesssss"
                 layout="fill"
                 objectFit="cover"
@@ -73,9 +74,9 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="w-full mx-auto py-2 px-20">
+      {/* <div className="w-full mx-auto  px-20">
         <Monument />
-      </div>
+      </div> */}
     </>
   );
 }
