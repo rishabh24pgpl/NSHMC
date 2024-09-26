@@ -19,7 +19,7 @@ const Monument = () => {
       title: "Mission",
       content:
         "At NSHMC Bhopal, our mission is to provide a transformative learning experience that empowers our students to excel in their chosen fields and become responsible global citizens. We are committed to fostering academic excellence, innovation, and ethical values. Through rigorous curriculum, experiential learning opportunities, and holistic development programs, we aim to nurture individuals who are well-equipped to meet the challenges of the ever-evolving world and contribute positively to society.",
-      img: "/cp-2.jpg",
+      img: "/logonshmc.jpg",
     },
     {
       id: 3,
@@ -44,8 +44,8 @@ const Monument = () => {
             onClick={() => handleSectionClick(section.id)}
             className={`px-8 py-3  rounded-t-lg hover:scale-[.98] transition-all hover:transform duration-500 ${
               activeSection === section.id
-                ? "bg-blue-700 text-white"
-                : "bg-blue-400"
+                ? "bg-purple-700 text-white"
+                : "bg-purple-400"
             }`}
           >
             {section.title}

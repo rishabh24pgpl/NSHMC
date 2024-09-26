@@ -65,7 +65,7 @@ export default function Whyskc({ img, title, content }) {
           </div>
         </div>
         <div className="w-11/12  mx-auto   grid grid-cols-4 gap-5 p-4 mt-10  ">
-          <WhySkcCard content="NSHMC Bhopal, established with a vision to provide quality education in homeopathy, is a premier institution known for its excellence in holistic medical education. With state-of-the-art infrastructure, experienced faculty, and a focus on practical, patient-centered training, NSHMC stands out as a leading homeopathic college." />
+          <WhySkcCard content="NSHMC Bhopal, established with a vision to provide quality education in homeopathy, is a premier institution known for its excellence in holistic medical education. With state-of-the-art infrastructure, experienced faculty, and a focus on practical, patient-centered training." />
           <WhySkcCard
             content="
 The college integrates traditional homeopathic principles with modern medical science, offering a comprehensive curriculum and extensive clinical exposure. Known for its commitment to nurturing skilled and compassionate practitioners."
