@@ -84,16 +84,28 @@ export default function Navbar() {
           name: "Key Documents",
           subchild: [
             {
-              name: "Rules and Regulations",
-              link: "/students/rules_regulations",
+              name: "Hospital Certificates",
+              link: "/academic/hospitalcertificate",
             },
             {
-              name: "Annual Reports",
-              link: "/institute/annual_reports",
+              name: "College Certificates",
+              link: "/academic/collegecertificate",
             },
+            // {
+            //   name: "Rules and Regulations",
+            //   link: "/students/rules_regulations",
+            // },
+            // {
+            //   name: "Annual Reports",
+            //   link: "/institute/annual_reports",
+            // },
+            // {
+            //   name: "Approval Documents",
+            //   link: "/approval-document",
+            // },
             {
-              name: "Approval Documents",
-              link: "/approval-document",
+              name: "Society ByLaws",
+              link: "/academic/societybylaws",
             },
             
             {
@@ -236,13 +248,25 @@ export default function Navbar() {
               link: "/academic/central-workshop",
             },
             {
-              name: "Central Research Facility",
-              link: "/academic/central-research",
+              name: "Library",
+              link: "/institute/library",
             },
             {
-              name: "High Performance Computing",
-              link: "/academic/hfc",
+              name: "Hospital",
+              link: "/academic/hospital",
             },
+            {
+              name: "Hostel",
+              link: "/academic/hostel",
+            },
+            {
+              name: "Playground",
+              link: "/academic/playground",
+            },
+            // {
+            //   name: "High Performance Computing",
+            //   link: "/academic/hfc",
+            // },
           ],
         },
         // {
@@ -274,6 +298,10 @@ export default function Navbar() {
             {
               name: "Gallery",
               link: "/gallery",
+            },
+            {
+              name: "Field Visit",
+              link: "/academic/fieldvisit",
             },
             {
               name: "Campus Life",
@@ -317,10 +345,7 @@ export default function Navbar() {
             //   name: "Internship Programs",
             //   link: "/placementcalender",
             // },
-            {
-              name: "Library",
-              link: "/institute/library",
-            },
+            
             {
               name: "Admitted Students",
               link: "/institute/admittedstudent",
@@ -449,6 +474,10 @@ export default function Navbar() {
             {
               name: "IPD Reports",
               link: "/academic/ipd",
+            },
+            {
+              name: "Clinical Pathology Records",
+              link: "/academic/clinicalpathology",
             },
             {
               name: "War Against Covid",

@@ -38,7 +38,7 @@ export default function page() {
             />
 
             <GovernorCard
-              img="/welcome.jpeg"
+              img="/ambrish.jpg"
               name={"Mr. Ambrish Chouksey "}
               email={"Secretary@nshmcbhopal.com"}
               phone={"808878987"}
@@ -46,7 +46,7 @@ export default function page() {
             />
 
             <GovernorCard
-              img="/welcome.jpeg"
+              img="/dhriti.jpg"
               name={"Mrs. Dhriti Soni "}
               email={"Treasurer@nshmcbhopal.com"}
               phone={"808878987"}
@@ -54,7 +54,7 @@ export default function page() {
             />
 
             <GovernorCard
-              img="/welcome.jpeg"
+              img="/rohini.jpeg"
               name={"Mrs. Rohani Hirvae "}
               email={"Member@nshmcbhopal.com"}
               phone={"808878987"}
@@ -62,7 +62,7 @@ export default function page() {
             />
 
             <GovernorCard
-              img="/welcome.jpeg"
+              img="/sandhyamaam.jpg"
               name={"Mrs. Sandhya Chouksey "}
               email={"Member@nshmcbhopal.com"}
               phone={"808878987"}
@@ -70,7 +70,7 @@ export default function page() {
             />
 
             <GovernorCard
-              img="/welcome.jpeg"
+              img="/ashok.jpg"
               name={"Mr. Ashok "}
               email={"Member@nshmcbhopal.com"}
               phone={"808878987"}
