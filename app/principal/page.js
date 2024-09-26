@@ -19,7 +19,7 @@ export default function page() {
           <div className="w-1/3 flex flex-col gap-2 bg-purple-300">
             <div className="w-full h-72 border-2 relative">
               <Image
-                src="/principalns.jpg"
+                src="/principalnshmc.jpg"
                 alt="chairman"
                 fill
                 style={{ objectFit: 'fip'  }}

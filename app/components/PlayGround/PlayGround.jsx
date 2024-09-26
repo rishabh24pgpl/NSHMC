@@ -1,38 +1,49 @@
 import React from "react";
-import CulturalCard from "./CulturalCard";
+// import CulturalCard from "./CulturalCard";
 
 export default function Gallary() {
   return (
     <div>
+        <div
+        className="w-full h-36 flex justify-center  items-center"
+        style={{
+          //   backgroundImage: "url('/logo1.png')",
+          backgroundColor: "#d598d6",
+          backgroundSize: "cover",
+        }}
+      >
+        <h1 className=" uppercase font-bold text-5xl">Playground</h1>
+      </div>
       <div class=" mt-2 grid grid-cols-3 gap-4">
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+            src="/playground1.JPG"
+            alt=""
+          ></img>
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg pb-2"
+            src="/playground2.jpeg"
             alt=""
           ></img>
         </div>
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+            src="/playground3.jpg"
             alt=""
+            className="h-72 w-[400px]"
           ></img>
         </div>
-        <div>
-          <img
-            class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
-            alt=""
-          ></img>
-        </div>
-        <div>
+        {/* <div>
           <img
             class="h-auto max-w-full rounded-lg"
             src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
             alt=""
           ></img>
-        </div>
+        </div> */}
       </div>
 
       {/* <div className=" w-11/12 mx-auto p-5">
