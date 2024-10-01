@@ -12,7 +12,7 @@ export default function Gallary() {
           backgroundSize: "cover",
         }}
       >
-        <h1 className=" uppercase font-bold text-5xl">Playground</h1>
+        <h1 className=" uppercase font-bold text-5xl">Playgrounds</h1>
       </div>
       <div class=" mt-2 grid grid-cols-3 gap-4">
         <div>
