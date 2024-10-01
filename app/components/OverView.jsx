@@ -59,7 +59,7 @@ export default function OverView() {
           <h1 className="text-4xl font-semibold flex items-center text-purple-600 ">
            Overview of NSHMC Bhopal
           </h1>
-          <p className="text-black text-justify pt-2">
+          <p className="text-black text-justify bg-purple-200 p-10 pt-2">
             {" "}
             At NSHMC, our academic programs offer a comprehensive education in homeopathy, combining rigorous scientific training with holistic principles. 
             The curriculum covers essential subjects such as Anatomy, Physiology, Pathology, and Biochemistry, alongside specialized homeopathic courses like materia medica and repertory. 
@@ -73,17 +73,18 @@ export default function OverView() {
           <div className="md:w-full lg:w-full sm:w-full w-full flex justify-center items-center ">
        
         <Image
-          className="duration-500 w-full min-h-[330px] max-h-[730px]"
-          src={images[currentSlide]}
+          className="duration-500 w-full mt-2 min-h-[330px] max-h-[730px]"
+          src='/building.jpg'
           alt={"images"}
           width={700}
           height={650}
+          z
         />
       </div>
         </div>
       </div>
      
-      <div className=" w-11/12 mx-auto mt-10">
+      <div className=" w-11/12 mx-auto mt-10 mb-6">
         <ParallaxScroll images={imagess} />
       </div>
     </>

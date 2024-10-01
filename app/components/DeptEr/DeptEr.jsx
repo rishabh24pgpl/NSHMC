@@ -66,6 +66,7 @@ export default function DeptEr({ dept }) {
   let dob;
   let doj;
   let address;
+ 
   switch (dept) {
     case "me":
       slogan = "Empowering Healers with the Timeless Principles of Homeopathy.";
@@ -691,7 +692,7 @@ export default function DeptEr({ dept }) {
                 </div>
               </div>
 
-              <p className=" mt-5 font-extralight text-sm  text-justify  h-[160px]">
+              <p className=" mt-5 font-light text-md  text-justify  h-[160px]">
                 {aboutDept}
               </p>
             </div>
@@ -727,6 +728,9 @@ export default function DeptEr({ dept }) {
                 objectFit="cover"
               />
             </div>
+          </div>
+          <div>
+            
           </div>
           <div className="w-2/5  flex flex-col gap-10 py-20 justify-between ">
             <div className="w-11/12 mx-auto  flex flex-col gap-4">

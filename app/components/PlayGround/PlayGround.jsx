@@ -31,10 +31,10 @@ export default function Gallary() {
         </div>
         <div>
           <img
-            class="h-auto max-w-full rounded-lg"
+            class="h-72 w-[400px] rounded-lg"
             src="/playground3.jpg"
             alt=""
-            className="h-72 w-[400px]"
+            
           ></img>
         </div>
         {/* <div>
