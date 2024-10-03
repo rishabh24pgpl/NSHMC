@@ -790,7 +790,7 @@ export default function DeptEr({ dept,deps }) {
                     </p>
                   </div>
                 </div>
-                <div className="w-1/3  p-4">
+                <div className='w-1/3 p-4'>
                   <div className="relative h-full">
                     <Image
                       src="/welcome.jpeg"
