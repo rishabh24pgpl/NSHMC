@@ -24,58 +24,58 @@ export default function page() {
             <GovernorCard
               img="/md-sir.JPG"
               name={"Mr. Suprabhat Chouksey"}
-              email={"president@nshmcbhopal.com"}
-              phone={"808878987"}
+              // email={"president@nshmcbhopal.com"}
+              // phone={"808878987"}
               post={"president ,NSHMC"}
             />
 
             <GovernorCard
               img="/chairperson.png"
               name={"Mrs. Pratibha Chouksey"}
-              email={"Vice-president@nshmcbhopal.com"}
-              phone={"808878987"}
+              // email={"Vice-president@nshmcbhopal.com"}
+              // phone={"808878987"}
               post={"Vice-president,NSHMC"}
             />
 
             <GovernorCard
               img="/ambrish.jpg"
               name={"Mr. Ambrish Chouksey "}
-              email={"Secretary@nshmcbhopal.com"}
-              phone={"808878987"}
+              // email={"Secretary@nshmcbhopal.com"}
+              // phone={"808878987"}
               post={"Secretary,NSHMC"}
             />
 
             <GovernorCard
               img="/dhriti.jpg"
               name={"Mrs. Dhriti Soni "}
-              email={"Treasurer@nshmcbhopal.com"}
-              phone={"808878987"}
+              // email={"Treasurer@nshmcbhopal.com"}
+              // phone={"808878987"}
               post={"Treasurer,NSHMC"}
             />
 
-            <GovernorCard
+            {/* <GovernorCard
               img="/rohini.jpeg"
               name={"Mrs. Rohani Hirvae "}
               email={"Member@nshmcbhopal.com"}
               phone={"808878987"}
               post={"Member,NSHMC"}
-            />
+            /> */}
 
             <GovernorCard
               img="/sandhyamaam.jpg"
               name={"Mrs. Sandhya Chouksey "}
-              email={"Member@nshmcbhopal.com"}
-              phone={"808878987"}
+              // email={"Member@nshmcbhopal.com"}
+              // phone={"808878987"}
               post={"Member,NSHMC"}
             />
 
-            <GovernorCard
+            {/* <GovernorCard
               img="/ashok.jpg"
               name={"Mr. Ashok "}
               email={"Member@nshmcbhopal.com"}
               phone={"808878987"}
               post={"Member,NSHMC"}
-            />
+            /> */}
           </div>
           <div className="w-1/3 h-[600px] sticky top-20 left-0  py-10 ">
             <RelatedLink />

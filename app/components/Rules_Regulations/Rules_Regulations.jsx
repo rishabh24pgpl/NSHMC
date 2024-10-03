@@ -3,6 +3,7 @@ import SliderMain from '@/app/components/SliderMain/SliderMain'
 import FacultyCard from '../FacultyCard/FacultyCard';
 import Image from 'next/image';
 import RuleCard from '../RuleCard/RuleCard';
+import RelatedLink from '../RelatedLink/RelatedLink';
 
 export default function Rules_Regulations() {
     const images = ["/ar-3.jpg"];
@@ -22,7 +23,13 @@ export default function Rules_Regulations() {
       
         
         </div>
-        <div className="w-1/3 h-[600px] sticky top-20 left-0 p-10 ">
+        <div className="w-1/3 h-[600px] sticky top-20 left-0 py-10 ">
+          <div className="relative h-full ">
+            <RelatedLink />
+          </div>
+        </div>
+
+        {/* <div className="w-1/3 h-[600px] sticky top-20 left-0 p-10 ">
         <div className="relative h-full ">
               <Image
                 src="/welcome.jpeg"
@@ -31,7 +38,7 @@ export default function Rules_Regulations() {
                 objectFit="cover"
               />
             </div>
-        </div>
+        </div> */}
       </div>
     </div>
     

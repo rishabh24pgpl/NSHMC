@@ -72,6 +72,7 @@ export default function DeptEr({ dept,deps }) {
   let dob;
   let doj;
   let address;
+ 
   switch (dept) {
     case "me":
       slogan = "Empowering Healers with the Timeless Principles of Homeopathy.";
@@ -801,25 +802,138 @@ export default function DeptEr({ dept,deps }) {
                   </div>
                 </div>
               </div>
-            )
-          }
-          {
-            active === 1 && (
-              <div><Curriculumn /></div>
-            )
-          }
-          {
-            active === 2 && (
+
+
+              <p className=" mt-5 font-light text-md  text-justify  h-[160px]">
+                {aboutDept}
+              </p>
+            </div>
+          </div>
+          <div className="w-1/3  p-4">
+            <div className="relative h-full">
+              <Image
+                src="/welcome.jpeg"
+                alt="foddiesssss"
+                layout="fill"
+                objectFit="cover"
+              />
+            </div>
+          </div>
+        </div>
+          )
+        }
+        {
+          active===1 && (
+            <div><Curriculumn/></div>
+          )
+        }
+        {
+          active===2 && (
+            <div>
               <div className="w-full flex px-20 py-4 gap-7">
-                <div className="w-3/5 h-[580px]">
-                  <div className="relative h-full">
-                    <Image
-                      src={deptImgs}
-                      alt="Department Image"
-                      layout="fill"
-                      objectFit="cover"
-                    />
-                  </div>
+          <div className="w-3/5 h-[580px]">
+            <div className="relative h-full">
+              <Image
+                src={deptImg}
+                alt="foddiesssss"
+                layout="fill"
+                objectFit="cover"
+              />
+            </div>
+          </div>
+          <div>
+            
+          </div>
+          <div className="w-2/5  flex flex-col gap-10 py-20 justify-between ">
+            <div className="w-11/12 mx-auto  flex flex-col gap-4">
+              <div className="flex  items-center gap-2">
+                <Image src="/mission-icon.png" width={70} height={20} alt="h" />{" "}
+                <h1 className="text-2xl font-bold">Mission</h1>
+              </div>
+              <div>
+                <p className="text-sm font-extralight">
+                  To impart knowledge and equip students with skills for
+                  generating quality civil engineering professionals with high
+                  ethical standards; carry out innovative research and
+                  consultancy projects to design, build and maintain civil
+                  engineering infrastructure ensuring environmental health and
+                  quality life.
+                </p>
+              </div>
+            </div>
+            <div className="w-11/12 mx-auto  flex flex-col gap-4">
+              <div className="flex  items-center gap-2">
+                <Image src="/vision-icon.png" width={70} height={20} alt="h" />{" "}
+                <h1 className="text-2xl font-bold">Vision</h1>
+              </div>
+              <div>
+                <p className="text-sm font-extralight">
+                  To become frontier in civil engineering education and
+                  research, which will serve the society with most sustainable
+                  infrastructure and superior environmental health.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+            </div>
+          )
+        }
+        {
+          active===3 && (
+            <>
+            <div className="w-full flex flex-col px-20 gap-4 py-6 ">
+          <h1 className="font-bold text-4xl text-purple-700">
+            Head Of Department
+          </h1>
+          <div className="flex justify-between gap-10">
+            <div className="w-1/2  flex items-center p-4">
+              <div className="w-72 h-72 rounded-full border-2 border-black relative overflow-hidden">
+                <Image src={headImg} fill />
+              </div>
+              <div className="flex flex-col justify-center  p-10">
+                <h1 className=" font-semibold text-2xl">{headD}</h1>
+                <h2 className="text-lg mb-2">Head Of Department</h2>
+                <h1 className="text-sm  mt-1">
+                  <FaPhoneAlt className="inline mr-1" />
+                  {phoneHead}
+                </h1>
+                
+                <h1 className="text-sm  mt-1 flex items-center">
+                  <MdEmail className="inline mr-1 " />
+                  {emailHead}
+                </h1>
+                <h1 className="text-sm  mt-1">{dob}</h1>
+                <h1 className="text-sm  mt-1">{doj}</h1>
+                <h1 className="text-sm  mt-1">{address}</h1>
+                <h1 className="text-sm  mt-1">{degree}</h1>
+                <h1 className="text-sm  mt-1">{experience}</h1>
+
+              </div>
+            </div>
+            <div className="w-1/2  flex flex-col justify-center items-center">
+              <p className="p-5 text-3xl text-center"> {slogan}</p>
+              <h1 className=" italic  text-2xl">- {author}</h1>
+            </div>
+          </div>
+        </div>
+        <h1 className="text-3xl text-center font-semibold border-b">Faculty at NSHMC</h1>
+        <div className=" grid ">
+        <div>
+          {faculties.map((faculty, index) => (
+            <div
+              className=" mt-1 mb-5  p-2  rounded-lg shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] "
+              key={index}
+            >
+              <div className=" flex gap-6 ">
+                <div className="w-48   relative  overflow-hidden rounded-lg">
+                  <Image
+                    src={faculty.image}
+                    alt="Img Not Found"
+                    layout="fill"
+                    objectFit="contain"
+                  />
+
                 </div>
                 <div className="w-2/5 flex flex-col gap-10 py-20 justify-between">
                   <div className="w-11/12 mx-auto flex flex-col gap-4">
