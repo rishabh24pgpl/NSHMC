@@ -785,7 +785,7 @@ export default function DeptEr({ dept,deps }) {
                       </div>
                     </div>
 
-                    <p className=" mt-5 font-extralight text-sm  text-justify  h-[160px]">
+                    <p className='mt-5 font-extralight text-sm  text-justify  h-[160px]'>
                       {aboutDept}
                     </p>
                   </div>
