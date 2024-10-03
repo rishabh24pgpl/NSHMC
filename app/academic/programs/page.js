@@ -1,4 +1,4 @@
-import AcademicEngineering from "@/app/components/AcademicEngineering/AcademicEngineering";
+import AcademicEngineering from "@/app/components/AdministrationLibrary/AdministrationLibrary";
 import React from "react";
 
 export default function page() {

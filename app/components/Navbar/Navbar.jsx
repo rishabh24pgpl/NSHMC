@@ -37,14 +37,11 @@ export default function Navbar() {
             //   name: "Former Directors",
             //   link: "/institute/former_directors",
             // },
-            {
-              name: "Campus and Facilities",
-              link: "/institute/campus_facilities",
-            },
-            {
-              name: "Contact Us",
-              link: "/institute/contact",
-            },
+            // {
+            //   name: "Campus and Facilities",
+            //   link: "/institute/campus_facilities",
+            // },
+            
           ],
         },
         {
@@ -93,13 +90,21 @@ export default function Navbar() {
               link: "/society-registration",
             },
             {
-              name: "Rules and Regulations",
-              link: "/students/rules_regulations",
+              name: "Hospital Certificates",
+              link: "/academic/hospitalcertificate",
             },
             {
-              name: "Annual Reports",
-              link: "/institute/annual_reports",
+              name: "College Certificates",
+              link: "/academic/collegecertificate",
             },
+            // {
+            //   name: "Rules and Regulations",
+            //   link: "/students/rules_regulations",
+            // },
+            // {
+            //   name: "Annual Reports",
+            //   link: "/institute/annual_reports",
+            // },
             // {
             //   name: "Approval Documents",
             //   link: "/approval-document",
@@ -155,10 +160,6 @@ export default function Navbar() {
             {
               name: "Our Committes",
               link: "/academic/ourcommitte",
-            },
-            {
-              name: "College Magazine",
-              link: "/students/rules_regulations",
             },
             {
               name: "CME Program",
@@ -232,35 +233,16 @@ export default function Navbar() {
             },
           ],
         },
-        {
-          name: "Facilities",
-          subchild: [
-            {
-              name: "Canteen",
-              link: "/academic/central-workshop",
-            },
-            {
-              name: "Library",
-              link: "/institute/library",
-            },
-            {
-              name: "Hospital",
-              link: "/academic/hospital",
-            },
-            {
-              name: "Hostel",
-              link: "/academic/hostel",
-            },
-            {
-              name: "Playground",
-              link: "/academic/playground",
-            },
-            // {
-            //   name: "High Performance Computing",
-            //   link: "/academic/hfc",
-            // },
-          ],
-        },
+        // {
+        //   name: "Facilities",
+        //   subchild: [
+           
+        //     // {
+        //     //   name: "High Performance Computing",
+        //     //   link: "/academic/hfc",
+        //     // },
+        //   ],
+        // },
         // {
         //   name: "Technical Service Units",
         //   subchild: [
@@ -296,13 +278,17 @@ export default function Navbar() {
               link: "/academic/fieldvisit",
             },
             {
-              name: "Campus Life",
-              link: "/student/campuslife",
+              name: "College Magazine",
+              link: "/students/rules_regulations",
             },
-            {
-              name: "Academic Programs",
-              link: "/academic/programs",
-            },
+            // {
+            //   name: "Campus Life",
+            //   link: "/student/campuslife",
+            // },
+            // {
+            //   name: "Academic Programs",
+            //   link: "/academic/programs",
+            // },
             {
               name: "Admission Process",
               link: "/admission",
@@ -484,19 +470,63 @@ export default function Navbar() {
       ],
     },
     {
-      main: "Affiliation",
+      main: "Campus And Facilities",
       child: [
         {
-          name: "Clinical Material",
+          name: "facilities",
           subchild: [
             {
-              name: "Hospital Certificates",
-              link: "/academic/hospitalcertificate",
+              name: "Canteen",
+              link: "/academic/central-workshop",
             },
             {
-              name: "College Certificates",
-              link: "/academic/collegecertificate",
+              name: "Library",
+              link: "/institute/library",
             },
+            {
+              name: "Hospital",
+              link: "/academic/hospital",
+            },
+            {
+              name: "Hostel",
+              link: "/academic/hostel",
+            },
+            {
+              name: "Playground",
+              link: "/academic/playground",
+            },
+            
+            // {
+            //   name: "NABH Certification",
+            //   link: "/institute/covid",
+            // },
+            // {
+            //   name: "LETTER OF PERMISSION BY NCH UG & PG COURSES",
+            //   link: "/institute/covid",
+            // },
+            // {
+            //   name: "NOC By State Goverment",
+            //   link: "https://drive.google.com/file/d/1L4qlUbdi5fLqt7GmE8WdkLV1-sVHPVqV/view?usp=sharing",
+            // },
+            // {
+            //   name: "Rural OPDs Reports",
+            //   link: "/institute/covid",
+            // },
+          ],
+        },
+      ],
+    },
+    {
+      main: "Contact Us",
+      child: [
+        {
+          name: "",
+          subchild: [
+            {
+              name: "Contact Us",
+              link: "/institute/contact",
+            },
+            
             // {
             //   name: "NABH Certification",
             //   link: "/institute/covid",

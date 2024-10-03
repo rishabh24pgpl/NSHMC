@@ -18,17 +18,17 @@ export default function GovernorCard({img,name,post,email,phone}) {
             />
           </div>
           <div className=" py-4">
-            <h1 className="my-2 font-bold text-lg mt-1">
+            <h1 className="my-2 font-bold text-xl mt-1">
               {name}
             </h1>
             {/* <h1 className="text-sm  mt-1">President</h1> */}
-            <h1 className="text-xs  mt-1">
+            {/* <h1 className="text-xs  mt-1">
                 <FaPhoneAlt className="inline mr-1"/>
                 {phone}</h1>
             <h1 className="text-xs  mt-1">
                 <MdEmail className="inline mr-1"/>
-                {email}</h1>
-            <h1 className="text-xs  mt-1 w-96">
+                {email}</h1> */}
+            <h1 className="text-md font-semibold  mt-1 w-96">
               <FaLocationPin className="inline mr-1" />
               {post}
               {/* N.M. Marg,Ballard Estate, P.O. Box: 278,Mumbai-400 001, India */}

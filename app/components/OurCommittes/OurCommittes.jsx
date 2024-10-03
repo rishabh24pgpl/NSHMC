@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useState } from "react";
+import RelatedLink from "../RelatedLink/RelatedLink";
 
 export default function OurCommittes () {
   const [collegeNameIndex, setCollegeNameIndex] = useState(0);
@@ -29,6 +30,7 @@ export default function OurCommittes () {
         ))
       }
       </div>
+      <div className="flex w-full gap-20 justify-center">
       <div className="w-full">
         {
           active===0 &&(
@@ -65,7 +67,16 @@ export default function OurCommittes () {
       </div>
           )
         }
-        </div>      
+        </div> 
+
+        <div className="w-1/3 h-[600px] sticky top-20 left-0 py-10 ">
+          <div className="relative h-full ">
+            <RelatedLink />
+          </div>
+        </div> 
+
+      </div>
+          
 
       
     </div>

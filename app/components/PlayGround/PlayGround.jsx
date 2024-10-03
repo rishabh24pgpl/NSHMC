@@ -12,7 +12,7 @@ export default function Gallary() {
           backgroundSize: "cover",
         }}
       >
-        <h1 className=" uppercase font-bold text-5xl">Playground</h1>
+        <h1 className=" uppercase font-bold text-5xl">Playgrounds</h1>
       </div>
       <div class=" mt-2 grid grid-cols-3 gap-4">
         <div>
@@ -31,10 +31,10 @@ export default function Gallary() {
         </div>
         <div>
           <img
-            class="h-auto max-w-full rounded-lg"
+            class="h-72 w-[400px] rounded-lg"
             src="/playground3.jpg"
             alt=""
-            className="h-72 w-[400px]"
+            
           ></img>
         </div>
         {/* <div>
