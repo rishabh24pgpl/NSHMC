@@ -5,7 +5,7 @@ import { capitalize } from "lodash";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 
-const categories = ['All', 'Cricket', 'Kabbadi', 'Chair race', 'March past', 'Price distribution', 'sac race'];
+const categories = ['All', 'Cricket', 'Kabbadi', 'Chair race', 'March past', 'Price distribution', 'Sac race'];
 
 export default function EventCategory(props) {  // Named the function
   const [preview, setPreview] = useState({ state: false, imgSrc: '', title: '' });

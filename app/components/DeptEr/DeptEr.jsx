@@ -1,5 +1,5 @@
 "use client";
-import React ,{useState}from "react";
+import React, { useState, useEffect } from "react";
 import SliderMain from "../SliderMain/SliderMain";
 import Image from "next/image";
 import Counter from "@/app/components/Counter";
@@ -12,7 +12,13 @@ import { head } from "lodash";
 import Curriculumn from "../Curriculumn/Curriculumn";
 
 
-export default function DeptEr({ dept }) {
+export default function DeptEr({ dept,deps }) {
+  // const [cardData, setCardData] = useState({
+  //   deptImg: "",
+  //   mission: "",
+  //   vision: "",
+  // });
+
   const images = ["/ar-3.jpg"];
   const counter = [
     {
@@ -78,9 +84,9 @@ export default function DeptEr({ dept }) {
       headImg = "/sandeepjha.jpg";
       phoneHead = "+91 9303132274";
       emailHead = "drsandeepjha@hotmail.com";
-      dob="DOB-18/05/1966";
-      doj="DOJ-04/09/1999";
-      address="71, Jha Sadan, Ansal Pradhan Enclave, E-8, Arera Colony, Bhopal";
+      dob = "DOB-18/05/1966";
+      doj = "DOJ-04/09/1999";
+      address = "71, Jha Sadan, Ansal Pradhan Enclave, E-8, Arera Colony, Bhopal";
       degree = "DHMS, BHMS, M.D. (Hom)/ 10020"
       experience = '33 years & 8 months/ F.T.';
       faculties = [
@@ -91,9 +97,9 @@ export default function DeptEr({ dept }) {
           experience: "9 years & 7 months/ F.T.",
           email: 'dr.praveenjaisal@gmail.com',
           image: "/anupamajaiswal.jpg",
-          DOB:"31/07/1977",
-          DOJ:"02/03/2021",
-          address:"H.No. H-7, Vardhman Green Park Ashoka Garden, Bhopal (M.P.)"
+          DOB: "31/07/1977",
+          DOJ: "02/03/2021",
+          address: "H.No. H-7, Vardhman Green Park Ashoka Garden, Bhopal (M.P.)"
         },
         {
           name: "Dr. Priyanka Tiwari",
@@ -102,11 +108,11 @@ export default function DeptEr({ dept }) {
           experience: "1 year & 1 months/ F.T.",
           email: "drpriyanka55555@gmail.com",
           image: "/priyanakatiwari.jpeg",
-          DOB:"10/02/1985",
-          DOJ:"08/05/2023",
-          address:"A-60, Indus Residency, Near Mittal College, Bhpoal (M.P.)"
+          DOB: "10/02/1985",
+          DOJ: "08/05/2023",
+          address: "A-60, Indus Residency, Near Mittal College, Bhpoal (M.P.)"
         },
-       
+
         // Add more faculty members as needed
       ];
 
@@ -121,11 +127,11 @@ export default function DeptEr({ dept }) {
       headImg = "/neelamsharma.jpg";
       phoneHead = "+91 9993375073";
       emailHead = "drneelamsharma01@gmail.com";
-      dob="DOB-01/08/1971";
-      doj="DOJ-08/04/2019";
-      address="C-32, Vardhman Green Park, Ashoka Garden, Bhopal";
-      degree="DHMS,MD (Hom.)/11385",
-      experience="16 years/F.T."
+      dob = "DOB-01/08/1971";
+      doj = "DOJ-08/04/2019";
+      address = "C-32, Vardhman Green Park, Ashoka Garden, Bhopal";
+      degree = "DHMS,MD (Hom.)/11385",
+        experience = "16 years/F.T."
       faculties = [
         {
           name: "Dr. Megha Mungaria",
@@ -134,9 +140,9 @@ export default function DeptEr({ dept }) {
           experience: "3 years 3 month/F.T.",
           email: "meghamungaria@gmail.com",
           image: "/megha.jpg",
-          DOB:"30/05/1990",
-          DOJ:"08/03/2021",
-          address:"H.No.26, Kunjan Nagar, Phase-II,Danish Nagar, Hoshangabad Road, Bhopal"
+          DOB: "30/05/1990",
+          DOJ: "08/03/2021",
+          address: "H.No.26, Kunjan Nagar, Phase-II,Danish Nagar, Hoshangabad Road, Bhopal"
         },
         // {
         //   name: "MS. SHARSHTI ATRE",
@@ -164,22 +170,22 @@ export default function DeptEr({ dept }) {
       headImg = "/farook.jpg";
       phoneHead = "+91 9425451532";
       emailHead = "k.farooq2012@gmail.com";
-      dob="DOB-05/02/1964";
-      doj="DOJ-26/08/2022";
-      address="95,Ikbal Colony, Ashoka Garden, Bhopal (M.P.)";
-      degree="DHMS/11769";
-      experience="25 years & 5 months/F.T."
+      dob = "DOB-05/02/1964";
+      doj = "DOJ-26/08/2022";
+      address = "95,Ikbal Colony, Ashoka Garden, Bhopal (M.P.)";
+      degree = "DHMS/11769";
+      experience = "25 years & 5 months/F.T."
       faculties = [
         {
           name: "Dr. Avaneesh Kumar Pandey",
           position: "Assistant Professor",
           degree: "BHMS, MD (Hom.)/ 23080",
           experience: "3 Years & 3 months/ F.T.",
-          email:"dr.avaneesh1@gmail.com",
-          image:"/Avaneesh.jpg",
-          DOB:"10/06/1981",
-          DOJ:"08/03/2021",
-          address:"Room No.3, Reza Apartment, Hinotiya Chouraha, Pushpa Nagar, Bhopal (M.P.)"
+          email: "dr.avaneesh1@gmail.com",
+          image: "/Avaneesh.jpg",
+          DOB: "10/06/1981",
+          DOJ: "08/03/2021",
+          address: "Room No.3, Reza Apartment, Hinotiya Chouraha, Pushpa Nagar, Bhopal (M.P.)"
         },
         // {
         //   name: "Jane Smith",
@@ -207,11 +213,11 @@ export default function DeptEr({ dept }) {
       headImg = "/shoeba.jpg";
       phoneHead = "+91 8224903697";
       emailHead = "drshoebaali1991@gmail.com";
-      dob="DOB-04/05/1991";
-      doj="DOJ-20/12/2019";
-      address="H.No. 71, Rambha Nagar, Berasia Road, Bhopal, M.P.-462001";
-      degree="BHMS, M.D. (Hom.)/ 22445",
-      experience="4 year & 6 months/F.T."
+      dob = "DOB-04/05/1991";
+      doj = "DOJ-20/12/2019";
+      address = "H.No. 71, Rambha Nagar, Berasia Road, Bhopal, M.P.-462001";
+      degree = "BHMS, M.D. (Hom.)/ 22445",
+        experience = "4 year & 6 months/F.T."
       faculties = [
         {
           name: "Dr. Garima Namdev",
@@ -220,9 +226,9 @@ export default function DeptEr({ dept }) {
           experience: "13 years & 7 months/ G.F.",
           email: "namdevgarima50@gmail.com",
           image: "/garima.jpg",
-          DOB:"23/02/1981",
-          DOJ:"21/11/2017",
-          address:"Ganga Ashram, Sehore"
+          DOB: "23/02/1981",
+          DOJ: "21/11/2017",
+          address: "Ganga Ashram, Sehore"
         },
         {
           name: "Dr. Bhumika Gangwani",
@@ -231,9 +237,9 @@ export default function DeptEr({ dept }) {
           experience: "1 year/F.T.",
           email: "bhumibhms2605@gmail.com",
           image: "/bhumika.jpg",
-          DOB:"26/09/1992",
-          DOJ:"21/08/2023",
-          address:"78, Deepak Society, Chuna Bhatti, Kolar Road, Bhopal-462016 (M.P.)"
+          DOB: "26/09/1992",
+          DOJ: "21/08/2023",
+          address: "78, Deepak Society, Chuna Bhatti, Kolar Road, Bhopal-462016 (M.P.)"
         },
         // {
         //   name: "Emily Johnson",
@@ -255,11 +261,11 @@ export default function DeptEr({ dept }) {
       headImg = "/shailjain.jpg";
       phoneHead = "+91 9893269251";
       emailHead = "drshailjain@yahoo.com";
-      dob="DOB-14/09/1964";
-      doj="DOJ-10/09/2002";
-      address="175, Ashok Vihar, Ashoka Garden, Bhopal";
-      degree="MBBS/8905",
-      experience="22 years/ F.T."
+      dob = "DOB-14/09/1964";
+      doj = "DOJ-10/09/2002";
+      address = "175, Ashok Vihar, Ashoka Garden, Bhopal";
+      degree = "MBBS/8905",
+        experience = "22 years/ F.T."
       faculties = [
         {
           name: "Dr. Naveen Jaggi",
@@ -268,9 +274,9 @@ export default function DeptEr({ dept }) {
           experience: "20 years & 11 months/ F.T.",
           email: "dr.naveenjaggi@gmail.com",
           image: "/naveen.jpg",
-          DOB:"21/02/1974",
-          DOJ:"03/01/2018",
-          address:"S-10, Seagul, Aakriti, E-8, Rohit Nagar, Bhopal"
+          DOB: "21/02/1974",
+          DOJ: "03/01/2018",
+          address: "S-10, Seagul, Aakriti, E-8, Rohit Nagar, Bhopal"
         },
         {
           name: "Dr. Rajani Suryawanshi",
@@ -279,9 +285,9 @@ export default function DeptEr({ dept }) {
           experience: "6 years & 4  months/F.T.",
           email: "rajanishakya302@gmail.com",
           image: "/rajani.jpg",
-          DOB:"19/06/1977",
-          DOJ:"01/02/2020",
-          address:"C-30, Vardhman Green Park, Ashoka Garden, Bhopal- 462023"
+          DOB: "19/06/1977",
+          DOJ: "01/02/2020",
+          address: "C-30, Vardhman Green Park, Ashoka Garden, Bhopal- 462023"
         },
         // {
         //   name: "Emily Johnson",
@@ -305,11 +311,11 @@ export default function DeptEr({ dept }) {
       headImg = "/prerna.jpg";
       phoneHead = "+91 8871712624";
       emailHead = "prernaghmc@gmail.com";
-      dob="DOB-24/08/1992";
-      doj="DOJ-19/07/2019";
-      address="F-205, Drishti City, Kolar Road, Bhopal (M.P.)-462042";
-      degree="BHMS, M.D. (Hom.)/ 22406",
-      experience="5 years/ F.T."
+      dob = "DOB-24/08/1992";
+      doj = "DOJ-19/07/2019";
+      address = "F-205, Drishti City, Kolar Road, Bhopal (M.P.)-462042";
+      degree = "BHMS, M.D. (Hom.)/ 22406",
+        experience = "5 years/ F.T."
       faculties = [
         {
           name: "Dr. Rinku Bhaskar",
@@ -318,9 +324,9 @@ export default function DeptEr({ dept }) {
           experience: "13 years & 9 months/ G.F.",
           email: "nshmcbpl@gmail.com",
           image: "/rinku.jpg",
-          DOB:"17/08/1979",
-          DOJ:"06/09/2010",
-          address:"D-33, Akriti Garden, Nehru Nagar, Bhopal"
+          DOB: "17/08/1979",
+          DOJ: "06/09/2010",
+          address: "D-33, Akriti Garden, Nehru Nagar, Bhopal"
         },
         {
           name: "Dr. Niharika Prahladi",
@@ -329,9 +335,9 @@ export default function DeptEr({ dept }) {
           experience: "8 months/ F.T.",
           email: "niharikasinghharshana@gmail.com",
           image: "/niharika.jpg",
-          DOB:"23/11/1992",
-          DOJ:"08/11/2023",
-          address:"H.No.96, Kanta Shrawan, Jairam State, Near Ayodhya Bypass, Bhopal (M.P.)"
+          DOB: "23/11/1992",
+          DOJ: "08/11/2023",
+          address: "H.No.96, Kanta Shrawan, Jairam State, Near Ayodhya Bypass, Bhopal (M.P.)"
         },
         // {
         //   name: "Emily Johnson",
@@ -355,11 +361,11 @@ export default function DeptEr({ dept }) {
       headImg = "/ritesh.jpg";
       phoneHead = "+91 9584340592";
       emailHead = "drriteshkumbhare0909@gmail.com";
-      dob="DOB-30/09/1975";
-      doj="DOJ-05/11/2011";
-      address="B-203, Pushpa Nagar Colony, Bhopal";
-      degree="BHMS/14425",
-      experience="12 years & 8 Months/ F.T."
+      dob = "DOB-30/09/1975";
+      doj = "DOJ-05/11/2011";
+      address = "B-203, Pushpa Nagar Colony, Bhopal";
+      degree = "BHMS/14425",
+        experience = "12 years & 8 Months/ F.T."
       faculties = [
         {
           name: "Dr. Arun Maity",
@@ -368,9 +374,9 @@ export default function DeptEr({ dept }) {
           experience: "14 Years 4 Months/G.F.",
           email: "N/A",
           image: "/arun.jpg",
-          DOB:"19/06/1964",
-          DOJ:"17/10/2020",
-          address:"H.No. 3, Vinayak Parisar, Gulmohar Colony, Bhopal"
+          DOB: "19/06/1964",
+          DOJ: "17/10/2020",
+          address: "H.No. 3, Vinayak Parisar, Gulmohar Colony, Bhopal"
         },
         {
           name: "Dr. Shailendra Singh",
@@ -379,9 +385,9 @@ export default function DeptEr({ dept }) {
           experience: "3 year & 3 Months/ F.T.",
           email: "mr.shailendra@gmail.com",
           image: "/shailendra.jpg",
-          DOB:"15/07/1987",
-          DOJ:"01/04/2021",
-          address:"Flat No.7, BDA Colony, Talaiya, Bhopal (M.P.)"
+          DOB: "15/07/1987",
+          DOJ: "01/04/2021",
+          address: "Flat No.7, BDA Colony, Talaiya, Bhopal (M.P.)"
         },
         // {
         //   name: "Emily Johnson",
@@ -405,11 +411,11 @@ export default function DeptEr({ dept }) {
       headImg = "/nitesh.jpg";
       phoneHead = "+91 9893547451";
       emailHead = "dr.niteshsuryawanshi@gmail.com";
-      dob="DOB-25/04/1978";
-      doj="DOJ-06/10/2003";
-      address="C-30, Vardhman Green Park, Ashoka Garden, Bhopal";
-      degree="DHMS, M.D. (Hom.)/ 13245",
-      experience="20 years & 9 month/ F.T."
+      dob = "DOB-25/04/1978";
+      doj = "DOJ-06/10/2003";
+      address = "C-30, Vardhman Green Park, Ashoka Garden, Bhopal";
+      degree = "DHMS, M.D. (Hom.)/ 13245",
+        experience = "20 years & 9 month/ F.T."
       faculties = [
         {
           name: "Dr. Rupesh Chandra",
@@ -418,9 +424,9 @@ export default function DeptEr({ dept }) {
           experience: "13 years & 6 months/ F.T.",
           email: "drrupeshchandra@gmaill.com",
           image: "/rupesh.jpg",
-          DOB:"15/01/1976",
-          DOJ:"20/02/2020",
-          address:"D- 2/300, Danish Nagar, Hoshangabad, Road, Bhopal, M.P."
+          DOB: "15/01/1976",
+          DOJ: "20/02/2020",
+          address: "D- 2/300, Danish Nagar, Hoshangabad, Road, Bhopal, M.P."
         },
         {
           name: "Dr. Prachi Shrivastava Dubey",
@@ -429,9 +435,9 @@ export default function DeptEr({ dept }) {
           experience: "2 Years & 9 Months/ F.T.",
           email: "prachi.prachi.27@gmail.com ",
           image: "/prachi.jpg",
-          DOB:"27/03/1989",
-          DOJ:"01/10/2021",
-          address:"Pt. Bheemsen Joshi Parisar, Flat No.M-105 B Block, Saket Nagar, Sec-2C, Near AIIMS, Bhopal (M.P.)"
+          DOB: "27/03/1989",
+          DOJ: "01/10/2021",
+          address: "Pt. Bheemsen Joshi Parisar, Flat No.M-105 B Block, Saket Nagar, Sec-2C, Near AIIMS, Bhopal (M.P.)"
         },
         // {
         //   name: "Emily Johnson",
@@ -455,11 +461,11 @@ export default function DeptEr({ dept }) {
       headImg = "/rpsharma.jpg";
       phoneHead = "+91-9826356970";
       emailHead = "rps29sai@gmail.com";
-      dob="DOB-29/06/1957";
-      doj="DOJ-01/01/2021";
-      address="F-158, J.K. Road, Old Minal Residency,Bhopal (M.P.)";
-      degree="D.H.M.S./ 10366",
-      experience="33 Years & 6 months./ F.T."
+      dob = "DOB-29/06/1957";
+      doj = "DOJ-01/01/2021";
+      address = "F-158, J.K. Road, Old Minal Residency,Bhopal (M.P.)";
+      degree = "D.H.M.S./ 10366",
+        experience = "33 Years & 6 months./ F.T."
       faculties = [
         {
           name: "Dr. Santosh Kumar Verma",
@@ -468,9 +474,9 @@ export default function DeptEr({ dept }) {
           experience: "8 years / F.T.",
           email: "santoshvarma5566@gmail.com",
           image: "/santosh.jpg",
-          DOB:"11/09/1984",
-          DOJ:"16/06/2016",
-          address:"C-533, Pushpa Nagar, Near Main Railway Statoin, Bhopal-462010"
+          DOB: "11/09/1984",
+          DOJ: "16/06/2016",
+          address: "C-533, Pushpa Nagar, Near Main Railway Statoin, Bhopal-462010"
         },
         {
           name: "Dr. Yogeshvari",
@@ -479,9 +485,9 @@ export default function DeptEr({ dept }) {
           experience: "3years & 1 months/F.T",
           email: "divyanichourasiya616@gmail.com",
           image: "/yogeshvari.jpg",
-          DOB:"23/12/1992",
-          DOJ:"29/05/2021",
-          address:"B-70, Naveen Nagar, Bhopal"
+          DOB: "23/12/1992",
+          DOJ: "29/05/2021",
+          address: "B-70, Naveen Nagar, Bhopal"
         },
         // {
         //   name: "Emily Johnson",
@@ -505,11 +511,11 @@ export default function DeptEr({ dept }) {
       headImg = "/sandeep.jpg";
       phoneHead = "+91 9893389440";
       emailHead = "dr.sandeep_sharma@yahoo.in";
-      dob="DOB-25/12/1970";
-      doj="DOJ-06/09/1999";
-      address="C-32, Vardhman Green Park, Ashoka Garden, Bhopal";
-      degree="DHMS, M.D. (Hom)/11686",
-      experience="20 years & 11 months/ F.T"
+      dob = "DOB-25/12/1970";
+      doj = "DOJ-06/09/1999";
+      address = "C-32, Vardhman Green Park, Ashoka Garden, Bhopal";
+      degree = "DHMS, M.D. (Hom)/11686",
+        experience = "20 years & 11 months/ F.T"
       faculties = [
         {
           name: "Dr. Arvind Jain",
@@ -518,9 +524,9 @@ export default function DeptEr({ dept }) {
           experience: "26 years/ F.T.",
           email: "arvindjaindr1971@gmail.com",
           image: "/arvind.jpg",
-          DOB:"01/01/1971",
-          DOJ:"01/12/2017",
-          address:"C-715, Shahpura, Bhopal"
+          DOB: "01/01/1971",
+          DOJ: "01/12/2017",
+          address: "C-715, Shahpura, Bhopal"
         },
         {
           name: "Dr. Shifa Ansari",
@@ -529,9 +535,9 @@ export default function DeptEr({ dept }) {
           experience: "1 year & 7 months/ F. T.",
           email: "shifaansari6491@gmail.com",
           image: "/shifa.jpg",
-          DOB:"06/04/1991",
-          DOJ:"16/11/2022",
-          address:"H.No. 14, Near Golghar, Museum Ameerganj Colony, Idgah Hills, Bhpoal (M.P.)"
+          DOB: "06/04/1991",
+          DOJ: "16/11/2022",
+          address: "H.No. 14, Near Golghar, Museum Ameerganj Colony, Idgah Hills, Bhpoal (M.P.)"
         },
         // {
         //   name: "Emily Johnson",
@@ -555,11 +561,11 @@ export default function DeptEr({ dept }) {
       headImg = "/principalns.jpg";
       phoneHead = "+91 9827447031";
       emailHead = "dragrawalrs@gmail.com";
-      dob="DOB-31/05/1966";
-      doj="DOJ-01/02/2003";
-      address="11/1, Shalimar Sterling Complex, Raisen Road, Bhopal (M.P.)";
-      degree="DHMS, MD (Hom.)/ 10347",
-      experience="33 years & 7 months/ F. T."
+      dob = "DOB-31/05/1966";
+      doj = "DOJ-01/02/2003";
+      address = "11/1, Shalimar Sterling Complex, Raisen Road, Bhopal (M.P.)";
+      degree = "DHMS, MD (Hom.)/ 10347",
+        experience = "33 years & 7 months/ F. T."
       faculties = [
         {
           name: "Dr. Tahir Mohammad Warsi",
@@ -568,9 +574,9 @@ export default function DeptEr({ dept }) {
           experience: "14 years & 7 months/ F.T.",
           email: "tahirmohammadwarsi@gmail.com",
           image: "/tahir.jpg",
-          DOB:"23/09/1979",
-          DOJ:"03/07/2018",
-          address:"Bagh Dilkusdha Lala Lajpat Rai Colony, Bhopal (M.P.)"
+          DOB: "23/09/1979",
+          DOJ: "03/07/2018",
+          address: "Bagh Dilkusdha Lala Lajpat Rai Colony, Bhopal (M.P.)"
         },
         {
           name: "Dr. Dhanraj Bawan",
@@ -579,9 +585,9 @@ export default function DeptEr({ dept }) {
           experience: "3 years & 1 Months/F.T.",
           email: "dhanraj.bawan1992@gmail.com",
           image: "/dhanraj.jpg",
-          DOB:"14/08/1992",
-          DOJ:"01/06/2021",
-          address:"32, Phase-5, Kailash Nagar, Semra Kala, Bhopal"
+          DOB: "14/08/1992",
+          DOJ: "01/06/2021",
+          address: "32, Phase-5, Kailash Nagar, Semra Kala, Bhopal"
         },
         // {
         //   name: "Emily Johnson",
@@ -605,11 +611,11 @@ export default function DeptEr({ dept }) {
       headImg = "/jpbuch.jpg";
       phoneHead = "+91 9424354149";
       emailHead = "jaiprakashbuch.ent@gmail.com";
-      dob="DOB-11/08/1977";
-      doj="DOJ-07/02/2008";
-      address="MIG-81, Old Subhash Nagar, Bhopal";
-      degree="MBBS, MS (ENT)/4466",
-      experience="16 years & 5 months/ F.T."
+      dob = "DOB-11/08/1977";
+      doj = "DOJ-07/02/2008";
+      address = "MIG-81, Old Subhash Nagar, Bhopal";
+      degree = "MBBS, MS (ENT)/4466",
+        experience = "16 years & 5 months/ F.T."
       faculties = [
         {
           name: "Dr. Ajit Kumar Jain",
@@ -618,9 +624,9 @@ export default function DeptEr({ dept }) {
           experience: "21 years & 10 months/ G.F.",
           email: "drajitsjain@gmail.com",
           image: "/ajit.jpg",
-          DOB:"12/11/1960",
-          DOJ:"12/09/2002",
-          address:"175, Ashok Vihar, Ashoka Garden, Bhopal"
+          DOB: "12/11/1960",
+          DOJ: "12/09/2002",
+          address: "175, Ashok Vihar, Ashoka Garden, Bhopal"
         },
         {
           name: "Dr. Shahjahan Begum",
@@ -629,9 +635,9 @@ export default function DeptEr({ dept }) {
           experience: "2 years & 7 months/ F.T.",
           email: "sarfrazshaikhshahjahan@gmail.com",
           image: "/shahjahan.jpg",
-          DOB:"23/02/1981",
-          DOJ:"21/11/2017",
-          address:"CH.No.42, Behine A-One Star Shadi Hall, Near 80 Feet Road, Nav Bahar Colony, Bhopal (M.P.)-462010"
+          DOB: "23/02/1981",
+          DOJ: "21/11/2017",
+          address: "CH.No.42, Behine A-One Star Shadi Hall, Near 80 Feet Road, Nav Bahar Colony, Bhopal (M.P.)-462010"
         },
         // {
         //   name: "Emily Johnson",
@@ -650,257 +656,332 @@ export default function DeptEr({ dept }) {
       break;
   }
   const [active, setActive] = useState(0)
- const buttons=[
-  'About The Department','Course-curriculmn','Labs Facility','Faculty','Academic Programmes'
- ]
+
+
+  let deptImgs;
+  let mission;
+  let vision;
+  
+  switch (deps) {
+    case "me":
+      deptImgs = "/civil-img.jpg";
+      mission = "To impart knowledge and equip students with skills for generating quality civil engineering professionals with high ethical standards; carry out innovative research and consultancy projects to design, build and maintain civil engineering infrastructure ensuring environmental health and quality life.";
+      vision = "To become a frontier in civil engineering education and research, which will serve the society with sustainable infrastructure and superior environmental health.";
+      break;
+    
+    case "cse":
+      deptImgs = "/mechanical-img.jpg";
+      mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+      vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+      break;
+    
+    case "ece":
+      deptImgs = "/mechanical-img.jpg";
+      mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+      vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+      break;
+    
+    case "eet":
+      deptImgs = "/mechanical-img.jpg";
+      mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+      vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+      break;
+    
+    case "it":
+      deptImgs = "/mechanical-img.jpg";
+      mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+      vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+      break;
+    
+    case "og":
+      deptImgs = "/mechanical-img.jpg";
+      mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+      vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+      break;
+    
+    case "pm":
+      deptImgs = "/mechanical-img.jpg";
+      mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+      vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+      break;
+    
+    case "pfm":
+      deptImgs = "/mechanical-img.jpg";
+      mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+      vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+      break;
+    
+    case "rep":
+      deptImgs = "/mechanical-img.jpg";
+      mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+      vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+      break;
+    
+    case "pharm":
+      deptImgs = "/mechanical-img.jpg";
+      mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+      vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+      break;
+    
+    case "anotomy":
+      deptImgs = "/mechanical-img.jpg";
+      mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
+      vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
+      break;
+    
+    case "surgery":
+      deptImgs = "/electrical-img.jpg";
+      mission = "To produce skilled electrical engineers who can innovate and contribute to the development of sustainable energy solutions.";
+      vision = "To lead in electrical engineering education and research for a sustainable and technologically advanced future.";
+      break;
+    
+    default:
+      deptImgs = "/default-img.jpg";
+      mission = "Default Mission";
+      vision = "Default Vision";
+  }
+  
+
+
+
+  const buttons = [
+    'About The Department', 'Course-curriculmn', 'Labs Facility', 'Faculty', 'Academic Programmes'
+  ]
 
   return (
     <>
-    <div>
-      <SliderMain images={images} heading={dept} />
-      <div className='mt-6 flex items-center gap-5'>
-      {
-        buttons.map((item,index)=>(
-          <button onClick={()=>setActive(index)} className='border-2 p-4 rounded-lg bg-purple-500 hover:bg-purple-700' key={index}>{item}</button>
-        ))
-      }
-      </div>
-      
-      <div className="w-full   ">
-        {
-          active===0 && (
-            <div className="w-full flex px-20 py-10  gap-7">
-          <div className="w-2/3 ">
-            <div className="p-10">
-              <h2 className=" text-4xl text-purple-800 my-5">
-                About the Department
-              </h2>
-              <div className="w-full   mt-5">
-                <div className="w-full grid grid-cols-3 gap-5 ">
-                  {counter.map((count) => (
-                    <DeptCounter
-                      key={count.title}
-                      initialValue={3}
-                      targetValue={count.value}
-                      speed={count.speed}
-                      textColor={count.textColor}
-                      text={count.title}
-                      color={count.color}
+      <div>
+        <SliderMain images={images} heading={dept} />
+        <div className='mt-6 flex items-center gap-5'>
+          {
+            buttons.map((item, index) => (
+              <button onClick={() => setActive(index)} className='border-2 p-4 rounded-lg bg-purple-500 hover:bg-purple-700' key={index}>{item}</button>
+            ))
+          }
+        </div>
+
+        <div className="w-full   ">
+          {
+            active === 0 && (
+              <div className="w-full flex px-20 py-10  gap-7">
+                <div className="w-2/3 ">
+                  <div className="p-10">
+                    <h2 className=" text-4xl text-purple-800 my-5">
+                      About the Department
+                    </h2>
+                    <div className="w-full   mt-5">
+                      <div className="w-full grid grid-cols-3 gap-5 ">
+                        {counter.map((count) => (
+                          <DeptCounter
+                            key={count.title}
+                            initialValue={3}
+                            targetValue={count.value}
+                            speed={count.speed}
+                            textColor={count.textColor}
+                            text={count.title}
+                            color={count.color}
+                          />
+                        ))}
+                      </div>
+                    </div>
+
+                    <p className=" mt-5 font-extralight text-sm  text-justify  h-[160px]">
+                      {aboutDept}
+                    </p>
+                  </div>
+                </div>
+                <div className="w-1/3  p-4">
+                  <div className="relative h-full">
+                    <Image
+                      src="/welcome.jpeg"
+                      alt="foddiesssss"
+                      layout="fill"
+                      objectFit="cover"
                     />
-                  ))}
+                  </div>
                 </div>
               </div>
-
-              <p className=" mt-5 font-extralight text-sm  text-justify  h-[160px]">
-                {aboutDept}
-              </p>
-            </div>
-          </div>
-          <div className="w-1/3  p-4">
-            <div className="relative h-full">
-              <Image
-                src="/welcome.jpeg"
-                alt="foddiesssss"
-                layout="fill"
-                objectFit="cover"
-              />
-            </div>
-          </div>
-        </div>
-          )
-        }
-        {
-          active===1 && (
-            <div><Curriculumn/></div>
-          )
-        }
-        {
-          active===2 && (
-            <div>
+            )
+          }
+          {
+            active === 1 && (
+              <div><Curriculumn /></div>
+            )
+          }
+          {
+            active === 2 && (
               <div className="w-full flex px-20 py-4 gap-7">
-          <div className="w-3/5 h-[580px]">
-            <div className="relative h-full">
-              <Image
-                src={deptImg}
-                alt="foddiesssss"
-                layout="fill"
-                objectFit="cover"
-              />
-            </div>
-          </div>
-          <div className="w-2/5  flex flex-col gap-10 py-20 justify-between ">
-            <div className="w-11/12 mx-auto  flex flex-col gap-4">
-              <div className="flex  items-center gap-2">
-                <Image src="/mission-icon.png" width={70} height={20} alt="h" />{" "}
-                <h1 className="text-2xl font-bold">Mission</h1>
-              </div>
-              <div>
-                <p className="text-sm font-extralight">
-                  To impart knowledge and equip students with skills for
-                  generating quality civil engineering professionals with high
-                  ethical standards; carry out innovative research and
-                  consultancy projects to design, build and maintain civil
-                  engineering infrastructure ensuring environmental health and
-                  quality life.
-                </p>
-              </div>
-            </div>
-            <div className="w-11/12 mx-auto  flex flex-col gap-4">
-              <div className="flex  items-center gap-2">
-                <Image src="/vision-icon.png" width={70} height={20} alt="h" />{" "}
-                <h1 className="text-2xl font-bold">Vision</h1>
-              </div>
-              <div>
-                <p className="text-sm font-extralight">
-                  To become frontier in civil engineering education and
-                  research, which will serve the society with most sustainable
-                  infrastructure and superior environmental health.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-            </div>
-          )
-        }
-        {
-          active===3 && (
-            <>
-            <div className="w-full flex flex-col px-20 gap-4 py-6 ">
-          <h1 className="font-bold text-4xl text-purple-700">
-            Head Of Department
-          </h1>
-          <div className="flex justify-between gap-10">
-            <div className="w-1/2  flex items-center p-4">
-              <div className="w-72 h-72 rounded-full border-2 border-black relative overflow-hidden">
-                <Image src={headImg} fill />
-              </div>
-              <div className="flex flex-col justify-center  p-10">
-                <h1 className=" font-semibold text-2xl">{headD}</h1>
-                <h2 className="text-lg mb-2">Head Of Department</h2>
-                <h1 className="text-sm  mt-1">
-                  <FaPhoneAlt className="inline mr-1" />
-                  {phoneHead}
-                </h1>
-                
-                <h1 className="text-sm  mt-1 flex items-center">
-                  <MdEmail className="inline mr-1 " />
-                  {emailHead}
-                </h1>
-                <h1 className="text-sm  mt-1">{dob}</h1>
-                <h1 className="text-sm  mt-1">{doj}</h1>
-                <h1 className="text-sm  mt-1">{address}</h1>
-                <h1 className="text-sm  mt-1">{degree}</h1>
-                <h1 className="text-sm  mt-1">{experience}</h1>
-
-              </div>
-            </div>
-            <div className="w-1/2  flex flex-col justify-center items-center">
-              <p className="p-5 text-3xl text-center"> {slogan}</p>
-              <h1 className=" italic  text-2xl">- {author}</h1>
-            </div>
-          </div>
-        </div>
-        <h1 className="text-3xl text-center font-semibold border-b">Faculty at NSHMC</h1>
-        <div className=" grid ">
-        <div>
-          {faculties.map((faculty, index) => (
-            <div
-              className=" mt-1 mb-5  p-2  rounded-lg shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] "
-              key={index}
-            >
-              <div className=" flex gap-6 ">
-                <div className="w-48   relative  overflow-hidden rounded-lg">
-                  <Image
-                    src={faculty.image}
-                    alt="Img Not Found"
-                    layout="fill"
-                    objectFit="contain"
-                  />
+                <div className="w-3/5 h-[580px]">
+                  <div className="relative h-full">
+                    <Image
+                      src={deptImgs}
+                      alt="Department Image"
+                      layout="fill"
+                      objectFit="cover"
+                    />
+                  </div>
                 </div>
-                <div className=" py-4">
-                  <h1 className="my-2 font-bold text-lg mt-1">
-                    <span className="font-semibold"> Name : </span>{" "}
-                    {faculty.name}
-                  </h1>
-                  <h1 className="text-sm mt-1">
-                    <span className="font-semibold"> Designation : </span>{" "}
-                    {faculty.position}
-                  </h1>
-                  <h2 className="text-sm">
-                    <span className="font-semibold"> Qualification : </span>{" "}
-                    {faculty.degree}
-                  </h2>
-                  <h3 className="text-sm mt-1">
-                    <span className="font-semibold"> Experience : </span>{" "}
-                    {faculty.experience}
-                  </h3>
-                  <h3 className="text-sm mt-1">
-                    <span className="font-semibold"> Gmail </span>
-                    {faculty.email}
-                  </h3>
-                  <h3 className="text-sm mt-1">
-                    <span className="font-semibold"> DOB </span>
-                    {faculty.DOB}
-                  </h3>
-                  <h3 className="text-sm mt-1">
-                    <span className="font-semibold"> DOJ </span>
-                    {faculty.DOJ}
-                  </h3>
-                  <h3 className="text-sm mt-1">
-                    <span className="font-semibold"> Address </span>
-                    {faculty.address}
-                  </h3>
+                <div className="w-2/5 flex flex-col gap-10 py-20 justify-between">
+                  <div className="w-11/12 mx-auto flex flex-col gap-4">
+                    <div className="flex items-center gap-2">
+                      <Image src="/mission-icon.png" width={70} height={20} alt="Mission Icon" />
+                      <h1 className="text-2xl font-bold">Mission</h1>
+                    </div>
+                    <div>
+                      <p className="text-sm font-extralight">{mission}</p>
+                    </div>
+                  </div>
+                  <div className="w-11/12 mx-auto flex flex-col gap-4">
+                    <div className="flex items-center gap-2">
+                      <Image src="/vision-icon.png" width={70} height={20} alt="Vision Icon" />
+                      <h1 className="text-2xl font-bold">Vision</h1>
+                    </div>
+                    <div>
+                      <p className="text-sm font-extralight">{vision}</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            )
+          }
+          {
+            active === 3 && (
+              <>
+                <div className="w-full flex flex-col px-20 gap-4 py-6 ">
+                  <h1 className="font-bold text-4xl text-purple-700">
+                    Head Of Department
+                  </h1>
+                  <div className="flex justify-between gap-10">
+                    <div className="w-1/2  flex items-center p-4">
+                      <div className="w-72 h-72 rounded-full border-2 border-black relative overflow-hidden">
+                        <Image src={headImg} fill />
+                      </div>
+                      <div className="flex flex-col justify-center  p-10">
+                        <h1 className=" font-semibold text-2xl">{headD}</h1>
+                        <h2 className="text-lg mb-2">Head Of Department</h2>
+                        <h1 className="text-sm  mt-1">
+                          <FaPhoneAlt className="inline mr-1" />
+                          {phoneHead}
+                        </h1>
 
-          {/* Add more rows as needed */}
-        </div>
-      </div>
-            </>
-          )
-        }
-        {
-          active===4 && (
-            <>
-            <div className="w-full flex flex-col px-20 gap-4 py-6">
-          <h1 className="text-4xl text-purple-700 font-bold p-2">
-            Academic Programmes
-          </h1>
-          <div className="w-full flex justify-center gap-20 ">
-            <ProgramCard
-              course={"Undergraduate"}
-              bgcolor={"bg-purple-800"}
-              admission={"NEET UG"}
-              dept={" It is a 5.5-year course that includes an internship and covers the medical knowledge of homeopathy"}
-            />
-            {/* <ProgramCard
+                        <h1 className="text-sm  mt-1 flex items-center">
+                          <MdEmail className="inline mr-1 " />
+                          {emailHead}
+                        </h1>
+                        <h1 className="text-sm  mt-1">{dob}</h1>
+                        <h1 className="text-sm  mt-1">{doj}</h1>
+                        <h1 className="text-sm  mt-1">{address}</h1>
+                        <h1 className="text-sm  mt-1">{degree}</h1>
+                        <h1 className="text-sm  mt-1">{experience}</h1>
+
+                      </div>
+                    </div>
+                    <div className="w-1/2  flex flex-col justify-center items-center">
+                      <p className="p-5 text-3xl text-center"> {slogan}</p>
+                      <h1 className=" italic  text-2xl">- {author}</h1>
+                    </div>
+                  </div>
+                </div>
+                <h1 className="text-3xl text-center font-semibold border-b">Faculty at NSHMC</h1>
+                <div className=" grid ">
+                  <div>
+                    {faculties.map((faculty, index) => (
+                      <div
+                        className=" mt-1 mb-5  p-2  rounded-lg shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] "
+                        key={index}
+                      >
+                        <div className=" flex gap-6 ">
+                          <div className="w-48   relative  overflow-hidden rounded-lg">
+                            <Image
+                              src={faculty.image}
+                              alt="Img Not Found"
+                              layout="fill"
+                              objectFit="contain"
+                            />
+                          </div>
+                          <div className=" py-4">
+                            <h1 className="my-2 font-bold text-lg mt-1">
+                              <span className="font-semibold"> Name : </span>{" "}
+                              {faculty.name}
+                            </h1>
+                            <h1 className="text-sm mt-1">
+                              <span className="font-semibold"> Designation : </span>{" "}
+                              {faculty.position}
+                            </h1>
+                            <h2 className="text-sm">
+                              <span className="font-semibold"> Qualification : </span>{" "}
+                              {faculty.degree}
+                            </h2>
+                            <h3 className="text-sm mt-1">
+                              <span className="font-semibold"> Experience : </span>{" "}
+                              {faculty.experience}
+                            </h3>
+                            <h3 className="text-sm mt-1">
+                              <span className="font-semibold"> Gmail </span>
+                              {faculty.email}
+                            </h3>
+                            <h3 className="text-sm mt-1">
+                              <span className="font-semibold"> DOB </span>
+                              {faculty.DOB}
+                            </h3>
+                            <h3 className="text-sm mt-1">
+                              <span className="font-semibold"> DOJ </span>
+                              {faculty.DOJ}
+                            </h3>
+                            <h3 className="text-sm mt-1">
+                              <span className="font-semibold"> Address </span>
+                              {faculty.address}
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+
+                    {/* Add more rows as needed */}
+                  </div>
+                </div>
+              </>
+            )
+          }
+          {
+            active === 4 && (
+              <>
+                <div className="w-full flex flex-col px-20 gap-4 py-6">
+                  <h1 className="text-4xl text-purple-700 font-bold p-2">
+                    Academic Programmes
+                  </h1>
+                  <div className="w-full flex justify-center gap-20 ">
+                    <ProgramCard
+                      course={"Undergraduate"}
+                      bgcolor={"bg-purple-800"}
+                      admission={"NEET UG"}
+                      dept={" It is a 5.5-year course that includes an internship and covers the medical knowledge of homeopathy"}
+                    />
+                    {/* <ProgramCard
               course={"Post-Graduate"}
               bgcolor={"bg-purple-800"}
               admission={"JEE"}
               dept={"civil engineering"}
             /> */}
-          </div>
-        </div>
-            </>
-          )
-        }
-        
-        
+                  </div>
+                </div>
+              </>
+            )
+          }
 
-        
-        
-        {/* <div className="w-full p-2"></div> */}
+
+
+
+
+          {/* <div className="w-full p-2"></div> */}
+        </div>
+        <div>
+
+        </div>
+
+
       </div>
-      <div>
-      
-    </div>
-      
-      
-    </div>
     </>
-    
+
   );
 }

@@ -5,6 +5,9 @@ import Loader from "@/app/components/Loader/Loader";
 import {addEvent,updateEvent} from "@/app/lib/services/events/events"
 import moment from "moment";
 import { uploadImg } from "@/app/lib/services/files/fileServices";
+import useDropdown from "../hooks/useDropDown";
+import { first } from "lodash";
+import { ADMIN } from "@/app/lib/constants";
 
 
 
@@ -15,7 +18,8 @@ export const EVENTS_INITIAL = {
   startDate: "2024-05-04T15:52:51.463Z",
   endDate: "2024-05-07T15:52:51.463Z",
   type: "",
-  registrationRequired: false
+  registrationRequired: false,
+  collegeUuid: "",
 };
 const fields = [
   { name: "title", label: "Title", type: "text", placeholder: "Enter Title" },
@@ -59,6 +63,8 @@ export default function NewsForm({
   onFormSubmit,
   events = [],
   selectedEventId,
+  setSelectedEventId,
+  ...others
 }) {
   const [isLoading, setIsLoading] = useState(false);
   const [hasError, setError] = useState({ msg: "", type: "" });
@@ -71,6 +77,15 @@ export default function NewsForm({
     startDate: moment().format("YYYY-MM-DDTHH:mm"), // Initialize with current date and time
     endDate: moment().format("YYYY-MM-DDTHH:mm"), // Initialize with current date and time
   });
+
+  const { colleges = [], collegeUuid = "", profile = {} } = others;
+  console.log(colleges,"college......hh");
+  const [organization, OrganizationDropDown, setOrganization] = useDropdown(
+    "College",
+    collegeUuid ||first(colleges).value,
+    others?.colleges || []
+  );
+
   useEffect(() => {
     if (selectedEventId) {
       const selectedEvent = events.find(
@@ -87,7 +102,7 @@ export default function NewsForm({
           endDate: moment(selectedEvent.endDate).format("YYYY-MM-DDTHH:mm:ss"),
           location: selectedEvent.location,
           category: selectedEvent.category,
-          OrganizationUuid: selectedEvent.OrganizationUuid,
+          collegeUuid: selectedEvent.collegeUuid,
           type: selectedEvent.type,
           registrationRequired: selectedEvent.registrationRequired,
           capacity: selectedEvent.capacity,
@@ -176,11 +191,13 @@ export default function NewsForm({
           startDate: formattedDate,
           endDate: formattedDate,
           uuid: selectedEventId, // Corrected duplicated uuid property
+          collegeUuid: organization || collegeUuid,
         });
       } else {
         res = await addEvent({
           ...eventData,
           imageUrl: imgRes,
+          collegeUuid: organization || collegeUuid,
         });
       }
 
@@ -246,6 +263,10 @@ export default function NewsForm({
                 )}
               </div>
             ))}
+
+            <div className="flex flex-col justify-start">
+              {profile.userType === ADMIN && <OrganizationDropDown />}
+            </div>
           </div>
           {isEditMode ? (
             <>
@@ -265,7 +286,7 @@ export default function NewsForm({
           ) : (
             <button
               onClick={handleSubmit}
-              className="w-20 my-5 mx-auto p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 bg-white hover:bg-purple-500 text-purple-500"
+              className="w-20 my-5 mx-auto p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 bg-white hover:bg-cyan-500 text-cyan-500"
             >
               Submit
             </button>

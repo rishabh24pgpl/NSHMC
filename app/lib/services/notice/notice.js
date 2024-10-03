@@ -15,7 +15,7 @@ export const addNotice = async (payload) => {
 export const getAllNotice = async () => {
  
     try {
-        const res = await api.get(NOTICES);
+        const res = await api.get(`${NOTICES}/all/1c525e9c-34c5-4e32-998c-d80c1a3c0dfe`);
         return res.data.payload.data;
       } catch (error) {
         handleError(error);
