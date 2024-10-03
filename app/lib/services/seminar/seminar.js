@@ -7,14 +7,14 @@ import { isEmpty } from "lodash";
 export const addSeminar = async (payload) => {
   const res = await api.post(SEMINAR, payload);
   if (res) {
-    console.log(res," hhhhhhhhh");
+    // console.log(res," hhhhhhhhh");
     return res;
   }
 };
 
 export const getAllSeminar = async () => {
     try {
-      const res = await api.get(SEMINAR);
+      const res = await api.get(`${SEMINAR}/all/1c525e9c-34c5-4e32-998c-d80c1a3c0dfe`);
       return res.data.payload.data;
     } catch (error) {
       handleError(error);

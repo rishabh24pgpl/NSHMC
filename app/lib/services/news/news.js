@@ -13,14 +13,22 @@ export const addNews = async (payload) => {
   }
 };
 
-export const getAllNews = async (schoolUuid = "") => {
+export const getAllNews = async (collegeUuid = "") => {
   let res;
   try {
-    if (!schoolUuid) {
+    if (!collegeUuid) {
       res = await api.get(NEWS);
     } else {
-      res = await api.get(`${NEWS}/all/${myUuid}`);
+      res = await api.get(`${NEWS}/all/627c481f-9c20-47bf-997e-894481c903f2`);
     }
+    return res.data.payload.data;
+  } catch (error) {
+    handleError(error);
+  }
+
+
+  try {
+    const res = await api.get(`${NEWS}/all/1c525e9c-34c5-4e32-998c-d80c1a3c0dfe`);
     return res.data.payload.data;
   } catch (error) {
     handleError(error);
