@@ -25,7 +25,7 @@ const Monument = () => {
       id: 3,
       title: "Guiding Principles",
       content: "Facilitating student learning for the competent practice of Homoeopathy. Promoting a method for individual student to gain insight into their own learning process and self development .Encouraging a student attitude of wonder and open mindedness consistent with the development of freedom from prejudice, necessary for the growth of each student as a healerPromoting classical Homoeopathy as of the foremost healing arts in this millennium",
-      img: "/rules.jpg",
+      img: "/guidingprinciple.jpg",
     },
   ];
 
@@ -60,7 +60,7 @@ const Monument = () => {
               alt="foddiesssss"
               layout="fill"
               objectFit="cover"
-              className=" z-20"
+              className=" "
             />
           </div>
         </div>

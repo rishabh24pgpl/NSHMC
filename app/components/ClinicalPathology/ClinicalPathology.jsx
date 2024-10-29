@@ -16,12 +16,12 @@ export default function Page() {
           backgroundSize: "cover",
         }}
       >
-        <h1 className=" uppercase font-bold text-5xl">Clinical Pathology Records</h1>
+        <h1 className=" uppercase font-bold text-5xl">Other Records</h1>
       </div>
       <div className="w-full mx-auto flex relative mt-2  font-semibold text-lg">
         <div className="w-2/3 px-10 py-10 grid grid-cols-2 gap-6 ">
         
-          <DocCard link="https://drive.google.com/file/d/1ons_DUOJqWsc2NNN4-eElcajZXOU8PsL/view?usp=sharing" heading="Clinical Pathology" /> 
+          {/* <DocCard link="https://drive.google.com/file/d/1ons_DUOJqWsc2NNN4-eElcajZXOU8PsL/view?usp=sharing" heading="Clinical Pathology" />  */}
           <DocCard link="https://drive.google.com/file/d/1iX36pRnx7Vp0zcJnupmy-QnpvrhU_7Te/view?usp=sharing" heading="Hematology" />
           <DocCard link="https://drive.google.com/file/d/11h0nhYjwU9x8UzqZBtOAZWCF-gOnjlbd/view?usp=sharing" heading="Biocgemistry General-Blood" /> 
           <DocCard link="https://drive.google.com/file/d/1rGKOrFbesBKPc4d-di3LIMEU34IV__9V/view?usp=sharing" heading="Endocrionology" />

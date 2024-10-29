@@ -72,13 +72,12 @@ export default function DeptEr({ dept,deps }) {
   let dob;
   let doj;
   let address;
- 
   switch (dept) {
     case "me":
       slogan = "Empowering Healers with the Timeless Principles of Homeopathy.";
       author = "Dr.Sandeep Jha";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Department of Organon of Medicine at NSHMC is the cornerstone of homeopathic education, focusing on the fundamental principles and philosophy of homeopathy as laid out by its founder, Samuel Hahnemann. This department delves into the study of the Organon, which serves as the guiding text for understanding the laws of nature in health and disease, and how to apply them for holistic healing. Through a combination of theoretical instruction and practical application, students are trained to develop a deep understanding of patient-centered care and the science of individualized treatment. The department fosters critical thinking and a compassionate approach, ensuring that future homeopaths are well-versed in both the philosophy and practice of this profound healing system";
+      aboutDept = "The Department of Organon of Medicine is a department in homoeopathic institutions that teaches students about the principles of homoeopathic treatment and make Students learn about the principles of homoeopathic treatment and how to apply them in practice Written by Samuel Hahnemann, the founder of homeopathy, The Organon of Medicine is the cornerstone of homeopathic principles and practice, and used by homeopathy students and practitioners all over for treatment of sick individuals.";
       dept = "Organon of Medicine";
       headD = "Dr.Sandeep Jha";
 
@@ -122,7 +121,7 @@ export default function DeptEr({ dept,deps }) {
       slogan = "Unlocking the Science of Cure through the Laws of Health";
       author = "Dr. Neelam Sharma";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Department of Materia Medica at NSHMC is dedicated to the study of homeopathic remedies and their therapeutic applications. This department provides students with a comprehensive understanding of the origins, properties, and clinical uses of various homeopathic medicines. Through both theoretical instruction and case-based learning, students are trained to accurately match remedies to specific symptoms, tailoring treatments to individual patients. The department emphasizes a deep knowledge of remedies, enabling future practitioners to make informed, effective choices in patient care, fostering a holistic and individualized approach to healing.";
+      aboutDept = "Homoeopathic Materia Medica is the backbone of Homoeopathic system of treatment in which there is huge collection of symptoms of medicines which are arranged in systemic manner.There are different approaches to treat the patents i.e. through constitution, guiding, gentle and pathological symptoms etc.Medicines in the Materia Medica have different sources like vegetable, animal, mineral etc. and each source is having its own characteristic which helps to select the remedy and to individual the case on holistic approach which helps to cure the sick to health and not only its relief or palliation for time being.Therefore Homoeopathy is called holistic system of treatment.";
       dept = "Materia Medica And Therapeutics";
       headD = "Dr. Neelam Sharma";
       headImg = "/neelamsharma.jpg";
@@ -165,7 +164,7 @@ export default function DeptEr({ dept,deps }) {
       slogan = "Foundation of Homeopathic Wisdom, Leading to Holistic Wellness.";
       author = "Dr. Farook Mohd. Khan";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Department of Forensic Medicine and Toxicology at NSHMC equips students with the knowledge and skills to understand the medical and legal aspects of healthcare. This department focuses on the study of medical jurisprudence, the investigation of unnatural deaths, and the effects of toxic substances on the human body. Students are trained to apply forensic principles in analyzing injuries, poisons, and criminal cases, while also understanding their legal implications. With a strong emphasis on ethical practices and accuracy, the department plays a critical role in preparing students to contribute to both healthcare and the justice system.";
+      aboutDept = "Forensic Medicine is important branch of medical sciences which provided the legal knowledge of cases deals with solution of legal problems like applying the medical knowledge in deciding case of injuries, murder, suicide, accident, sexual offences, poisoning etc. In homoeopathy, a physician also contain proper knowledge of acts, laws, different type of certificate necessary in clinical practice which provide the study of forensic medicine. ";
       dept = "Forensic Medicine And Toxicology";
       headD = "Dr. Farook Mohd. Khan";
       headImg = "/farook.jpg";
@@ -202,8 +201,204 @@ export default function DeptEr({ dept,deps }) {
         // },
         // Add more faculty members as needed
       ];
-
       break;
+      case "eet":
+        slogan = "Foundation of Homeopathic Wisdom, Leading to Holistic Wellness.";
+        author = "Dr. Shoeba Perveen";
+        deptImg = "/dept-m-v.jpg";
+        aboutDept = "Community medicine is the field concerned with the study of health and disease in the defined community or group. Its goal is to identify the health problems and needs of people and then accordingly to plan, implement and evaluate the effectiveness of health care system.Homoeopathic play a important role in community medicine in a number of ways including prophylaxis and complementary treatment. During covid 19 pandemic we used Ars. Alb. 30 as a preventive with great efficacy.";
+        dept = "Communtiy Medicine";
+        headD = "Dr. Shoeba Perveen";
+        headImg = "/shoeba.jpg";
+        phoneHead = "+91 8224903697";
+        emailHead = "drshoebaali1991@gmail.com";
+        dob = "DOB-04/05/1991";
+        doj = "DOJ-20/12/2019";
+        address = "H.No. 71, Rambha Nagar, Berasia Road, Bhopal, M.P.-462001";
+        degree = "BHMS, M.D. (Hom.)/ 22445",
+          experience = "4 year & 6 months/F.T."
+        faculties = [
+          {
+            name: "Dr. Garima Namdev",
+            position: "Associate  Professor",
+            degree: "M.B.B.S. M.D. (C.M.) /9154",
+            experience: "13 years & 7 months/ G.F.",
+            email: "namdevgarima50@gmail.com",
+            image: "/garima.jpg",
+            DOB: "23/02/1981",
+            DOJ: "21/11/2017",
+            address: "Ganga Ashram, Sehore"
+          },
+          {
+            name: "Dr. Bhumika Gangwani",
+            position: "Assistant Professor",
+            degree: "BHMS, M.D. (Hom.)/ H038739",
+            experience: "1 year/F.T.",
+            email: "bhumibhms2605@gmail.com",
+            image: "/bhumika.jpg",
+            DOB: "26/09/1992",
+            DOJ: "21/08/2023",
+            address: "78, Deepak Society, Chuna Bhatti, Kolar Road, Bhopal-462016 (M.P.)"
+          },
+          // {
+          //   name: "Emily Johnson",
+          //   position: "Project Manager",
+          //   degree: "MBA",
+          //   experience: "7 years",
+          // },
+          // Add more faculty members as needed
+        ];
+  
+        break;
+      case "it":
+        slogan = "Unlocking the Secrets of Health Through Physiology and Biochemistry.";
+        author = "Dr. Shail Jain";
+        deptImg = "/dept-m-v.jpg";
+        aboutDept = "The Department of Physiology & Biochemistry at NSHMC provides a foundational understanding of the human body's functions and chemical processes. Physiology explores how various systems and organs work together to maintain health, while Biochemistry focuses on the molecular mechanisms that underlie these functions. Through interactive lectures, lab work, and research, students gain in-depth knowledge of essential processes like metabolism, cellular function, and hormonal regulation.These disciplines are critical in understanding how the body responds to health challenges and treatment, making them central to both homeopathic and conventional medical education. The department fosters a comprehensive, integrative approach, equipping students with the knowledge and skills to understand health at both the systemic and molecular levels.";
+        dept = "Physiology & BioChemistry";
+        headD = "Dr. Shail Jain";
+        headImg = "/shailjain.jpg";
+        phoneHead = "+91 9893269251";
+        emailHead = "drshailjain@yahoo.com";
+        dob = "DOB-14/09/1964";
+        doj = "DOJ-10/09/2002";
+        address = "175, Ashok Vihar, Ashoka Garden, Bhopal";
+        degree = "MBBS/8905",
+          experience = "22 years/ F.T."
+        faculties = [
+          {
+            name: "Dr. Naveen Jaggi",
+            position: "Associate Professor",
+            degree: "DHMS, BHMS(Graded)/13720",
+            experience: "20 years & 11 months/ F.T.",
+            email: "dr.naveenjaggi@gmail.com",
+            image: "/naveen.jpg",
+            DOB: "21/02/1974",
+            DOJ: "03/01/2018",
+            address: "S-10, Seagul, Aakriti, E-8, Rohit Nagar, Bhopal"
+          },
+          {
+            name: "Dr. Rajani Suryawanshi",
+            position: "Associate Professor",
+            degree: "DHMS, M.D. (Hom.)/13218",
+            experience: "6 years & 4  months/F.T.",
+            email: "rajanishakya302@gmail.com",
+            image: "/rajani.jpg",
+            DOB: "19/06/1977",
+            DOJ: "01/02/2020",
+            address: "C-30, Vardhman Green Park, Ashoka Garden, Bhopal- 462023"
+          },
+          // {
+          //   name: "Emily Johnson",
+          //   position: "Project Manager",
+          //   degree: "MBA",
+          //   experience: "7 years",
+          //   email: "",
+          //   image: "/"
+          // },
+          // Add more faculty members as needed
+        ];
+  
+        break;
+      case "og":
+        slogan = "Guiding Safe Journeys from Motherhood to Womanhood.";
+        author = "Dr. Prerna Tiwari";
+        deptImg = "/dept-m-v.jpg";
+        aboutDept = "The Department of Obstetrics & Gynaecology at NSHMC is dedicated to the comprehensive study of women's health, focusing on pregnancy, childbirth, and the reproductive system. The department provides students with both theoretical knowledge and practical skills in managing pregnancy, labor, and postpartum care, as well as diagnosing and treating gynecological disorders. With a strong emphasis on maternal and fetal health, students are trained in both preventive and curative care, ensuring they are well-prepared to support women through all stages of life.Through hands-on clinical training, interactive learning, and research opportunities, the department equips future practitioners with the expertise to deliver compassionate, patient-centered care. The holistic approach integrates modern medical practices with homeopathic principles, fostering a well-rounded understanding of women's health.";
+        dept = "Obstretics & Gynaecology";
+        headD = "Dr. Prerna Tiwari";
+        headImg = "/prerna.jpg";
+        phoneHead = "+91 8871712624";
+        emailHead = "prernaghmc@gmail.com";
+        dob = "DOB-24/08/1992";
+        doj = "DOJ-19/07/2019";
+        address = "F-205, Drishti City, Kolar Road, Bhopal (M.P.)-462042";
+        degree = "BHMS, M.D. (Hom.)/ 22406",
+          experience = "5 years/ F.T."
+        faculties = [
+          {
+            name: "Dr. Rinku Bhaskar",
+            position: "Professor",
+            degree: "MBBS, DGO/5486",
+            experience: "13 years & 9 months/ G.F.",
+            email: "nshmcbpl@gmail.com",
+            image: "/rinku.jpg",
+            DOB: "17/08/1979",
+            DOJ: "06/09/2010",
+            address: "D-33, Akriti Garden, Nehru Nagar, Bhopal"
+          },
+          {
+            name: "Dr. Niharika Prahladi",
+            position: "Assistant Professor",
+            degree: "BHMS, M.D. (Hom)/ 24219",
+            experience: "8 months/ F.T.",
+            email: "niharikasinghharshana@gmail.com",
+            image: "/niharika.jpg",
+            DOB: "23/11/1992",
+            DOJ: "08/11/2023",
+            address: "H.No.96, Kanta Shrawan, Jairam State, Near Ayodhya Bypass, Bhopal (M.P.)"
+          },
+          // {
+          //   name: "Emily Johnson",
+          //   position: "Project Manager",
+          //   degree: "MBA",
+          //   experience: "7 years",
+          //   email: "",
+          //   image: "/"
+          // },
+          // Add more faculty members as needed
+        ];
+  
+        break;
+      case "pm":
+        slogan = "Where Pathology Meets Microbiology: Understanding Health from Every Angle.";
+        author = "Dr. Ritesh Kumbhare";
+        deptImg = "/dept-m-v.jpg";
+        aboutDept = "The Department of Pathology & Microbiology at NSHMC focuses on the study of disease processes and the role of microorganisms in health and illness. Pathology involves the examination of tissues, organs, and bodily fluids to understand the nature and progression of diseases, while Microbiology explores the impact of bacteria, viruses, fungi, and parasites on human health.Students receive in-depth training in diagnostic techniques, laboratory analysis, and disease management, learning to identify and interpret pathological and microbiological findings. The department emphasizes both theoretical knowledge and practical skills, preparing students to diagnose diseases accurately and understand the microbial factors influencing health. By integrating these disciplines, the department ensures a comprehensive approach to understanding and combating diseases, essential for effective medical and homeopathic practice.";
+        dept = "Pathology & Microbiology";
+        headD = "Dr. Ritesh Kumbhare";
+        headImg = "/ritesh.jpg";
+        phoneHead = "+91 9584340592";
+        emailHead = "drriteshkumbhare0909@gmail.com";
+        dob = "DOB-30/09/1975";
+        doj = "DOJ-05/11/2011";
+        address = "B-203, Pushpa Nagar Colony, Bhopal";
+        degree = "BHMS/14425",
+          experience = "12 years & 8 Months/ F.T."
+        faculties = [
+          {
+            name: "Dr. Arun Maity",
+            position: "Professor",
+            degree: "MBBS, M.D. (Pathology)/ 8836",
+            experience: "14 Years 4 Months/G.F.",
+            email: "N/A",
+            image: "/arun.jpg",
+            DOB: "19/06/1964",
+            DOJ: "17/10/2020",
+            address: "H.No. 3, Vinayak Parisar, Gulmohar Colony, Bhopal"
+          },
+          {
+            name: "Dr. Shailendra Singh",
+            position: "Assistant Professor",
+            degree: "BHMS, MD (Hom.)/21037",
+            experience: "3 year & 3 Months/ F.T.",
+            email: "mr.shailendra@gmail.com",
+            image: "/shailendra.jpg",
+            DOB: "15/07/1987",
+            DOJ: "01/04/2021",
+            address: "Flat No.7, BDA Colony, Talaiya, Bhopal (M.P.)"
+          },
+          // {
+          //   name: "Emily Johnson",
+          //   position: "Project Manager",
+          //   degree: "MBA",
+          //   experience: "7 years",
+          //   email: "",
+          //   image: "/"
+          // },
+          // Add more faculty members as needed
+        ];
+        break;
     case "eet":
       slogan = "Foundation of Homeopathic Wisdom, Leading to Holistic Wellness.";
       author = "Dr. Shoeba Perveen";
@@ -256,7 +451,7 @@ export default function DeptEr({ dept,deps }) {
       slogan = "Unlocking the Secrets of Health Through Physiology and Biochemistry.";
       author = "Dr. Shail Jain";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Department of Physiology & Biochemistry at NSHMC provides a foundational understanding of the human body’s functions and chemical processes. Physiology explores how various systems and organs work together to maintain health, while Biochemistry focuses on the molecular mechanisms that underlie these functions. Through interactive lectures, lab work, and research, students gain in-depth knowledge of essential processes like metabolism, cellular function, and hormonal regulation.These disciplines are critical in understanding how the body responds to health challenges and treatment, making them central to both homeopathic and conventional medical education. The department fosters a comprehensive, integrative approach, equipping students with the knowledge and skills to understand health at both the systemic and molecular levels.";
+      aboutDept = "The Department of Physiology & Biochemistry at NSHMC provides a foundational understanding of the human body's functions and chemical processes. Physiology explores how various systems and organs work together to maintain health, while Biochemistry focuses on the molecular mechanisms that underlie these functions. Through interactive lectures, lab work, and research, students gain in-depth knowledge of essential processes like metabolism, cellular function, and hormonal regulation.These disciplines are critical in understanding how the body responds to health challenges and treatment, making them central to both homeopathic and conventional medical education. The department fosters a comprehensive, integrative approach, equipping students with the knowledge and skills to understand health at both the systemic and molecular levels.";
       dept = "Physiology & BioChemistry";
       headD = "Dr. Shail Jain";
       headImg = "/shailjain.jpg";
@@ -306,7 +501,7 @@ export default function DeptEr({ dept,deps }) {
       slogan = "Guiding Safe Journeys from Motherhood to Womanhood.";
       author = "Dr. Prerna Tiwari";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Department of Obstetrics & Gynaecology at NSHMC is dedicated to the comprehensive study of women's health, focusing on pregnancy, childbirth, and the reproductive system. The department provides students with both theoretical knowledge and practical skills in managing pregnancy, labor, and postpartum care, as well as diagnosing and treating gynecological disorders. With a strong emphasis on maternal and fetal health, students are trained in both preventive and curative care, ensuring they are well-prepared to support women through all stages of life.Through hands-on clinical training, interactive learning, and research opportunities, the department equips future practitioners with the expertise to deliver compassionate, patient-centered care. The holistic approach integrates modern medical practices with homeopathic principles, fostering a well-rounded understanding of women’s health.";
+      aboutDept = "The Department of Obstetrics & Gynaecology at NSHMC is dedicated to the comprehensive study of women's health, focusing on pregnancy, childbirth, and the reproductive system. The department provides students with both theoretical knowledge and practical skills in managing pregnancy, labor, and postpartum care, as well as diagnosing and treating gynecological disorders. With a strong emphasis on maternal and fetal health, students are trained in both preventive and curative care, ensuring they are well-prepared to support women through all stages of life.Through hands-on clinical training, interactive learning, and research opportunities, the department equips future practitioners with the expertise to deliver compassionate, patient-centered care. The holistic approach integrates modern medical practices with homeopathic principles, fostering a well-rounded understanding of women's health.";
       dept = "Obstretics & Gynaecology";
       headD = "Dr. Prerna Tiwari";
       headImg = "/prerna.jpg";
@@ -400,6 +595,7 @@ export default function DeptEr({ dept,deps }) {
         // },
         // Add more faculty members as needed
       ];
+
 
       break;
     case "pfm":
@@ -506,7 +702,7 @@ export default function DeptEr({ dept,deps }) {
       slogan = "Pharmaceutical Expertise for Holistic Healing.";
       author = "Dr. Sandeep Sharma";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Department of Pharmacy at NSHMC focuses on the preparation, dispensing, and management of homeopathic remedies. This department provides students with a thorough understanding of pharmaceutical principles, including the sourcing, preparation, and potentization of remedies. Students gain practical skills in remedy formulation, quality control, and ethical dispensing practices.The curriculum integrates theoretical knowledge with hands-on experience, ensuring that students are well-versed in the pharmacological aspects of homeopathy. By learning to navigate the complexities of remedy preparation and administration, students are equipped to deliver safe and effective homeopathic treatments. The department’s emphasis on precision and patient care ensures that graduates are prepared to contribute to high standards in homeopathic practice.";
+      aboutDept = "The Department of Pharmacy at NSHMC focuses on the preparation, dispensing, and management of homeopathic remedies. This department provides students with a thorough understanding of pharmaceutical principles, including the sourcing, preparation, and potentization of remedies. Students gain practical skills in remedy formulation, quality control, and ethical dispensing practices.The curriculum integrates theoretical knowledge with hands-on experience, ensuring that students are well-versed in the pharmacological aspects of homeopathy. By learning to navigate the complexities of remedy preparation and administration, students are equipped to deliver safe and effective homeopathic treatments. The department's emphasis on precision and patient care ensures that graduates are prepared to contribute to high standards in homeopathic practice.";
       dept = "Department of Pharmacy";
       headD = "Dr. Sandeep Sharma";
       headImg = "/sandeep.jpg";
@@ -665,73 +861,73 @@ export default function DeptEr({ dept,deps }) {
   
   switch (deps) {
     case "me":
-      deptImgs = "/civil-img.jpg";
+      deptImgs = "/Organonlab.jpg";
       mission = "To impart knowledge and equip students with skills for generating quality civil engineering professionals with high ethical standards; carry out innovative research and consultancy projects to design, build and maintain civil engineering infrastructure ensuring environmental health and quality life.";
       vision = "To become a frontier in civil engineering education and research, which will serve the society with sustainable infrastructure and superior environmental health.";
       break;
     
     case "cse":
-      deptImgs = "/mechanical-img.jpg";
+      deptImgs = "/materia.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
     
     case "ece":
-      deptImgs = "/mechanical-img.jpg";
+      deptImgs = "/fmt.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
     
     case "eet":
-      deptImgs = "/mechanical-img.jpg";
+      deptImgs = "/Communitymedicine.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
     
     case "it":
-      deptImgs = "/mechanical-img.jpg";
+      deptImgs = "/PhysiologyLab.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
     
     case "og":
-      deptImgs = "/mechanical-img.jpg";
+      deptImgs = "/Obstetrics&gynecology.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
     
     case "pm":
-      deptImgs = "/mechanical-img.jpg";
+      deptImgs = "/Pathologylab.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
     
     case "pfm":
-      deptImgs = "/mechanical-img.jpg";
+      deptImgs = "/Practiceofmedicine.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
     
     case "rep":
-      deptImgs = "/mechanical-img.jpg";
+      deptImgs = "/Repertory1.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
     
     case "pharm":
-      deptImgs = "/mechanical-img.jpg";
+      deptImgs = "/Pharmacy1.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
     
     case "anotomy":
-      deptImgs = "/mechanical-img.jpg";
+      deptImgs = "/AnatomyMuseum.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
     
     case "surgery":
-      deptImgs = "/electrical-img.jpg";
+      deptImgs = "/surgery.jpg";
       mission = "To produce skilled electrical engineers who can innovate and contribute to the development of sustainable energy solutions.";
       vision = "To lead in electrical engineering education and research for a sustainable and technologically advanced future.";
       break;
@@ -748,7 +944,6 @@ export default function DeptEr({ dept,deps }) {
   const buttons = [
     'About The Department', 'Course-curriculmn', 'Labs Facility', 'Faculty', 'Academic Programmes'
   ]
-
   return (
     <>
       <div>
@@ -761,7 +956,7 @@ export default function DeptEr({ dept,deps }) {
           }
         </div>
 
-        <div className="w-full   ">
+        <div className="w-full">
           {
             active === 0 && (
               <div className="w-full flex px-20 py-10  gap-7">
@@ -794,7 +989,7 @@ export default function DeptEr({ dept,deps }) {
                 <div className='w-1/3 p-4'>
                   <div className="relative h-full">
                     <Image
-                      src="/welcome.jpeg"
+                      src="/building.jpg"
                       alt="foddiesssss"
                       layout="fill"
                       objectFit="cover"
@@ -802,138 +997,25 @@ export default function DeptEr({ dept,deps }) {
                   </div>
                 </div>
               </div>
-
-
-              <p className=" mt-5 font-light text-md  text-justify  h-[160px]">
-                {aboutDept}
-              </p>
-            </div>
-          </div>
-          <div className="w-1/3  p-4">
-            <div className="relative h-full">
-              <Image
-                src="/welcome.jpeg"
-                alt="foddiesssss"
-                layout="fill"
-                objectFit="cover"
-              />
-            </div>
-          </div>
-        </div>
-          )
-        }
-        {
-          active===1 && (
-            <div><Curriculumn/></div>
-          )
-        }
-        {
-          active===2 && (
-            <div>
+            )
+          }
+          {
+            active === 1 && (
+              <div><Curriculumn /></div>
+            )
+          }
+          {
+            active === 2 && (
               <div className="w-full flex px-20 py-4 gap-7">
-          <div className="w-3/5 h-[580px]">
-            <div className="relative h-full">
-              <Image
-                src={deptImg}
-                alt="foddiesssss"
-                layout="fill"
-                objectFit="cover"
-              />
-            </div>
-          </div>
-          <div>
-            
-          </div>
-          <div className="w-2/5  flex flex-col gap-10 py-20 justify-between ">
-            <div className="w-11/12 mx-auto  flex flex-col gap-4">
-              <div className="flex  items-center gap-2">
-                <Image src="/mission-icon.png" width={70} height={20} alt="h" />{" "}
-                <h1 className="text-2xl font-bold">Mission</h1>
-              </div>
-              <div>
-                <p className="text-sm font-extralight">
-                  To impart knowledge and equip students with skills for
-                  generating quality civil engineering professionals with high
-                  ethical standards; carry out innovative research and
-                  consultancy projects to design, build and maintain civil
-                  engineering infrastructure ensuring environmental health and
-                  quality life.
-                </p>
-              </div>
-            </div>
-            <div className="w-11/12 mx-auto  flex flex-col gap-4">
-              <div className="flex  items-center gap-2">
-                <Image src="/vision-icon.png" width={70} height={20} alt="h" />{" "}
-                <h1 className="text-2xl font-bold">Vision</h1>
-              </div>
-              <div>
-                <p className="text-sm font-extralight">
-                  To become frontier in civil engineering education and
-                  research, which will serve the society with most sustainable
-                  infrastructure and superior environmental health.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-            </div>
-          )
-        }
-        {
-          active===3 && (
-            <>
-            <div className="w-full flex flex-col px-20 gap-4 py-6 ">
-          <h1 className="font-bold text-4xl text-purple-700">
-            Head Of Department
-          </h1>
-          <div className="flex justify-between gap-10">
-            <div className="w-1/2  flex items-center p-4">
-              <div className="w-72 h-72 rounded-full border-2 border-black relative overflow-hidden">
-                <Image src={headImg} fill />
-              </div>
-              <div className="flex flex-col justify-center  p-10">
-                <h1 className=" font-semibold text-2xl">{headD}</h1>
-                <h2 className="text-lg mb-2">Head Of Department</h2>
-                <h1 className="text-sm  mt-1">
-                  <FaPhoneAlt className="inline mr-1" />
-                  {phoneHead}
-                </h1>
-                
-                <h1 className="text-sm  mt-1 flex items-center">
-                  <MdEmail className="inline mr-1 " />
-                  {emailHead}
-                </h1>
-                <h1 className="text-sm  mt-1">{dob}</h1>
-                <h1 className="text-sm  mt-1">{doj}</h1>
-                <h1 className="text-sm  mt-1">{address}</h1>
-                <h1 className="text-sm  mt-1">{degree}</h1>
-                <h1 className="text-sm  mt-1">{experience}</h1>
-
-              </div>
-            </div>
-            <div className="w-1/2  flex flex-col justify-center items-center">
-              <p className="p-5 text-3xl text-center"> {slogan}</p>
-              <h1 className=" italic  text-2xl">- {author}</h1>
-            </div>
-          </div>
-        </div>
-        <h1 className="text-3xl text-center font-semibold border-b">Faculty at NSHMC</h1>
-        <div className=" grid ">
-        <div>
-          {faculties.map((faculty, index) => (
-            <div
-              className=" mt-1 mb-5  p-2  rounded-lg shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] "
-              key={index}
-            >
-              <div className=" flex gap-6 ">
-                <div className="w-48   relative  overflow-hidden rounded-lg">
-                  <Image
-                    src={faculty.image}
-                    alt="Img Not Found"
-                    layout="fill"
-                    objectFit="contain"
-                  />
-
+                <div className="w-3/5 h-[580px]">
+                  <div className="relative h-full">
+                    <Image
+                      src={deptImgs}
+                      alt="Department Image"
+                      layout="fill"
+                      objectFit="cover"
+                    />
+                  </div>
                 </div>
                 <div className="w-2/5 flex flex-col gap-10 py-20 justify-between">
                   <div className="w-11/12 mx-auto flex flex-col gap-4">
@@ -1099,3 +1181,9 @@ export default function DeptEr({ dept,deps }) {
 
   );
 }
+
+
+
+
+
+
