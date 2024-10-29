@@ -4,6 +4,7 @@ import SliderMain from "../SliderMain/SliderMain";
 import RelatedLink from "../RelatedLink/RelatedLink";
 import RuleCard from "../RuleCard/RuleCard";
 import Link from "next/link";
+import DocCard from "../DocCard/DocCard";
 
 export default function Opd() {
   const images = ["/ar-1.jpg"];
@@ -20,9 +21,37 @@ export default function Opd() {
       >
         <h1 className=" uppercase font-bold text-5xl">OPD Reports</h1>
       </div>
-      <div className=" m-auto gap-[100px] mt-12 ">
-        <img src="/opd.jpg" className="w-[500px] m-auto pb-4"></img>
+      <div className="w-full mx-auto flex relative mt-2  font-semibold text-lg">
+        <div className="w-2/3 px-10 py-10 grid grid-cols-2 gap-6 ">
+        
+          <DocCard link="https://drive.google.com/file/d/1OyJpvE2ZD4Q4RP4FJgRCBNsRANfJQZaw/view?usp=sharing" heading="OPD Report 2023" /> 
+          <DocCard link="https://drive.google.com/file/d/1DHL_HEP-jNpsO0t3dv-MU73U7qCFtUJX/view?usp=sharing" heading="OPD Report 2022" />
+          <DocCard link="https://drive.google.com/file/d/1XGuMQkic8KDFM8c3gE-g22paOUX7hPwM/view?usp=sharing" heading="OPD Report 2021" /> 
+          <DocCard link="https://drive.google.com/file/d/1KKKLbJqlkgq73SuSZMPyuCLMnxQ7rnWe/view?usp=sharing" heading="OPD Report 2020" />
+          <DocCard link="https://drive.google.com/file/d/1fEQ9rvYKgu81NpkS8ohOmw0LhsJhI0mv/view?usp=sharing" heading="OPD Report 2019" /> 
+          <DocCard link="https://drive.google.com/file/d/1H_lVQX5rbVDQ0Gbd2GcDEwq5YiBVDn-a/view?usp=sharing" heading="OPD Report 2018" />
+          <DocCard link="https://drive.google.com/file/d/1ul_ApMA_FlZKqhIN1pi01ReQZELOxeGd/view?usp=sharing" heading="OPD Report 2017" /> 
+          <DocCard link="https://drive.google.com/file/d/1Zf8gMPzFK3_hLyqY3yGlJSoTVHAzkSSH/view?usp=sharing" heading="OPD Report 2016" />
+          <DocCard link="https://drive.google.com/file/d/16heKAvgZcY_1rFPDyoP6j9Y1I-h8103r/view?usp=sharing" heading="OPD Report 2015" /> 
+          {/* <DocCard link="https://drive.google.com/file/d/1xaGYSlP8ePbKRppJtW6n8xraJdxvAh0V/view?usp=sharing" heading="OPD Report 2014" />
+          <DocCard link="https://drive.google.com/file/d/1okTJTLsx_x-CVrt3pPnBvdAKJioiMzcp/view?usp=sharing" heading="Stool Examination" /> 
+          <DocCard link="https://drive.google.com/file/d/1EVdkz-jBN6I8tha32A4tsKmhdD0GHMMn/view?usp=sharing" heading="Dept. Of Radiology X-ray Report Yearly Jan23-Dec23" />        
+          <DocCard link="https://drive.google.com/file/d/1gIaqAacBERU1SSELWcpxsIjqp3FFhovc/view?usp=sharing" heading="X-ray report" /> 
+          <DocCard link="https://drive.google.com/file/d/1ZvS_9llVR1Yrhq6KwkCF2Gb1hAqGI25p/view?usp=sharing" heading="X-ray Report " /> 
+          <DocCard link="https://drive.google.com/file/d/1ZQAemrTIVrNFA0rq3xoQqN7H_tyIMiBk/view?usp=sharing" heading="Investigation(X-ray,ECG,UCG)" /> */}
+          
+          {/* <DocCard link="" heading="" /> */}
+          </div>
+
+        <div className="w-1/3 h-[600px] sticky top-20 left-0 py-10 px-4 ">
+          <RelatedLink />
+        </div>
       </div>
+
+
+      {/* <div className=" m-auto gap-[100px] mt-12 ">
+        <img src="/opd.jpg" className="w-[500px] m-auto pb-4"></img>
+      </div> */}
       {/* <div className="w-full mx-auto flex relative mt-2  font-semibold text-lg">
         <div className="w-2/3  ">
           <div className="w-full px-20 pt-[36px]   flex flex-wrap gap-5 justify-evenly ">

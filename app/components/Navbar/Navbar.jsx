@@ -67,10 +67,11 @@ export default function Navbar() {
               name: "Director",
               link: "/institute/director",
             },
-            // {
-            //   name: "Finance Committee",
-            //   link: "/institute/fc",
-            // },
+
+            {
+              name: "Nodal Officer",
+              link: "https://drive.google.com/file/d/1FbUXYi4G8cWKoSWHl5asLU3jTfr4kVXL/view?usp=sharing",
+            },
             // {
             //   name: "Building and Work Committee",
             //   link: "/institute/bwc",
@@ -139,7 +140,7 @@ export default function Navbar() {
       ],
     },
     {
-      main: "Academics",
+      main: "Academics & Committee",
       child: [
         {
           name: "Academic",
@@ -154,8 +155,8 @@ export default function Navbar() {
               link: "/academic/programs",
             },
             {
-              name: "Hospital Staff",
-              link: "/academic/hospitalstaff",
+              name: "Teaching Staff",
+              link: "https://drive.google.com/file/d/1R7ZzHQATflfqJxp56NTxLgWU0ZgdMjMy/view?usp=sharing",
             },
             {
               name: "Our Committes",
@@ -278,7 +279,7 @@ export default function Navbar() {
               link: "/academic/fieldvisit",
             },
             {
-              name: "College Magazine",
+              name: "Homeo Shree Magazine",
               link: "/students/rules_regulations",
             },
             // {
@@ -295,27 +296,24 @@ export default function Navbar() {
             },
           ],
         },
-        {
-          name: "Existing Students",
-          subchild: [
-            {
-              name: "Rules and Regulations",
-              link: "/students/rules_regulations",
-            },
-            {
-              name: "Academic Calendar",
-              link: "/academic/calender",
-            },
-            {
-              name: "Time Table",
-              link: "/institute/former_directors",
-            },
-            {
-              name: "Online Fee Payment",
-              link: "https://www.pratibhaglobalschool.com/payments/login/40e032b8-a995-47ab-a854-c3aec4812c0e",
-            },
-          ],
-        },
+        // {
+        //   name: "Existing Students",
+        //   subchild: [
+        //     // {
+        //     //   name: "Rules and Regulations",
+        //     //   link: "/students/rules_regulations",
+        //     // },
+            
+        //     {
+        //       name: "Time Table",
+        //       link: "/institute/former_directors",
+        //     },
+        //     {
+        //       name: "Online Fee Payment",
+        //       link: "https://www.pratibhaglobalschool.com/payments/login/40e032b8-a995-47ab-a854-c3aec4812c0e",
+        //     },
+        //   ],
+        // },
         {
           name: "Student Related Links",
           subchild: [
@@ -323,6 +321,11 @@ export default function Navbar() {
             //   name: "Internship Programs",
             //   link: "/placementcalender",
             // },
+            {
+              name: "Academic Calendar",
+              // link: "/academic/calender",
+              link: "https://drive.google.com/file/d/1WUFi4T2_bnKYMcXi9NY0dlQkBEC-2ERn/view?usp=sharing",
+            },
             
             {
               name: "Admitted Students",
@@ -440,11 +443,15 @@ export default function Navbar() {
     //   ],
     // },
     {
-      main: "Clinical Material",
+      main: "Hospital Tab",
       child: [
         {
           name: "Clinical Material",
           subchild: [
+            {
+              name: "Hospital Staff",
+              link: "/academic/hospitalstaff",
+            },
             {
               name: "OPD Reports",
               link: "/academic/opd",
@@ -454,7 +461,15 @@ export default function Navbar() {
               link: "/academic/ipd",
             },
             {
-              name: "Clinical Pathology Records",
+              name: "Clinical Pathology Reports",
+              link: "/academic/clinicalpathologyreport",
+            },
+            {
+              name: "Xray Reports",
+              link: "/academic/xray",
+            },
+            {
+              name: "Other Records",
               link: "/academic/clinicalpathology",
             },
             // {
@@ -611,7 +626,7 @@ export default function Navbar() {
               <div className="flex items-center gap-[12px]">
                 <div className="">
                   <Image
-                    src="/LNMC-BPL.png"
+                    src="/logonshmc.jpg"
                     objectFit="contain"
                     alt="Logo"
                     width={100}
@@ -654,12 +669,12 @@ export default function Navbar() {
                     dropdownWidth = "w-[950px]";
                     dropdownLeft = "left-[-79px]";
                     break;
-                  case "Academics":
-                    dropdownWidth = "w-[870px]";
+                  case "Academics & Committee":
+                    dropdownWidth = "w-[900px]";
                     dropdownLeft = "left-[-460px]";
                     break;
                   case "Students":
-                    dropdownWidth = "w-[690px]";
+                    dropdownWidth = "w-[480px]";
                     dropdownLeft = "left-20";
                     break;
                   // case "Placement":

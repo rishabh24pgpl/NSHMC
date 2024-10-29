@@ -8,28 +8,126 @@ export default function Gallary() {
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+            src="/gallery1.jpeg"
             alt=""
           ></img>
         </div>
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+            src="/gallery5.jpg"
             alt=""
           ></img>
         </div>
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+            src="gallery3.jpeg"
             alt=""
           ></img>
         </div>
         <div>
           <img
             class="h-auto max-w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+            src="gallery13.jpg"
+            alt=""
+          ></img>
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="Graduationceremony.jpeg"
+            alt=""
+          ></img>
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="gallery14.jpg"
+            alt=""
+          ></img>
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="gallery15.jpg"
+            alt=""
+          ></img>
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="gallery16.jpg"
+            alt=""
+          ></img>
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="gallery17.jpg"
+            alt=""
+          ></img>
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="gallery18.jpg"
+            alt=""
+          ></img>
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="gallery19.jpg"
+            alt=""
+          ></img>
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="gallery20.jpg"
+            alt=""
+          ></img>
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="gallery21.jpg"
+            alt=""
+          ></img>
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="gallery22.jpeg"
+            alt=""
+          ></img>
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="gallery23.jpg"
+            alt=""
+          ></img>
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="gallery24.jpg"
+            alt=""
+          ></img>
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="gallery25.jpeg"
+            alt=""
+          ></img>
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-lg"
+            src="gallery26.jpeg"
             alt=""
           ></img>
         </div>

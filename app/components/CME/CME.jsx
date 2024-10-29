@@ -21,7 +21,7 @@ export default function Page() {
       </div>
           <div className="flex w-full gap-20 justify-center">
           <div className=" m-auto gap-[100px] mt-12 ">
-        <img src="/cmedetail.jpg" className="w-[500px] m-auto"></img>
+        <img src="/CMEdetailss.jpg" className="w-[500px] m-auto"></img>
       </div>
       <div className="w-1/3 h-[600px] sticky top-20 left-0 py-10 ">
           <div className="relative h-full ">

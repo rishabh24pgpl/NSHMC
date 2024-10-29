@@ -9,7 +9,7 @@ export default function OurCommittes () {
   const collegeNames = ["NSHMC ", "एसकेसी एलएनसीटी "];
   const[active,setActive] = useState(0);
   const buttons=[
-    'Academic Committe','Anti-Ragging Committe','Anti-Sexual Harrasment Committe','CBDC Committe','College Council Committe'
+    'Academic Committee','Anti-Ragging Committee','Anti-Sexual Harrasment Committee','CBDC Committee','College Council Committee'
   ]
   return (
     <div>
@@ -21,7 +21,7 @@ export default function OurCommittes () {
           backgroundSize: "cover",
         }}
       >
-        <h1 className=" uppercase font-bold text-5xl">Our Committes</h1>
+        <h1 className=" uppercase font-bold text-5xl">Our Committees</h1>
       </div>
       <div className='mt-4 flex items-center gap-5'>
       {
@@ -49,7 +49,7 @@ export default function OurCommittes () {
         {
           active===2 &&(
             <div className=" m-auto gap-[100px] mt-12 ">
-        <img src="/antisexual.jpg" className="w-[500px] m-auto"></img>
+        <img src="/Antisexualcell.jpg" className="w-[500px] m-auto"></img>
       </div>
           )
         }
