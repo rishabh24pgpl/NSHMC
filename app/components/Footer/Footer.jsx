@@ -91,11 +91,11 @@ export default function Footer() {
               <h4 class="font-bold">IMPORTANT LINKS</h4>
               <div class="footer-link text-sm">
                 <ul>
-                  <li className="p-2">
+                  {/* <li className="p-2">
                     <a href="https://mail.nitrkl.ac.in/">Career</a>
-                  </li>
+                  </li> */}
                   <li className="p-2">
-                    <a href="https://eapplication.nitrkl.ac.in/nitris/">
+                    <a href="/gallery">
                       {" "}
                       Gallery
                     </a>
@@ -104,7 +104,7 @@ export default function Footer() {
                     <a href="/Academic/Holidays"> Campus Life</a>
                   </li>
                   <li className="p-2">
-                    <a href="/Academic/AcademicCalendar">Placement Overview</a>
+                    <a href="https://drive.google.com/file/d/1WUFi4T2_bnKYMcXi9NY0dlQkBEC-2ERn/view?usp=sharing">Academic Calendar</a>
                   </li>
                   <li className="p-2">
                     <a href="/Academic/AcademicTimeTable">
@@ -113,25 +113,25 @@ export default function Footer() {
                     </a>
                   </li>
                   <li className="p-2">
-                    <a href="/Student/Advertisements">
+                    <a href="/academic/onlinefee">
                       {" "}
                       Online Fee Payment
                     </a>
                   </li>
                   <li className="p-2">
-                    <a href="https://website.nitrkl.ac.in/FacultyStaff/Career/">
+                    <a href="/institute/contact">
                       {" "}
                       Contact Us
                     </a>
                   </li>
-                  <li className="p-2">
+                  {/* <li className="p-2">
                     <a href="https://website.nitrkl.ac.in/FacultyStaff/Stores-Purchase/Tender/">
                       Annual Reports
                     </a>
                   </li>
                   <li className="p-2">
                     <a href="https://guesthouse.nitrkl.ac.in/">Rules and Regulations</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -140,52 +140,58 @@ export default function Footer() {
               <div class="footer-link text-sm">
                 <ul>
                   <li className="p-2">
-                    <a href="/Institute/NIRF">Placement Overview</a>
+                    <a href="/students/rules_regulations">Homeo Shree Magazine</a>
                   </li>
                   <li className="p-2">
-                    <a href="/Institute/NBA"> Leading Recruiters</a>
+                    <a href="/why_skclnct"> Why NSHMC</a>
                   </li>
                   <li className="p-2">
-                    <a href="https://www.ftbi-nitrkl.org/"> Central Research Facility</a>
+                    <a href="https://drive.google.com/file/d/1euHUm8IVlmZzmLezYBfXtoZKScNVS7K_/view?usp=sharing"> Hospital Staff</a>
                   </li>
                   <li className="p-2">
-                    <a href="https://website.nitrkl.ac.in/Institute/NAD/">
+                    <a href="/academic/cme">
                       {" "}
-                      Health Care
+                      CME Program
                     </a>
                   </li>
                   <li className="p-2">
-                    <a href="https://nitrkl.ac.in/UBA/">
+                    <a href="/academic/overview">
                       {" "}
-                      Academic Programs
+                      Academic Overview
                     </a>
                   </li>
                   <li className="p-2">
-                    <a href="https://icc.nitrkl.ac.in/">
+                    <a href="https://drive.google.com/file/d/19kBai4yzQihJiN5ccZEDINtYCIQexX5x/view?usp=sharing">
                       Admission Process
                     </a>
                   </li>
-                  <li className="p-2">
+                  {/* <li className="p-2">
                     <a href="https://www.ics-nitrkl.in/">
                       {" "}
                       Why LNCPS
                     </a>
-                  </li>
-                  <li className="p-2">
+                  </li> */}
+                  {/* <li className="p-2">
                     <a href="https://nitrkl.ac.in/CRF/">
                       Student Testimonial
                     </a>
                   </li>
                   <li className="p-2">
                     <a href="https://gati.nitrkl.ac.in/">Career Development Cell</a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
             <div class="item">
               {/* <h4 class="font-bold">Photo Gallery</h4> */}
-              <div class="grid grid-cols-1 text-2xl gap-8 p-2">
-                <div class="item-img">
+              <div class="grid grid-cols-1 text-2xl gap-6 p-4">
+                <p className="">
+                We are delighted to have you visit our website, where you can
+                explore our world of holistic healing and transformative
+                learning. At NSHMC, we are dedicated to providing an exceptional
+                education in homeopathy.
+                </p>
+                {/* <div class="item-img">
                   <a
                     href="/assets/images/gallery1.jpg"
                     data-fancybox="mygallery"
@@ -311,7 +317,7 @@ export default function Footer() {
               <li><a href=""><img src="/svg/yt.svg" className="mb-1 w-7 h-7 rounded-full" /></a></li>
 
             </ul>
-                </div>
+                </div> */}
 
 
 
@@ -322,7 +328,7 @@ export default function Footer() {
           <div class="copy-right-other-links container mx-auto">
             <div class="flex justify-between items-center">
               <div class="item-copy p-2 text-sm">
-                Copyright © 2024 Lakshmi Narain College of professional studies. All
+                Copyright © 2024 Narayan Shree Homoeopathic Medical College & Hospital. All
                 Rights Reserved.
               </div>
               <div class="item-othtes-links ">
