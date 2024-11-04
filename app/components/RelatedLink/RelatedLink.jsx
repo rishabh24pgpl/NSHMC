@@ -8,7 +8,7 @@ export default function RelatedLink() {
    {link:"/academic/programs",name:"Administration & Libarary staff"},
    {link:"/academic/ourcommitte",name:"Our Committes"},
    {link:"/academic/cme",name:"CME Programs"},
-   {link:"/students/rules_regulations",name:"College Magazine"},
+   {link:"/students/rules_regulations",name:"Homeo Shree Magazine"},
    {link:"/institute/contact",name:"Contact Us"},
 
 ];

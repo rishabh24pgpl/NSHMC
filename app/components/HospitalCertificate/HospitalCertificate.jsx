@@ -20,7 +20,7 @@ export default function Page() {
       </div>
       <div className="w-full mx-auto flex relative mt-2  font-semibold text-lg">
         <div className="w-2/3 px-10 py-10 grid grid-cols-2 gap-10 ">
-          <DocCard link="https://drive.google.com/file/d/1EfRghsz921DE1V-XCU_fPAYWwF1aSIAi/view?usp=sharing" heading="Hospital Reg. Certificate 19-22" />
+          <DocCard link="https://drive.google.com/file/d/1R9TsaunCvgP1VAnAHVTLt0GQrJorBiFt/view?usp=sharing" heading="Hospital Reg. Certificate 22-25" />
           <DocCard link="https://drive.google.com/file/d/1VYoTnxx0ySbqxMkN712ZzjW8kTq2Pzp7/view?usp=sharing" heading="AERB License" />
           <DocCard link="https://drive.google.com/file/d/1vBrokTQonDsO1LBfRdmO5HDqxMbWk_cD/view?usp=sharing" heading="BMW Certificate" />
           <DocCard link="https://drive.google.com/file/d/10B-bz_eCETCgb4gfngV1SKwiQtcoyPpi/view?usp=sharing" heading="Digital X-ray MOU" />
