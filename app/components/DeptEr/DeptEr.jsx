@@ -942,7 +942,7 @@ export default function DeptEr({ dept,deps }) {
 
 
   const buttons = [
-    'About The Department', 'Course-curriculmn', 'Labs Facility', 'Faculty', 'Academic Programmes'
+    'About The Department',  'Labs Facility', 'Faculty',
   ]
   return (
     <>
@@ -965,7 +965,7 @@ export default function DeptEr({ dept,deps }) {
                     <h2 className=" text-4xl text-purple-800 my-5">
                       About the Department
                     </h2>
-                    <div className="w-full   mt-5">
+                    {/* <div className="w-full   mt-5">
                       <div className="w-full grid grid-cols-3 gap-5 ">
                         {counter.map((count) => (
                           <DeptCounter
@@ -979,7 +979,7 @@ export default function DeptEr({ dept,deps }) {
                           />
                         ))}
                       </div>
-                    </div>
+                    </div> */}
 
                     <p className='mt-5 font-extralight text-sm text-justify h-[160px]'>
                       {aboutDept}
@@ -999,13 +999,13 @@ export default function DeptEr({ dept,deps }) {
               </div>
             )
           }
-          {
+          {/* {
             active === 1 && (
               <div><Curriculumn /></div>
             )
-          }
+          } */}
           {
-            active === 2 && (
+            active === 1 && (
               <div className="w-full flex px-20 py-4 gap-7">
                 <div className="w-3/5 h-[580px]">
                   <div className="relative h-full">
@@ -1041,7 +1041,7 @@ export default function DeptEr({ dept,deps }) {
             )
           }
           {
-            active === 3 && (
+            active === 2 && (
               <>
                 <div className="w-full flex flex-col px-20 gap-4 py-6 ">
                   <h1 className="font-bold text-4xl text-purple-700">
@@ -1139,7 +1139,7 @@ export default function DeptEr({ dept,deps }) {
               </>
             )
           }
-          {
+          {/* {
             active === 4 && (
               <>
                 <div className="w-full flex flex-col px-20 gap-4 py-6">
@@ -1153,17 +1153,17 @@ export default function DeptEr({ dept,deps }) {
                       admission={"NEET UG"}
                       dept={" It is a 5.5-year course that includes an internship and covers the medical knowledge of homeopathy"}
                     />
-                    {/* <ProgramCard
+                    <ProgramCard
               course={"Post-Graduate"}
               bgcolor={"bg-purple-800"}
               admission={"JEE"}
               dept={"civil engineering"}
-            /> */}
+            />
                   </div>
                 </div>
               </>
             )
-          }
+          } */}
 
 
 

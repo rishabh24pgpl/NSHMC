@@ -55,10 +55,7 @@ export default function Navbar() {
             //   name: "The Senate",
             //   link: "/institute/senate",
             // },
-            {
-              name: "Principal",
-              link: "/principal",
-            },
+            
             {
               name: "Chairperson",
               link: "/institute/chairperson",
@@ -66,6 +63,14 @@ export default function Navbar() {
             {
               name: "Director",
               link: "/institute/director",
+            },
+            {
+              name: "Principal's Detail",
+              link: "https://drive.google.com/file/d/14lqVK-0HMpo6JglFDbMpVoL9eYFCUqal/view?usp=sharing",
+            },
+            {
+              name: "Principal's Message",
+              link: "/principal",
             },
 
             {
@@ -292,7 +297,7 @@ export default function Navbar() {
             // },
             {
               name: "Admission Process",
-              link: "/admission",
+              link: "https://drive.google.com/file/d/19kBai4yzQihJiN5ccZEDINtYCIQexX5x/view?usp=sharing",
             },
           ],
         },
@@ -308,10 +313,7 @@ export default function Navbar() {
         //       name: "Time Table",
         //       link: "/institute/former_directors",
         //     },
-        //     {
-        //       name: "Online Fee Payment",
-        //       link: "https://www.pratibhaglobalschool.com/payments/login/40e032b8-a995-47ab-a854-c3aec4812c0e",
-        //     },
+        //    
         //   ],
         // },
         {
@@ -339,6 +341,10 @@ export default function Navbar() {
               name: "Merit List ",
               link: "/institute/merit",
             },
+            {
+                    name: "Online Fee Payment",
+                    link: "/academic/onlinefee",
+                  },
             // {
             //   name: "Career Development Cell",
             //   link: "/cdc",
@@ -443,14 +449,15 @@ export default function Navbar() {
     //   ],
     // },
     {
-      main: "Hospital Tab",
+      main: "Hospital ",
       child: [
         {
           name: "Clinical Material",
           subchild: [
             {
               name: "Hospital Staff",
-              link: "/academic/hospitalstaff",
+              // link: "/academic/hospitalstaff",
+              link:"https://drive.google.com/file/d/1euHUm8IVlmZzmLezYBfXtoZKScNVS7K_/view?usp=sharing",
             },
             {
               name: "OPD Reports",
