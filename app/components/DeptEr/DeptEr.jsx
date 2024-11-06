@@ -12,7 +12,7 @@ import { head } from "lodash";
 import Curriculumn from "../Curriculumn/Curriculumn";
 
 
-export default function DeptEr({ dept,deps }) {
+export default function DeptEr({ dept, deps }) {
   // const [cardData, setCardData] = useState({
   //   deptImg: "",
   //   mission: "",
@@ -202,208 +202,11 @@ export default function DeptEr({ dept,deps }) {
         // Add more faculty members as needed
       ];
       break;
-      case "eet":
-        slogan = "Foundation of Homeopathic Wisdom, Leading to Holistic Wellness.";
-        author = "Dr. Shoeba Perveen";
-        deptImg = "/dept-m-v.jpg";
-        aboutDept = "Community medicine is the field concerned with the study of health and disease in the defined community or group. Its goal is to identify the health problems and needs of people and then accordingly to plan, implement and evaluate the effectiveness of health care system.Homoeopathic play a important role in community medicine in a number of ways including prophylaxis and complementary treatment. During covid 19 pandemic we used Ars. Alb. 30 as a preventive with great efficacy.";
-        dept = "Communtiy Medicine";
-        headD = "Dr. Shoeba Perveen";
-        headImg = "/shoeba.jpg";
-        phoneHead = "+91 8224903697";
-        emailHead = "drshoebaali1991@gmail.com";
-        dob = "DOB-04/05/1991";
-        doj = "DOJ-20/12/2019";
-        address = "H.No. 71, Rambha Nagar, Berasia Road, Bhopal, M.P.-462001";
-        degree = "BHMS, M.D. (Hom.)/ 22445",
-          experience = "4 year & 6 months/F.T."
-        faculties = [
-          {
-            name: "Dr. Garima Namdev",
-            position: "Associate  Professor",
-            degree: "M.B.B.S. M.D. (C.M.) /9154",
-            experience: "13 years & 7 months/ G.F.",
-            email: "namdevgarima50@gmail.com",
-            image: "/garima.jpg",
-            DOB: "23/02/1981",
-            DOJ: "21/11/2017",
-            address: "Ganga Ashram, Sehore"
-          },
-          {
-            name: "Dr. Bhumika Gangwani",
-            position: "Assistant Professor",
-            degree: "BHMS, M.D. (Hom.)/ H038739",
-            experience: "1 year/F.T.",
-            email: "bhumibhms2605@gmail.com",
-            image: "/bhumika.jpg",
-            DOB: "26/09/1992",
-            DOJ: "21/08/2023",
-            address: "78, Deepak Society, Chuna Bhatti, Kolar Road, Bhopal-462016 (M.P.)"
-          },
-          // {
-          //   name: "Emily Johnson",
-          //   position: "Project Manager",
-          //   degree: "MBA",
-          //   experience: "7 years",
-          // },
-          // Add more faculty members as needed
-        ];
-  
-        break;
-      case "it":
-        slogan = "Unlocking the Secrets of Health Through Physiology and Biochemistry.";
-        author = "Dr. Shail Jain";
-        deptImg = "/dept-m-v.jpg";
-        aboutDept = "The Department of Physiology & Biochemistry at NSHMC provides a foundational understanding of the human body's functions and chemical processes. Physiology explores how various systems and organs work together to maintain health, while Biochemistry focuses on the molecular mechanisms that underlie these functions. Through interactive lectures, lab work, and research, students gain in-depth knowledge of essential processes like metabolism, cellular function, and hormonal regulation.These disciplines are critical in understanding how the body responds to health challenges and treatment, making them central to both homeopathic and conventional medical education. The department fosters a comprehensive, integrative approach, equipping students with the knowledge and skills to understand health at both the systemic and molecular levels.";
-        dept = "Physiology & BioChemistry";
-        headD = "Dr. Shail Jain";
-        headImg = "/shailjain.jpg";
-        phoneHead = "+91 9893269251";
-        emailHead = "drshailjain@yahoo.com";
-        dob = "DOB-14/09/1964";
-        doj = "DOJ-10/09/2002";
-        address = "175, Ashok Vihar, Ashoka Garden, Bhopal";
-        degree = "MBBS/8905",
-          experience = "22 years/ F.T."
-        faculties = [
-          {
-            name: "Dr. Naveen Jaggi",
-            position: "Associate Professor",
-            degree: "DHMS, BHMS(Graded)/13720",
-            experience: "20 years & 11 months/ F.T.",
-            email: "dr.naveenjaggi@gmail.com",
-            image: "/naveen.jpg",
-            DOB: "21/02/1974",
-            DOJ: "03/01/2018",
-            address: "S-10, Seagul, Aakriti, E-8, Rohit Nagar, Bhopal"
-          },
-          {
-            name: "Dr. Rajani Suryawanshi",
-            position: "Associate Professor",
-            degree: "DHMS, M.D. (Hom.)/13218",
-            experience: "6 years & 4  months/F.T.",
-            email: "rajanishakya302@gmail.com",
-            image: "/rajani.jpg",
-            DOB: "19/06/1977",
-            DOJ: "01/02/2020",
-            address: "C-30, Vardhman Green Park, Ashoka Garden, Bhopal- 462023"
-          },
-          // {
-          //   name: "Emily Johnson",
-          //   position: "Project Manager",
-          //   degree: "MBA",
-          //   experience: "7 years",
-          //   email: "",
-          //   image: "/"
-          // },
-          // Add more faculty members as needed
-        ];
-  
-        break;
-      case "og":
-        slogan = "Guiding Safe Journeys from Motherhood to Womanhood.";
-        author = "Dr. Prerna Tiwari";
-        deptImg = "/dept-m-v.jpg";
-        aboutDept = "The Department of Obstetrics & Gynaecology at NSHMC is dedicated to the comprehensive study of women's health, focusing on pregnancy, childbirth, and the reproductive system. The department provides students with both theoretical knowledge and practical skills in managing pregnancy, labor, and postpartum care, as well as diagnosing and treating gynecological disorders. With a strong emphasis on maternal and fetal health, students are trained in both preventive and curative care, ensuring they are well-prepared to support women through all stages of life.Through hands-on clinical training, interactive learning, and research opportunities, the department equips future practitioners with the expertise to deliver compassionate, patient-centered care. The holistic approach integrates modern medical practices with homeopathic principles, fostering a well-rounded understanding of women's health.";
-        dept = "Obstretics & Gynaecology";
-        headD = "Dr. Prerna Tiwari";
-        headImg = "/prerna.jpg";
-        phoneHead = "+91 8871712624";
-        emailHead = "prernaghmc@gmail.com";
-        dob = "DOB-24/08/1992";
-        doj = "DOJ-19/07/2019";
-        address = "F-205, Drishti City, Kolar Road, Bhopal (M.P.)-462042";
-        degree = "BHMS, M.D. (Hom.)/ 22406",
-          experience = "5 years/ F.T."
-        faculties = [
-          {
-            name: "Dr. Rinku Bhaskar",
-            position: "Professor",
-            degree: "MBBS, DGO/5486",
-            experience: "13 years & 9 months/ G.F.",
-            email: "nshmcbpl@gmail.com",
-            image: "/rinku.jpg",
-            DOB: "17/08/1979",
-            DOJ: "06/09/2010",
-            address: "D-33, Akriti Garden, Nehru Nagar, Bhopal"
-          },
-          {
-            name: "Dr. Niharika Prahladi",
-            position: "Assistant Professor",
-            degree: "BHMS, M.D. (Hom)/ 24219",
-            experience: "8 months/ F.T.",
-            email: "niharikasinghharshana@gmail.com",
-            image: "/niharika.jpg",
-            DOB: "23/11/1992",
-            DOJ: "08/11/2023",
-            address: "H.No.96, Kanta Shrawan, Jairam State, Near Ayodhya Bypass, Bhopal (M.P.)"
-          },
-          // {
-          //   name: "Emily Johnson",
-          //   position: "Project Manager",
-          //   degree: "MBA",
-          //   experience: "7 years",
-          //   email: "",
-          //   image: "/"
-          // },
-          // Add more faculty members as needed
-        ];
-  
-        break;
-      case "pm":
-        slogan = "Where Pathology Meets Microbiology: Understanding Health from Every Angle.";
-        author = "Dr. Ritesh Kumbhare";
-        deptImg = "/dept-m-v.jpg";
-        aboutDept = "The Department of Pathology & Microbiology at NSHMC focuses on the study of disease processes and the role of microorganisms in health and illness. Pathology involves the examination of tissues, organs, and bodily fluids to understand the nature and progression of diseases, while Microbiology explores the impact of bacteria, viruses, fungi, and parasites on human health.Students receive in-depth training in diagnostic techniques, laboratory analysis, and disease management, learning to identify and interpret pathological and microbiological findings. The department emphasizes both theoretical knowledge and practical skills, preparing students to diagnose diseases accurately and understand the microbial factors influencing health. By integrating these disciplines, the department ensures a comprehensive approach to understanding and combating diseases, essential for effective medical and homeopathic practice.";
-        dept = "Pathology & Microbiology";
-        headD = "Dr. Ritesh Kumbhare";
-        headImg = "/ritesh.jpg";
-        phoneHead = "+91 9584340592";
-        emailHead = "drriteshkumbhare0909@gmail.com";
-        dob = "DOB-30/09/1975";
-        doj = "DOJ-05/11/2011";
-        address = "B-203, Pushpa Nagar Colony, Bhopal";
-        degree = "BHMS/14425",
-          experience = "12 years & 8 Months/ F.T."
-        faculties = [
-          {
-            name: "Dr. Arun Maity",
-            position: "Professor",
-            degree: "MBBS, M.D. (Pathology)/ 8836",
-            experience: "14 Years 4 Months/G.F.",
-            email: "N/A",
-            image: "/arun.jpg",
-            DOB: "19/06/1964",
-            DOJ: "17/10/2020",
-            address: "H.No. 3, Vinayak Parisar, Gulmohar Colony, Bhopal"
-          },
-          {
-            name: "Dr. Shailendra Singh",
-            position: "Assistant Professor",
-            degree: "BHMS, MD (Hom.)/21037",
-            experience: "3 year & 3 Months/ F.T.",
-            email: "mr.shailendra@gmail.com",
-            image: "/shailendra.jpg",
-            DOB: "15/07/1987",
-            DOJ: "01/04/2021",
-            address: "Flat No.7, BDA Colony, Talaiya, Bhopal (M.P.)"
-          },
-          // {
-          //   name: "Emily Johnson",
-          //   position: "Project Manager",
-          //   degree: "MBA",
-          //   experience: "7 years",
-          //   email: "",
-          //   image: "/"
-          // },
-          // Add more faculty members as needed
-        ];
-        break;
     case "eet":
       slogan = "Foundation of Homeopathic Wisdom, Leading to Holistic Wellness.";
       author = "Dr. Shoeba Perveen";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Department of Community Medicine at NSHMC focuses on the health and well-being of populations, emphasizing preventive healthcare, public health initiatives, and health education. This department trains students to understand the social, environmental, and behavioral factors that influence health, aiming to promote disease prevention and improve community health outcomes. Through fieldwork, research, and community engagement, students learn to assess health needs, plan interventions, and implement public health programs. The department is committed to producing healthcare professionals who are skilled in addressing the broader determinants of health and making a positive impact on public health at both local and globally.";
+      aboutDept = "Community medicine is the field concerned with the study of health and disease in the defined community or group. Its goal is to identify the health problems and needs of people and then accordingly to plan, implement and evaluate the effectiveness of health care system.Homoeopathic play a important role in community medicine in a number of ways including prophylaxis and complementary treatment. During covid 19 pandemic we used Ars. Alb. 30 as a preventive with great efficacy.";
       dept = "Communtiy Medicine";
       headD = "Dr. Shoeba Perveen";
       headImg = "/shoeba.jpg";
@@ -595,6 +398,203 @@ export default function DeptEr({ dept,deps }) {
         // },
         // Add more faculty members as needed
       ];
+      break;
+    case "eet":
+      slogan = "Foundation of Homeopathic Wisdom, Leading to Holistic Wellness.";
+      author = "Dr. Shoeba Perveen";
+      deptImg = "/dept-m-v.jpg";
+      aboutDept = "The Department of Community Medicine at NSHMC focuses on the health and well-being of populations, emphasizing preventive healthcare, public health initiatives, and health education. This department trains students to understand the social, environmental, and behavioral factors that influence health, aiming to promote disease prevention and improve community health outcomes. Through fieldwork, research, and community engagement, students learn to assess health needs, plan interventions, and implement public health programs. The department is committed to producing healthcare professionals who are skilled in addressing the broader determinants of health and making a positive impact on public health at both local and globally.";
+      dept = "Communtiy Medicine";
+      headD = "Dr. Shoeba Perveen";
+      headImg = "/shoeba.jpg";
+      phoneHead = "+91 8224903697";
+      emailHead = "drshoebaali1991@gmail.com";
+      dob = "DOB-04/05/1991";
+      doj = "DOJ-20/12/2019";
+      address = "H.No. 71, Rambha Nagar, Berasia Road, Bhopal, M.P.-462001";
+      degree = "BHMS, M.D. (Hom.)/ 22445",
+        experience = "4 year & 6 months/F.T."
+      faculties = [
+        {
+          name: "Dr. Garima Namdev",
+          position: "Associate  Professor",
+          degree: "M.B.B.S. M.D. (C.M.) /9154",
+          experience: "13 years & 7 months/ G.F.",
+          email: "namdevgarima50@gmail.com",
+          image: "/garima.jpg",
+          DOB: "23/02/1981",
+          DOJ: "21/11/2017",
+          address: "Ganga Ashram, Sehore"
+        },
+        {
+          name: "Dr. Bhumika Gangwani",
+          position: "Assistant Professor",
+          degree: "BHMS, M.D. (Hom.)/ H038739",
+          experience: "1 year/F.T.",
+          email: "bhumibhms2605@gmail.com",
+          image: "/bhumika.jpg",
+          DOB: "26/09/1992",
+          DOJ: "21/08/2023",
+          address: "78, Deepak Society, Chuna Bhatti, Kolar Road, Bhopal-462016 (M.P.)"
+        },
+        // {
+        //   name: "Emily Johnson",
+        //   position: "Project Manager",
+        //   degree: "MBA",
+        //   experience: "7 years",
+        // },
+        // Add more faculty members as needed
+      ];
+
+      break;
+    case "it":
+      slogan = "Unlocking the Secrets of Health Through Physiology and Biochemistry.";
+      author = "Dr. Shail Jain";
+      deptImg = "/dept-m-v.jpg";
+      aboutDept = "Physiology is the study of how the human body works. It describes the chemistry and physics behind basic body functions, from how molecules behave in cells to how systems of organs work together.Physiology plays a crucial role in medical science for several reasons-Understanding normal functions it provides the baseline for understanding how the human body functions and explain how body maintains internal stability despite external changes.Disease Mechanism Knowledge of Physiology helps in understanding how disease alter normal physiological processes and help in clinical correlation and identifying the root causes of disease.Drug development & Pharmacology  Physiology helps in understanding how drugs interact with body and their effects on various systems and organs.Diagnostic Tools  Physiological measurements (like blood pressure, heart rate and respiratory rate) are biomarkers in diagnosing in various medical conditions.Imaging Techniques  Understanding physiological processes enhances the interpretation of imaging results, such as MRI, CT Scans.Education & Training  Physiology is a core subject in medical education, providing future health care professional with essential knowledge about the human body and its functions.Research and Innovation  Ongoing physiology research drives innovations in medical technology, treatments and preventive measure.In summary physiology is fundamental to medical science as it underpins our understanding of health and disease, inform clinical processes guide research and shapes the development of new therapeutic strategies.";
+      dept = "Physiology & BioChemistry";
+      headD = "Dr. Shail Jain";
+      headImg = "/shailjain.jpg";
+      phoneHead = "+91 9893269251";
+      emailHead = "drshailjain@yahoo.com";
+      dob = "DOB-14/09/1964";
+      doj = "DOJ-10/09/2002";
+      address = "175, Ashok Vihar, Ashoka Garden, Bhopal";
+      degree = "MBBS/8905",
+        experience = "22 years/ F.T."
+      faculties = [
+        {
+          name: "Dr. Naveen Jaggi",
+          position: "Associate Professor",
+          degree: "DHMS, BHMS(Graded)/13720",
+          experience: "20 years & 11 months/ F.T.",
+          email: "dr.naveenjaggi@gmail.com",
+          image: "/naveen.jpg",
+          DOB: "21/02/1974",
+          DOJ: "03/01/2018",
+          address: "S-10, Seagul, Aakriti, E-8, Rohit Nagar, Bhopal"
+        },
+        {
+          name: "Dr. Rajani Suryawanshi",
+          position: "Associate Professor",
+          degree: "DHMS, M.D. (Hom.)/13218",
+          experience: "6 years & 4  months/F.T.",
+          email: "rajanishakya302@gmail.com",
+          image: "/rajani.jpg",
+          DOB: "19/06/1977",
+          DOJ: "01/02/2020",
+          address: "C-30, Vardhman Green Park, Ashoka Garden, Bhopal- 462023"
+        },
+        // {
+        //   name: "Emily Johnson",
+        //   position: "Project Manager",
+        //   degree: "MBA",
+        //   experience: "7 years",
+        //   email: "",
+        //   image: "/"
+        // },
+        // Add more faculty members as needed
+      ];
+
+      break;
+    case "og":
+      slogan = "Guiding Safe Journeys from Motherhood to Womanhood.";
+      author = "Dr. Prerna Tiwari";
+      deptImg = "/dept-m-v.jpg";
+      aboutDept = "In Obstetrics & Gynecology Department focuses on womens reproductive health encompassing two main areas:Obstetrics – This branch deals with pregnancy, childbirth and postpartum period. It includes prenatal care, labor and delivery support and postnatal care to ensure the health of both mother and baby.Gynecology- This area addresses the female reproductive system’s health, including menstruation, fertility, menopause and conditions such as endometriosis and fibroids. Gynecological services often include routing exams, screening and treatment for various disorders.Together – The Obstetrics & Gynecology Department provides comprehensive care and holistic treatment with Homoeopathy that supports women’s health throughout their lives, combining medical expertise with compassionate support.";
+      dept = "Obstretics & Gynaecology";
+      headD = "Dr. Prerna Tiwari";
+      headImg = "/prerna.jpg";
+      phoneHead = "+91 8871712624";
+      emailHead = "prernaghmc@gmail.com";
+      dob = "DOB-24/08/1992";
+      doj = "DOJ-19/07/2019";
+      address = "F-205, Drishti City, Kolar Road, Bhopal (M.P.)-462042";
+      degree = "BHMS, M.D. (Hom.)/ 22406",
+        experience = "5 years/ F.T."
+      faculties = [
+        {
+          name: "Dr. Rinku Bhaskar",
+          position: "Professor",
+          degree: "MBBS, DGO/5486",
+          experience: "13 years & 9 months/ G.F.",
+          email: "nshmcbpl@gmail.com",
+          image: "/rinku.jpg",
+          DOB: "17/08/1979",
+          DOJ: "06/09/2010",
+          address: "D-33, Akriti Garden, Nehru Nagar, Bhopal"
+        },
+        {
+          name: "Dr. Niharika Prahladi",
+          position: "Assistant Professor",
+          degree: "BHMS, M.D. (Hom)/ 24219",
+          experience: "8 months/ F.T.",
+          email: "niharikasinghharshana@gmail.com",
+          image: "/niharika.jpg",
+          DOB: "23/11/1992",
+          DOJ: "08/11/2023",
+          address: "H.No.96, Kanta Shrawan, Jairam State, Near Ayodhya Bypass, Bhopal (M.P.)"
+        },
+        // {
+        //   name: "Emily Johnson",
+        //   position: "Project Manager",
+        //   degree: "MBA",
+        //   experience: "7 years",
+        //   email: "",
+        //   image: "/"
+        // },
+        // Add more faculty members as needed
+      ];
+
+      break;
+    case "pm":
+      slogan = "Where Pathology Meets Microbiology: Understanding Health from Every Angle.";
+      author = "Dr. Ritesh Kumbhare";
+      deptImg = "/dept-m-v.jpg";
+      aboutDept = "Pathology is the branch of medical science which studies the cause and effects the disease, structural and functional changes. Branches of Pathology are systemic Pathology, Microbiology, Parasitology, Virology, Bacteriology and Haematology. Clinical pathology is a medical speciality that play vital role to help in diagnosis, prognosis and treatment of disease.The Pathological state of the disease helps us in designing and planning the line of treatment of the patient and it helps in homoeoapathy in selection of  potency also.Pathological diagnosis help us in management of the disease, proper diet and regimen, medico-legal purposes, prognostic purposes and in application of preventive measures and eventually in research.";
+      dept = "Pathology & Microbiology";
+      headD = "Dr. Ritesh Kumbhare";
+      headImg = "/ritesh.jpg";
+      phoneHead = "+91 9584340592";
+      emailHead = "drriteshkumbhare0909@gmail.com";
+      dob = "DOB-30/09/1975";
+      doj = "DOJ-05/11/2011";
+      address = "B-203, Pushpa Nagar Colony, Bhopal";
+      degree = "BHMS/14425",
+        experience = "12 years & 8 Months/ F.T."
+      faculties = [
+        {
+          name: "Dr. Arun Maity",
+          position: "Professor",
+          degree: "MBBS, M.D. (Pathology)/ 8836",
+          experience: "14 Years 4 Months/G.F.",
+          email: "N/A",
+          image: "/arun.jpg",
+          DOB: "19/06/1964",
+          DOJ: "17/10/2020",
+          address: "H.No. 3, Vinayak Parisar, Gulmohar Colony, Bhopal"
+        },
+        {
+          name: "Dr. Shailendra Singh",
+          position: "Assistant Professor",
+          degree: "BHMS, MD (Hom.)/21037",
+          experience: "3 year & 3 Months/ F.T.",
+          email: "mr.shailendra@gmail.com",
+          image: "/shailendra.jpg",
+          DOB: "15/07/1987",
+          DOJ: "01/04/2021",
+          address: "Flat No.7, BDA Colony, Talaiya, Bhopal (M.P.)"
+        },
+        // {
+        //   name: "Emily Johnson",
+        //   position: "Project Manager",
+        //   degree: "MBA",
+        //   experience: "7 years",
+        //   email: "",
+        //   image: "/"
+        // },
+        // Add more faculty members as needed
+      ];
 
 
       break;
@@ -602,7 +602,7 @@ export default function DeptEr({ dept,deps }) {
       slogan = "Rooted in Principles, Driven by Compassionate Healing";
       author = "Dr. Nitesh Suryawanshi";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Department of Practice of Medicine at NSHMC is dedicated to the application of medical knowledge and skills in diagnosing and treating a wide range of health conditions. This department focuses on integrating clinical theory with hands-on practice, emphasizing patient-centered care and evidence-based treatment approaches. Students gain practical experience through direct patient interactions, case studies, and clinical rotations, learning to apply diagnostic techniques, develop treatment plans, and manage diverse medical conditions.With a curriculum that balances foundational knowledge with real-world practice, the department prepares students to become proficient, compassionate practitioners. The emphasis is on developing clinical reasoning, decision-making skills, and the ability to provide holistic care that addresses both physical and emotional aspects of patient health.";
+      aboutDept = "The practice of medicine is the applying of medical or surgical  knowledge for the purpose of identifying, diagnosing, preventing, relieving, or curing disease, or aiding natural functions, or modifying or removing the results of physical injury , by application of homeopathic knowledge which states that, highest ideal of cure is rapid, gentle and permanent restoration of the health, or removal and annihilation of the disease in its whole extent i9n the shortest most reliable and most harmless way on easily comprehensible principles.The department fulfils all the  parameters as stated by National council of homoeopathy.";
       dept = "Practice of Medicine";
       headD = "Dr. Nitesh Suryawanshi";
       headImg = "/nitesh.jpg";
@@ -652,7 +652,7 @@ export default function DeptEr({ dept,deps }) {
       slogan = "Navigating Symptoms to Remedies with Expertise and Insight.";
       author = "Dr. Rajendra Prasad Sharma";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Department of Repertory at NSHMC is dedicated to the art and science of repertorization, the method of systematically matching homeopathic remedies to patient symptoms. This department provides students with comprehensive training in using homeopathic repertories, which are essential tools for selecting individualized treatments. The curriculum includes detailed study of various repertories, case analysis, and practical applications to refine students' skills in remedy selection.Students learn to navigate and interpret repertories effectively, enhancing their ability to provide precise and effective homeopathic care. The department emphasizes the integration of repertory knowledge with clinical practice, ensuring that graduates are well-prepared to offer targeted, patient-centered remedies that address unique health needs.";
+      aboutDept = "Repertory is an index a catalogue of symptoms of Homoeopathic Materia Medica, neatly arranged in a Practical from and also indicating the relative gradation of drugs and it greatly facilitates for quick selection of indicated remedy.It helps to select a Homoeopathic remedy/ simillimum.It helps the study of Homoeopathic Materia Medica.Repertory helps to elicit the group of remedies.It teaches us to select the proper symptoms and consider only those symptoms which are required to get simillimum.It suggest related remedies which could be helpful for selecting a drug for a second prescription.In Repertory Homoeopathic software’s are available such as RADAR, CARA, Hompath, Mac Repertory. These technical adds reduce physicians labour and helps in fast repertorisation too.";
       dept = "Department of Repertory";
       headD = "Dr. Rajendra Prasad Sharma";
       headImg = "/rpsharma.jpg";
@@ -702,7 +702,7 @@ export default function DeptEr({ dept,deps }) {
       slogan = "Pharmaceutical Expertise for Holistic Healing.";
       author = "Dr. Sandeep Sharma";
       deptImg = "/dept-m-v.jpg";
-      aboutDept = "The Department of Pharmacy at NSHMC focuses on the preparation, dispensing, and management of homeopathic remedies. This department provides students with a thorough understanding of pharmaceutical principles, including the sourcing, preparation, and potentization of remedies. Students gain practical skills in remedy formulation, quality control, and ethical dispensing practices.The curriculum integrates theoretical knowledge with hands-on experience, ensuring that students are well-versed in the pharmacological aspects of homeopathy. By learning to navigate the complexities of remedy preparation and administration, students are equipped to deliver safe and effective homeopathic treatments. The department's emphasis on precision and patient care ensures that graduates are prepared to contribute to high standards in homeopathic practice.";
+      aboutDept = "Homoeopathic Pharmacy is the subject of BHMS Ist Prof.This subject deals with the identification and preparation of homoeopathic medicines from the sources which are available in the environment like vegetables, animals, minerals etc.Homoeopathic Pharmacy energizes the medicines through serial dilution of the substances means it gives extra power to the substances by process of potentization or dynamization.Since the medicines are dynamic in nature their existence as atoms or molecules cannot be seen through instruments especially the higher potencies.IIT Mumbai has conducted the research on Homoeopathic Medicines and conducted that it works on principle of nanotechnology.";
       dept = "Department of Pharmacy";
       headD = "Dr. Sandeep Sharma";
       headImg = "/sandeep.jpg";
@@ -858,91 +858,91 @@ export default function DeptEr({ dept,deps }) {
   let deptImgs;
   let mission;
   let vision;
-  
+
   switch (deps) {
     case "me":
       deptImgs = "/Organonlab.jpg";
       mission = "To impart knowledge and equip students with skills for generating quality civil engineering professionals with high ethical standards; carry out innovative research and consultancy projects to design, build and maintain civil engineering infrastructure ensuring environmental health and quality life.";
       vision = "To become a frontier in civil engineering education and research, which will serve the society with sustainable infrastructure and superior environmental health.";
       break;
-    
+
     case "cse":
       deptImgs = "/materia.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
-    
+
     case "ece":
       deptImgs = "/fmt.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
-    
+
     case "eet":
       deptImgs = "/Communitymedicine.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
-    
+
     case "it":
       deptImgs = "/PhysiologyLab.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
-    
+
     case "og":
       deptImgs = "/Obstetrics&gynecology.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
-    
+
     case "pm":
       deptImgs = "/Pathologylab.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
-    
+
     case "pfm":
       deptImgs = "/Practiceofmedicine.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
-    
+
     case "rep":
       deptImgs = "/Repertory1.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
-    
+
     case "pharm":
       deptImgs = "/Pharmacy1.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
-    
+
     case "anotomy":
       deptImgs = "/AnatomyMuseum.jpg";
       mission = "To provide technical education that will create mechanical engineers who contribute to the industry and society.";
       vision = "To be a leader in mechanical engineering education, offering innovative solutions for the advancement of technology.";
       break;
-    
+
     case "surgery":
       deptImgs = "/surgery.jpg";
       mission = "To produce skilled electrical engineers who can innovate and contribute to the development of sustainable energy solutions.";
       vision = "To lead in electrical engineering education and research for a sustainable and technologically advanced future.";
       break;
-    
+
     default:
       deptImgs = "/default-img.jpg";
       mission = "Default Mission";
       vision = "Default Vision";
   }
-  
+
 
 
 
   const buttons = [
-    'About The Department',  'Labs Facility', 'Faculty',
+    'About The Department', 'Labs Facility', 'Faculty',
   ]
   return (
     <>

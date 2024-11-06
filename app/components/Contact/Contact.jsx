@@ -17,7 +17,18 @@ export default function Contact() {
 
   return (
     <>
-      <SliderMain images={images} heading="Contact Us" />
+      <div
+        className="w-full h-36 flex justify-center  items-center"
+        style={{
+        //   backgroundImage: "url('/logo1.png')",
+        backgroundColor:"#d598d6",
+          backgroundSize: "cover",
+        }}
+      >
+        <h1 className=" uppercase font-bold text-5xl">Contact Us</h1>
+      </div>
+      
+      {/* <SliderMain images={images} heading="Contact Us" /> */}
 
       <div className="w-full mx-auto flex relative">
         <div className="w-2/3 px-10 pt-[36px] ">
