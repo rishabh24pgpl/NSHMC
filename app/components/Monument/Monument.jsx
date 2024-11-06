@@ -12,7 +12,7 @@ const Monument = () => {
       title: "Vision",
       content:
         "Our vision at NSHMC Bhopal is to emerge as a premier institution of higher education known for its commitment to excellence, innovation, and inclusivity. We aspire to create a vibrant learning community where diversity is celebrated, creativity is encouraged, and intellectual curiosity thrives. By fostering a culture of collaboration, critical thinking, and lifelong learning, we seek to empower our students to become leaders in their respective fields, driving positive change and making a meaningful impact on the world.",
-      img: "/idea.png",
+      img: "/logonshmc.jpg",
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ const Monument = () => {
       id: 3,
       title: "Guiding Principles",
       content: "Facilitating student learning for the competent practice of Homoeopathy. Promoting a method for individual student to gain insight into their own learning process and self development .Encouraging a student attitude of wonder and open mindedness consistent with the development of freedom from prejudice, necessary for the growth of each student as a healerPromoting classical Homoeopathy as of the foremost healing arts in this millennium",
-      img: "/guidingprinciple.jpg",
+      img: "/logonshmc.jpg",
     },
   ];
 
